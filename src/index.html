@@ -35,43 +35,59 @@
     <section class="interior">
 
         <h1 class="interior-h1">Interior</h1>
-        <p class ="interior-heading">Elegant Interior: Comfort and Luxury in Alpine Style. Welcome to your new home in the heart of the Alps — a space where elegant design meets comfort and coziness. Each interior in our cottage village has been carefully crafted to create a harmonious blend of nature and modern living
+        <p class ="interior-text">Elegant Interior: Comfort and Luxury in Alpine Style. Welcome to your new home in the heart of the Alps — a space where elegant design meets comfort and coziness. Each interior in our cottage village has been carefully crafted to create a harmonious blend of nature and modern living
         </p>
 
-        <article class="living-room dp-fl grid">
-            <img src="jmg/холл.svg" alt="Living Room">
-            <div class="living-room-text">
+        <article class="rooms dp-fl grid">
+            <img class="rooms-img-left" src="jmg/холл.svg" alt="Living Room">
+            <div class="rooms-text-left">
                 <h2 class="h2-interior">Open Spaces</h2>
-                <p class="interior-text-living-room">The house has a cozy and stylish interior with a modern design. The living room is dominated by a neutral color scheme, complemented by bright accents. A soft sofa and poufs create a cozy atmosphere for relaxation and entertainment. Large windows let in a lot of natural light, which makes the space brighter and more spacious</p>
+                <p class="rooms-text">The house has a cozy and stylish interior with a modern design. The living room is dominated by a neutral color scheme, complemented by bright accents. A soft sofa and poufs create a cozy atmosphere for relaxation and entertainment. Large windows let in a lot of natural light, which makes the space brighter and more spacious</p>
             </div>
         </article>
 
-        <article class="room dp-fl grid">
-            <div class="room-text">
+        <article class="rooms dp-fl grid">
+            <div class="rooms-text-richt">
                 <h2 class="h2-interior">Natural Materials</h2>
-                <p class="interior-text-room">The homes are adorned with high-quality natural materials such as wood, stone, and wool. These elements create a warm and inviting atmosphere that perfectly complements the surrounding nature</p>
+                <p class="rooms-text">The homes are adorned with high-quality natural materials such as wood, stone, and wool. These elements create a warm and inviting atmosphere that perfectly complements the surrounding nature</p>
             </div>
-            <img src="jmg/гостинная.svg" alt="room">
+            <img class="rooms-img-richt" src="jmg/гостинная.svg" alt="room">
         </article>
 
-        <article class="fireplace grid">
-            <img src="jmg/камин.svg" alt="fireplace">
-            <h2 class="h2-interior">Fireplaces and Heating</h2>
-            <p class="interior-text-fireplace">Each home features an elegant fireplace that serves as the centerpiece for cozy evenings with family and friends. Modern heating systems ensure comfort throughout the year</p>
+        <article class="rooms grid">
+            <img class="rooms-img-left" src="jmg/камин.svg" alt="fireplace">
+            <div class="rooms-text-left">
+                <h2 class="h2-interior">Fireplaces and Heating</h2>
+                <p class="rooms-text">Each home features an elegant fireplace that serves as the centerpiece for cozy evenings with family and friends. Modern heating systems ensure comfort throughout the year</p>
+            </div>
         </article>
 
-        <article class="bedroom grid">
-            <h2 class="h2-interior">Bedrooms</h2>
-            <p class="interior-text-bedroom">Generously sized bedrooms with high ceilings and elegant finishes offer the perfect place to relax. Special attention is given to comfort — quality mattresses and soft bedding guarantee a restful night’s sleep</p>
-            <img src="img/спальня.svg" alt="bedroom">
+        <article class="rooms grid">
+            <div class="rooms-text-richt">
+                <h2 class="h2-interior">Bedrooms</h2>
+                <p class="rooms-text">Generously sized bedrooms with high ceilings and elegant finishes offer the perfect place to relax. Special attention is given to comfort — quality mattresses and soft bedding guarantee a restful night’s sleep</p>
+            </div> 
+            <img class="rooms-img-richt" src="./jmg/спальня.svg" alt="bedroom">
         </article>
 
         <div>
-            <h3>The interiors of our homes in the cottage village are not just beautiful, they fill your space with life, creating the perfect place for relaxation and enjoyment of every moment spent in this picturesque corner of nature. Immerse yourself in a world of comfort and style — your new home awaits!</h3>
+            <h3 class="interior-text">The interiors of our homes in the cottage village are not just beautiful, they fill your space with life, creating the perfect place for relaxation and enjoyment of every moment spent in this picturesque corner of nature. Immerse yourself in a world of comfort and style — your new home awaits!</h3>
         </div>
+        <div class="contact-form-container" id="contact-form-container">
+            <h2 class="contact-h2" id="contact-h2">Book your dream home</h2>
+            <form class="contact-form" id="contact-form">
+                <div class="dp-fl">
+                    <input type="text" id="name" name="name" placeholder="Name" required><br><br>
 
+                    <input type="phone" id="phone" name="phone" placeholder="Phone"><br><br>
+                </div>
+                
+                <textarea id="comment" name="comment" placeholder="Comment"></textarea><br><br><br>
 
-
+                <button class="form-button" type="getstarted">GET STARTED</button>
+            </form>
+            <div id="responseMessage"></div>
+        </div>
 
     </section>
 </main>
@@ -82,6 +98,6 @@
     </div>
 
 </footer>
-<script src="./interior.js"></script>
+<script src="./js/index.js"></script>
 </body>
 </html>
