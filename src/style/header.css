@@ -1,10 +1,10 @@
-.bagraund {
+.background {
     background-image: url(../img/bagraund.svg);
     background-size: cover;
     max-width: 100%;
 }
 
-.heder-wrapper {
+.header-wrapper {
     padding: 65px 0px 80px 0px;
     justify-content: space-between;
     font-size: 16px;

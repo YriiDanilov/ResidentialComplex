@@ -6,7 +6,6 @@
     color: var(--white);
 }
 
-
 input {
     border: 1px solid var(--white);
     border-radius: 10px;
@@ -16,7 +15,6 @@ input {
     color:var(--white);
     background: none;
 }
-
 
 button {
     max-width: 156px;

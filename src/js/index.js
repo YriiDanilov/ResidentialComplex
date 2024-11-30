@@ -1,4 +1,4 @@
-import '../style/style.scss';
+import '../style/style.css';
 
 //форма обратной связи
 const form = document.getElementById('contact-form');
