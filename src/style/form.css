@@ -1,28 +1,27 @@
 .contact-form-container {
-    max-width: 1140px;
-    margin: 0 auto;
     background: none;
     padding: 80px 0 80px 0;
     color: var(--white);
+    margin: 0 auto;
+    max-width: 1140px;
     }
 
     input {
         border: 1px solid var(--white);
         border-radius: 10px;
         padding-left: 40px;
-        max-width: 295px;
-        max-height: 40px;
+        min-width: 346px;
+        min-height: 40px;
         color: var(--white);
         background: none;
         align-content: center;
     }
 
     textarea {
-        max-width: 630px;
-        max-height: 110px;
+        min-width: 740px;
+        min-height: 110px;
         border-radius: 10px;
         padding-left: 40px;
-        margin: 20px 0 20px 0;
         color: var(--white);
         background: none;
         border: 1px solid var(--white);
@@ -30,8 +29,8 @@
     }
 
 .contact-h2 {
-    padding-bottom: 50px;
     font-size:40px;
+    text-align: left;
 }
 
 .form-button {
@@ -63,4 +62,13 @@
     font-size: 16px;
     color: var(--white);
     background: none;
+}
+
+.contactform {
+    padding: 50px 68px 0 68px;
+    margin: 0;
+}
+
+.formname {
+    justify-content: space-between;
 }
