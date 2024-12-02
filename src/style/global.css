@@ -60,8 +60,3 @@ body {
   gap: 40px;
 }
 
-
-#image {
-  height: auto;
-  transition: opacity 0.5s; /* плавность перехода */
-}

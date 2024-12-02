@@ -1,49 +1,50 @@
-import '../style/style.css';
-
-//форма обратной связи
-const form = document.getElementById('contact-form');
-const messageDiv = document.getElementById('message');
+//import '../style/style.css';
 
 
-form.addEventListener('sgetstarted', function(event) {
-    event.preventDefault();
-    const name = getElementById('name').value;
+//меняем изображение
 
-    messageDiv.textContent = `Thanks, ${name}, our managers will contact you as soon as possible`;
+const images = [
+    {
+        normal: './img/hall.svg',
+        hover: './img/hall2.svg',
+    },
+    {
+        normal: './img/room.svg',
+        hover: './img/room2.svg',
+    },
+    {
+        normal: './img/kamin.svg',
+        hover: './img/kamin2.svg',
+    },
+    {
+        normal: './img/bedroom.svg',
+        hover: './img/bedroom2.svg',
+    },
+];
 
-    form.reset();
+const items = document.querySelectorAll('.rooms');
+
+items.forEach((item, index) => {
+    const img = item.querySelector('.rooms-img-left, .rooms-img-right');
+
+    item.addEventListener('mouseenter', () => {
+        img.src = images[index].hover;
+    });
+
+    item.addEventListener('mouseleave', () => {
+        img.src = images[index].normal;
+    });
 });
 
 
 
-//смена картинки
+// форма обратной связи
 
+const form = document.getElementById('contactForm');
+const messageDiv = document.getElementById('thankYouMessage');
 
-
-const image = document.getElementById('image');
-const newImageSrc = '.img/hall2.svg'; // Путь к новому изображению
-let timeoutId;
-
-image.addEventListener('mouseenter', () => {
-    timeoutId = setTimeout(() => {
-        image.src = newImageSrc;
-    }, 2000); // Задержка 2 секунды
+form.addEventListener('submit', function(event) {
+    event.preventDefault(); // предотвращаем стандартное поведение формы (перезагрузку страницы)
+    messageDiv.style.display = 'block'; // показываем сообщение
+    form.reset(); // сбрасываем форму, если это необходимо
 });
-
-image.addEventListener('mouseleave', () => {
-    clearTimeout(timeoutId);
-    image.src = '.img/hall.svg'; // Возврат к оригинальному изображению
-});
-
-/*document.getElementById('contact-form').addEventListener('getstarted', function(event) {
-    event.preventDefault();
-
-    const name = getElementById('name').value;
-    const phone = getElementById('phone').value;
-    const comment = getElementById('comment').value;
-
-    const responseMessage = `Thanks, ${name}, our managers will contact you as soon as possible`;
-
-    document.getElementById('response-message').innerText = responseMessage;
-});
-*/
