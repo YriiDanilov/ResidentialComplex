@@ -4,7 +4,6 @@
   color: var(--dark-green);
   background: var(--light-blue);
   padding-top: 40px;
-  
 }
 
 .background {
@@ -24,11 +23,9 @@
     height: 65px;
     background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, var(--light-blue) 100%);
     pointer-events: none;
-    
 }
 
 .interior-h1 {
-    grid-column: 1 / span 6;
     font-family: 'saira', sans-serif;
     font-weight: 600;
     font-size: 32px;
@@ -38,7 +35,6 @@
 } 
 
 .interior-text {
-    grid-column: 7 / span 6;
     font-size: 22px;
     color:  var(--dark-green);
     line-height: 30px;
@@ -46,9 +42,9 @@
 
 .btn-h1 {
     background-color: var(--green);
-    grid-column: 1 / span 6;
     font-size: 22px;
     color: var(--light-blue);
     border-radius: 10px;
-
+    min-width: 510px;
+    min-height: 50px;
 }
