@@ -1,8 +1,8 @@
-.sidebar {
+/*.sidebar {
     width: 80%;
     position: fixed;
     top: 0;
-    left: -100%; /* Скрываем меню слева */
+    left: -100%;
     height: 100%;
     background-color: var(--blue-2);
     opacity: 95%;
@@ -26,7 +26,7 @@
 }
 
 .sidebar.active {
-    left: 0; /* Показываем меню при добавлении класса active */
+    left: 0;
 }
 
 .close-button {
@@ -47,3 +47,4 @@
 .close-button:hover {
     border: 1px solid var(--blue);
 }
+*/

@@ -6,6 +6,7 @@
     url("../fonts/Overpass-Regular.woff") format("woff"),
     url("../fonts/Overpass-Regular.woff2") format("woff2");
 }
+
 @font-face {
     font-family: "Saira";
     font-style: normal;
@@ -14,6 +15,7 @@
     url("../fonts/Saira-Regular.woff") format("woff"),
     url("../fonts/Saira-Regular.woff2") format("woff2");
 }
+
 @font-face {
     font-family: "Overpass";
     font-style: normal;
@@ -22,6 +24,7 @@
     url("../fonts/Overpass-SemiBold.woff") format("woff"),
     url("../fonts/Overpass-SemiBold.woff2") format("woff2");
 }
+
 @font-face {
     font-family: "Saira";
     font-style: normal;
@@ -39,6 +42,7 @@
     url("../fonts/Overpass-Black.woff") format("woff"),
     url("../fonts/Overpass-Black.woff2") format("woff2");
 }
+
 @font-face {
     font-family: "Saira";
     font-style: normal;

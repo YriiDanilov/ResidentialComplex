@@ -28,6 +28,9 @@ body {
   min-width: 320px;
   word-break: normal;
   font-family: "Overpass", "sans-serif";
+  background-image: url("../img/body-background.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .list-reset {
@@ -65,3 +68,7 @@ body {
   margin: 0 40px 0 40px;
 }
 
+.section-parameters {
+  max-width: 1140px;
+  margin: 0 auto;
+}
