@@ -1,0 +1,65 @@
+
+.wrapper-footer {
+    max-width: 1062px;
+    margin-top: 640px;
+    height: 310px;
+    margin-inline: auto;
+    margin-bottom: 65px;
+    border: 1px solid var(--header-color);
+}
+
+.wrapper-contact {
+    height: 155px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--fonts-color);
+}
+
+.addres-footer {
+    width: 420px;
+    height: 155px;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: var(--header-color);
+    border-right: 1px solid var(--header-color);
+}
+
+.btn-footer {
+    width: 315px;
+    height: 155px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--header-color);
+    border-right: 1px solid var(--header-color);
+}
+
+.btn-footer:hover {
+    color: var(--white-color);
+    transition-duration: 0.5s;
+}
+
+.footer-link-telephone {
+    text-align: center;
+    width: 311px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--header-color);
+}
+
+.footer-link-telephone:hover {
+    color: var(--white-color);
+    transition-duration: 0.5s;
+}
+
+.title-footer {
+    display: block;
+    text-align: center;
+    font-family: 'Saira';
+    font-weight: 900;
+    font-size: 128px;
+    color: var(--header-color);
+}
