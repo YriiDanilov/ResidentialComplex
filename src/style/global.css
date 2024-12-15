@@ -27,7 +27,7 @@ img {
 body {
   min-width: 320px;
   word-break: normal;
-  font-family: "Montserat", "sans-serif";
+  font-family: "Overpass", "sans-serif";
 }
 
 .list-reset {
@@ -39,15 +39,19 @@ body {
 .btn-reset {
   padding: 0;
   border: none;
-  background-color: transparent;
   cursor: pointer;
-  font-family: "Montserat", "sans-serif";
+  font-family: "Overpass", "sans-serif"; ;
   line-height: 20.43px;
 }
 
 :root {
---blue: #253466;
 --white: #fff;
+  --light-blue: #CFE4E6;
+  --dark-blue: #113B5f;
+  --dark-green:#114B5F;
+  --green:#028090;
+  --blue:#456990;
+  --pink:#F45B69;
 }
  
 .dp-fl {
@@ -58,5 +62,6 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   gap: 40px;
+  margin: 0 40px 0 40px;
 }
 

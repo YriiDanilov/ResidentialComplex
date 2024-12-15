@@ -1,0 +1,54 @@
+.selectan {
+  max-width: 1140px;
+  margin: 0 auto;
+  color: var(--dark-green);
+  background: var(--light-blue);
+  padding-top: 40px;
+  
+}
+
+.background {
+  background-image: url('../img/Vector.svg'); /* наложение изображения */
+  background-repeat: no-repeat; /* запрет повторения изображения */
+  background-position: center; /* позиционирование центра изображения */
+  z-index: 1; /* наложение изображения поверх фона */
+  position: relative; /* необходим для позиционирования */
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:0;
+    height: 65px;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, var(--light-blue) 100%);
+    pointer-events: none;
+    
+}
+
+.interior-h1 {
+    grid-column: 1 / span 6;
+    font-family: 'saira', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color:  var(--dark-green);
+    line-height: 30px;
+    margin: 0;
+} 
+
+.interior-text {
+    grid-column: 7 / span 6;
+    font-size: 22px;
+    color:  var(--dark-green);
+    line-height: 30px;
+}
+
+.btn-h1 {
+    background-color: var(--green);
+    grid-column: 1 / span 6;
+    font-size: 22px;
+    color: var(--light-blue);
+    border-radius: 10px;
+
+}

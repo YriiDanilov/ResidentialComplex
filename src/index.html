@@ -6,19 +6,41 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>CloudAtlas</title>
 </head>
-<body class="background">
-<header class="header">
-    <div class="dp-fl header-wrapper">
-        <button id="flipButton" class ="btn-reset btn-menu dp-fl">
-            <img src="img/menu.svg" alt="menu">
-            <span class="btn-text-menu">MENU</span>
+<body>
+<header class="header header-background" >
+    <div class="dp-fl header-wrapper ">
+
+        <button id="burger" class ="btn-reset btn-menu dp-fl">
+            <img src="img/header-menu.svg" alt="menu">
+            <span class="btn-text-menu">МЕНЮ</span>
         </button>
+
+        <div id="sidebar" class="sidebar">
+            <ul>
+                <li class="menu-link">
+                    <a class="menu-text" href="#">НА ГЛАВНУЮ</a>
+                </li>
+                <li class="menu-link">
+                    <a class="menu-text" href="#">ВЫБРАТЬ КОТТЕДЖ</a>
+                </li>
+                <li class="menu-link">
+                    <a class="menu-text" href="#">ИНФРАСТРУКТУРА</a>
+               </li>
+                <li class="menu-link">
+                    <a class="menu-text">КОНТАКТЫ</a>
+                </li>
+            </ul>
+            <button class="close-button" id="close-button">КАК КУПИТЬ</button>
+
+            <button class="close-button" id="close-button">✖</button>
+
+        </div>
         <ul class ="dp-fl list-reset">
             <li class="header-list-link">
-                <a class="link-text" href="#">CONTACT US</a>
+                <a class="link-text" href="#">СВЯЗАТЬСЯ С НАМИ</a>
             </li>
         </ul>
-        <a class="logo-link" href="./interior.html">
+        <a class="logo-link" href="interior.html">
             <img src="../src/img/Logo.svg" alt="CloudAtlas">
         </a>
 
@@ -26,81 +48,34 @@
 
         <ul class="dp-fl list-reset">
             <li>
-                <a class="link-text-select-an" href="#">SELECT AN</a>
+                <a class="link-text-select-an" href="#">ВЫБРАТЬ</a>
             </li>
         </ul>
     </div>
 </header>
 <main>
-    <section class="interior">
-
-        <h1 class="interior-h1">Interior</h1>
-        <p class ="interior-text">Elegant Interior: Comfort and Luxury in Alpine Style. Welcome to your new home in the heart of the Alps — a space where elegant design meets comfort and coziness. Each interior in our cottage village has been carefully crafted to create a harmonious blend of nature and modern living
-        </p>
-
-        <article class="rooms dp-fl grid">
-            <img class="rooms-img-left" src="./img/hall.svg" alt="Living Room">
-            <div class="rooms-text-left">
-                <h2 class="h2-interior">Open Spaces</h2>
-                <p class="rooms-text">The house has a cozy and stylish interior with a modern design. The living room is dominated by a neutral color scheme, complemented by bright accents. A soft sofa and poufs create a cozy atmosphere for relaxation and entertainment. Large windows let in a lot of natural light, which makes the space brighter and more spacious</p>
-            </div>
-
-        </article>
-
-        <article class="rooms dp-fl grid">
-            <div class="rooms-text-right">
-                <h2 class="h2-interior">Natural Materials</h2>
-                <p class="rooms-text">The homes are adorned with high-quality natural materials such as wood, stone, and wool. These elements create a warm and inviting atmosphere that perfectly complements the surrounding nature</p>
-            </div>
-            <img class="rooms-img-right" src="./img/room.svg" alt="room">
-        </article>
-
-        <article class="rooms grid">
-            <img class="rooms-img-left" src="./img/kamin.svg" alt="fireplace">
-            <div class="rooms-text-left">
-                <h2 class="h2-interior">Fireplaces and Heating</h2>
-                <p class="rooms-text">Each home features an elegant fireplace that serves as the centerpiece for cozy evenings with family and friends. Modern heating systems ensure comfort throughout the year</p>
-            </div>
-        </article>
-
-        <article class="rooms grid">
-            <div class="rooms-text-right">
-                <h2 class="h2-interior">Bedrooms</h2>
-                <p class="rooms-text">Generously sized bedrooms with high ceilings and elegant finishes offer the perfect place to relax. Special attention is given to comfort — quality mattresses and soft bedding guarantee a restful night’s sleep</p>
-            </div> 
-            <img class="rooms-img-right" src="./img/bedroom.svg" alt="bedroom">
-        </article>
+    <div class="selectan background ">
+        <div class="dp-fl grid">
+            <h1 class="interior-h1">Найдите свой идеальный альпийский коттедж</h1>
+            <p class ="interior-text">Место, где элегантный дизайн сочетается с комфортом и уютом. Каждый интерьер тщательно продуман, чтобы создать гармоничное сочетание природы и современной жизни.</p>
+        </div>
+        <button class="btn-reset">ПОДАТЬ ЗАЯВКУ СЕЙЧАС</button>
+        <img src="../src/img/room.svg" alt="гостинная">
 
         <div>
-            <h3 class="interior-text">The interiors of our homes in the cottage village are not just beautiful, they fill your space with life, creating the perfect place for relaxation and enjoyment of every moment spent in this picturesque corner of nature. Immerse yourself in a world of comfort and style — your new home awaits!</h3>
-        </div>
-        <div class="contact-form-container">
-            <h2 class="contact-h2">Book your dream home</h2>
-            <form id="contactForm" class="contactform">
-                <div class="dp-fl formname">
-                    <label for="name"></label>
-                    <input type="text" id="name" name="name" placeholder="Name" required>
-
-                    <label for="phone"></label>
-                    <input type="tel" id="phone" name="phone" placeholder="Phone" required>
-                </div>
-
-                <label for="comment"></label>
-                <textarea id="comment" name="comment" placeholder="Comment" required></textarea>
-                <div>
-                    <button class="form-button" type="submit">GET STARTED</button>
-                </div>
-            </form>
-            <p id="thankYouMessage" class="hidden">Thanks! We will contact you as soon as possible</p>
+            <h3 class="interior-text">Как выбрать коттедж для себя?
+                Определите свои предпочтения
+                Узнайте подробности
+                Запланируйте визит
+                Готовы подобрать коттедж для себя?
+                Начните изучать наши уникальные предложения и выберите тот, который соответствует вашей мечте. По любым вопросам обращайтесь к нам!</h3>
         </div>
 
-    </section>
+        
+
+    </div>
 </main>
 <footer class = "footer">
-    <div class="footer-wrapper dp-fl">
-        <a class="cart" href="#">Auvergne-Rhône-Alpes, Yser, Grenoble Arrondissement, Huet, Alpe d'Huez</a>
-        <a class="header-list-link" href="tel:8800 000 00">8 800 000 00</a>
-    </div>
 
 </footer>
 <script type="module" src="../src/js/index.js"></script>

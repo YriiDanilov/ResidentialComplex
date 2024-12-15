@@ -1,0 +1,49 @@
+.sidebar {
+    width: 80%;
+    position: fixed;
+    top: 0;
+    left: -100%; /* Скрываем меню слева */
+    height: 100%;
+    background-color: var(--blue-2);
+    opacity: 95%;
+    transition: left 0.5s ease;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 234px 0 0 138px;
+}
+
+.menu-link {
+    margin: 10px 0;
+}
+
+.menu-text {
+    color: #fff;
+    text-decoration: none;
+    font-size: 64px;
+    padding-bottom: 40px;
+}
+
+.sidebar.active {
+    left: 0; /* Показываем меню при добавлении класса active */
+}
+
+.close-button {
+    background: none;
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+    color: var(--blue);
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateX(-50%);
+}
+
+.close-button:hover {
+    border: 1px solid var(--blue);
+}
