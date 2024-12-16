@@ -1,19 +1,25 @@
 .infrastructure {
     color: var(--dark-green);
-    padding-top: 80px;
+    height: 100vh;
 }
 
 .h1-infrastructure {
-   padding-right: 550px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    font-size: 32px;
+    z-index: 2;
+    text-align: center;
+    font-size: 60px;
     font-family: 'saira', sans-serif;
-    color: var(--dark-green);
+    color: var(--light-blue);
+    position: absolute;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .sgroup-container {
     position: relative;
     height: 600px;
+    margin-top: 40px;
+
+
 }
 .sgroup {
     position: absolute;
@@ -44,22 +50,22 @@
 .sgroup:nth-child(1) {
     top: 0;
     left: 0;
-    background-image: url(../img/ecology.png);
+    background-image: url(../img/ecology.webp);
 }
 .sgroup:nth-child(2) {
     top: 0;
     left: 50%;
-    background-image: url(../img/sport.png);
+    background-image: url(../img/sport.webp);
 }
 .sgroup:nth-child(3) {
     top: 50%;
     left: 0;
-    background-image: url(../img/roads.png);
+    background-image: url(../img/roads.webp);
 }
 .sgroup:nth-child(4) {
     top: 50%;
     left: 50%;
-    background-image: url(../img/sale.png);
+    background-image: url(../img/sale.webp);
 }
 .sgroup.is-expanded {
     top: 0;
@@ -154,7 +160,7 @@
 .sgroup.is-expanded .info-box .info-col-2 {
     opacity: 1;
 }
-@media screen and (max-width: 991px) {
+/*@media screen and (max-width: 991px) {
     .title-box {
         font-size:18px;
     }
@@ -168,7 +174,7 @@
         width: 100%;
     }
 }
-
+*/
 .text-bottom {
     padding: 80px 90px 40px 90px;
     font-size: 22px;

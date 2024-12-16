@@ -28,11 +28,10 @@ body {
   min-width: 320px;
   word-break: normal;
   font-family: "Overpass", "sans-serif";
-  background-image: url("../img/body-background.png");
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
+  max-width: 1140px;
+  margin: 0 auto;
 
+}
 .list-reset {
   margin: 0;
   padding: 0;
@@ -71,4 +70,11 @@ body {
 .section-parameters {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+.bg {
+    background-image: url("../img/main-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
 }

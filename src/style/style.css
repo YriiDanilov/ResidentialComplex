@@ -1,9 +1,10 @@
 @import url(./fonts.css);
 @import url(./global.css);
 @import url(./normalize.css);
-@import url(./header.css);
 @import url(./salectan.css);
 @import url(./form.css);
 @import url(./burger-menu.css);
 @import url(./footer.css);
 @import url(./media.css);
+@import url(./hero.css);
+@import url(./infrasrtukture.css);
