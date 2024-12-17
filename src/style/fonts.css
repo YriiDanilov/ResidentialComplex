@@ -20,6 +20,15 @@
 @font-face {
     font-family: 'Saira';
     font-style: normal;
+    font-weight: 400;
+    src: local(""),
+    url("../fonts/Saira-Regular.woff") format("woff"),
+    url("../fonts/Saira-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: 'Saira';
+    font-style: normal;
     font-weight: 900;
     src: local(""),
     url("../fonts/Saira-Black.woff") format("woff"),

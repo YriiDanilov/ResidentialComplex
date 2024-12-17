@@ -1,12 +1,12 @@
 
 .wrapper-header {
     max-width: 1060px;
-    max-height: 136px;
     padding-top: 85px;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    
 }
 
 
@@ -24,7 +24,7 @@
 }
 
 .btn-menu:hover {
-    background-color: var(--white-color);
+    background-color: var(--hover-color);
     transition-duration: 0.5s;
 }
 
@@ -70,10 +70,11 @@
     font-size: 16px;
     margin-left: 40px;
     border: 1px solid var(--header-color);
+    color: var(--header-color);
     border-radius: 10px;
 }
 
 .btn-choose:hover {
-    background-color: var(--white-color);
+    background-color: var(--hover-color);
     transition-duration: 0.5s;
 }

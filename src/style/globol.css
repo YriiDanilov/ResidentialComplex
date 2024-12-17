@@ -32,6 +32,7 @@ body {
     font-family: "Overpass", "Saira", sans-serif;
     background-image: url(../img/Infrastructure-body.png);
     background-size: 100%;
+    letter-spacing: normal;
 }
 /* global */
 
@@ -53,4 +54,5 @@ body {
     --white-color: #ffffff;
     --header-color: #113F5B;
     --fonts-color: #456990;
+    --hover-color: #CFE4E6;
 }

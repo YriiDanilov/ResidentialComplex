@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./style/style.css">
     <title>Contact</title>
 </head>
-<body>
+<body class="body">
 
     <!-----------------------HEADER----------------------->
 
@@ -101,6 +101,27 @@
                 <path d="M171.304 138.859C170.772 138.859 170.287 138.579 170.147 138.158C169.981 137.658 170.365 137.148 171.005 137.018L180.936 135.008C181.575 134.879 182.228 135.179 182.394 135.679C182.56 136.179 182.175 136.689 181.536 136.818L171.605 138.829C171.505 138.849 171.404 138.859 171.304 138.859Z" fill="#F45B69"/>
                 </svg>
         </button>
+        <div class="wrapper-connection" id="wrapper-connection">
+            <picture class="picture">
+                <img class="img-connection" src="./img/modern-сottage.png" alt="">
+            </picture>
+            <button class="btn-close btn-reset" id="btn-close">
+                <svg width="90" height="88" viewBox="0 0 90 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M37.7204 51.8444L52.9046 37.1494" stroke="#114B5F"/>
+                    <line y1="-0.5" x2="22" y2="-0.5" transform="matrix(-0.768669 -0.639646 0.892614 -0.450822 54 51)" stroke="#114B5F"/>
+                    <path d="M89.4045 43.6876C89.3525 67.4251 69.6217 86.6457 45.3104 86.5942C20.9992 86.5426 1.35271 67.2385 1.40471 43.501C1.45671 19.7634 21.1876 0.542814 45.4988 0.594373C69.8101 0.645932 89.4565 19.95 89.4045 43.6876Z" stroke="#114B5F"/>
+                    </svg>
+            </button>
+                <div class="wrapper-form" id="wrapper-form">
+                    <form class="form" id="form" action="">
+                        <p class="text-form">Узнайте больше о нашем коттеджном поселке и условиях покупки.Оставьте телефон  мы вам перезвони
+    
+                        </p>
+                        <input class="input" id="input" type="tel" placeholder="+7">
+                        <button class="btn-form btn-reset">Хорошо, жду звонка</button>
+                    </form>
+                </div>
+        </div>
     </section>
 
 <!-------------------------FOOTER--------------------------->
@@ -109,11 +130,12 @@
         <div class="wrapper-footer">
             <div class="wrapper-contact">
                 <address class="addres-footer">Округ коммуны-Овернь-Рона-Альпы, Изер, Гренобль, Юэ, Альп д'Юэз</address>
-                <button class="btn-footer btn-reset">Обратная связь</button>
+                <button class="btn-footer btn-reset" id="btn-show">Обратная связь</button>
                 <a aria-colspan="link-telephone" class="footer-link-telephone" href="tel:+7800 000 00">8 800 000 00</a>
             </div>
             <span class="title-footer">Cloud  Atlas</span>
         </div>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
