@@ -10,14 +10,14 @@ let Boxlayout = (function () {
     }
     function _initEvents() {
         sgroups.forEach(function (element) {
-            element.onclick = function () {
-                _opensgroup(this);
+            element.onclick = function (event) {
+                _opensgroup(event.target.parentElement);
             };
         });
         closeButtons.forEach(function (element) {
-            element.onclick = function (element) {
-                element.stopPropagation();
-                _closesgroup(this.parentElement);
+            element.onclick = function (event) {
+                event.stopPropagation();
+                _closesgroup(event.target.parentElement);
             };
         });
     }
