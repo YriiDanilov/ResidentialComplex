@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
 }
 
 *,
@@ -38,11 +39,12 @@ body {
 }
 
 .btn-reset {
-  padding: 0;
   border: none;
   cursor: pointer;
   font-family: "Overpass", "sans-serif";
   color: var(--light-blue);
+  line-height: 0;
+  border-radius: 10px;
 }
 
 .btn-reset::before {
