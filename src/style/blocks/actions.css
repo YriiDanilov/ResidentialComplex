@@ -1,0 +1,19 @@
+.action {
+    padding-top: 200px;
+}
+
+.action-wrapper {
+    display: flex;
+    justify-content: center;
+    column-gap: 105px;
+}
+.action__item {
+}
+
+.action__text {
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: var(--color-white, #fff);
+}
