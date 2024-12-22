@@ -14,12 +14,12 @@ export const fallMenu = () => {
 
             if (state.mode === 'open') {
                 popup.classList.toggle('open')
-                body.classList.toggle('noscroll')
+                body.classList.toggle('no-scroll')
                 popupFade.classList.toggle('popup-fade')
                 imageContainer.classList.add('show')
             } else {
                 popup.classList.remove('open')
-                body.classList.remove('noscroll')
+                body.classList.remove('no-scroll')
                 popupFade.classList.remove('popup-fade')
             }
         })
