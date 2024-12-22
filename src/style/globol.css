@@ -34,6 +34,93 @@ body {
     background-size: 100%;
     letter-spacing: normal;
 }
+
+a,
+button,
+input,
+textarea,
+svg * {
+    transition-duration: var(--transition-duration);
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+button {
+    background: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.bg-image {
+    background-image: url(../../img/main-bg/main-bg.webp);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper-content {
+    max-width: 747px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: var(--color-white);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    background: #e0e0e0;
+    z-index: 100;
+}
+
+.preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear
+}
+
+@keyframes preloader-rotate {
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+.loaded_hiding .preloader {
+    transition: .3s opacity;
+    opacity: 0
+}
+
+.loaded .preloader {
+    display: none
+}
 /* global */
 
 .list-reset {
@@ -55,4 +142,28 @@ body {
     --header-color: #113F5B;
     --fonts-color: #456990;
     --hover-color: #CFE4E6;
+    --header-btn: #028090;
+    --header-btn-hover: rgb(2, 128, 144, 50%);
+
+    --color-dark-blue: #113B5f;
+    --color-white: #ffffff;
+    --color-light-blue: #CFE4E6;
+    --color-light-green: #028090;
+    --color-pink: #F45B69;
+    --color-grey: grey;
+    --color-blue: #456990;
+
+
+    --border-radius: 10px;
+    --border: 1px solid var(--color-white);
+    --outline: 1px solid var(--color-dark-blue);
+        
+    
+    --font-base: 'Montserrat', sans-serif;
+    --font-accent: 'Inter 18pt,' sans-serif;
+    --font-secondary: 'Roboto', sans-serif;
+
+    --transition-duration: ease-in-out .2s;
+
+    --index: calc(1vw + 1vh);
 }

@@ -1,3 +1,6 @@
+import {fallMenu} from './fallMenu';
+
+fallMenu();
 
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -7,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('#form');
 
 
-    btnShow.addEventListener('click', (e) => {
+     btnShow.addEventListener('click', (e) => {
         e.preventDefault();
         wrapperConnection.classList.toggle('open')
     })
