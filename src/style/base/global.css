@@ -106,24 +106,6 @@ button {
     overflow: hidden;
 }
 
-.menu-button {
-    margin-top: 40px;
-    margin-right: 50px;
-    font-weight: 400;
-    font-size: 40px;
-    text-transform: uppercase;
-    text-align: center;
-    color: #cfe4e6;
-    border-radius: 10px;
-    background-color: #028090;
-}
-
-.menu-button:hover {
-    transition: var(--transition-duration);
-    transform: translateY(3px);
-    border: 1px solid var(--color-pink);
-}
-
 .preloader {
     position: fixed;
     top: 0;
