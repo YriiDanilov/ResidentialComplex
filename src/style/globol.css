@@ -138,6 +138,7 @@ button {
 
 
 :root {
+    --dark-blue: #113B5f;
     --white-color: #ffffff;
     --header-color: #113F5B;
     --fonts-color: #456990;

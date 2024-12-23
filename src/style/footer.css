@@ -1,6 +1,6 @@
 
 .wrapper-footer {
-    max-width: 1062px;
+    max-width: 1140px;
     margin-top: 640px;
     height: 310px;
     margin-inline: auto;
@@ -9,38 +9,70 @@
 }
 
 .wrapper-contact {
-    height: 155px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-bottom: 1px solid var(--fonts-color);
 }
 
 .addres-footer {
-    line-height: 30px;
-    width: 420px;
-    height: 155px;
-    font-weight: 600;
-    font-size: 22px;
+    max-width: 420px;
+    max-height: 155px;
     font-style: normal;
     text-align: center;
-    display: flex;
-    align-items: center;
-    color: var(--header-color);
-    border-right: 1px solid var(--header-color);
+    font-size: 20px;
+    color: var(--dark-blue);
 }
 
 .btn-footer {
-    width: 315px;
-    height: 155px;
-    font-weight: 600;
+    position: relative;
+    min-width: 315px;
+    min-height: 155px;
+    color: var(--dark-blue);
+    border-radius: 0;
+    text-align: center;
     font-size: 20px;
-    color: var(--header-color);
-    border-right: 1px solid var(--header-color);
+    transition: 0.9s;
 }
 
-.btn-footer:hover {
-    color: var(--white-color);
-    transition-duration: 0.5s;
+.btn-footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: 0.6s;
+}
+
+.btn-footer:hover::before {
+    opacity: 0;
+    transform: scale(0.6, 0.6);
+}
+
+.btn-footer::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.6s;
+    border: 1px solid var(--dark-blue);
+    transform: scale(1.2, 1.2);
+}
+
+.btn-footer:active {
+    background-color: var(--dark-green);
+    color: var(--light-blue);
+}
+
+.btn-footer:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
 }
 
 .footer-link-telephone {
@@ -57,10 +89,12 @@
 }
 
 .title-footer {
+    text-transform: uppercase;
     display: block;
     text-align: center;
-    font-family: 'Saira';
+    font-family: 'Saira', sans-serif;
     font-weight: 900;
     font-size: 128px;
-    color: var(--header-color);
+    letter-spacing: 10px;
+    color: var(--header-btn);
 }

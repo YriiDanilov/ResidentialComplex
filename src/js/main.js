@@ -1,12 +1,10 @@
-import {fallMenu} from './fallMenu';
 
-fallMenu();
 
 document.addEventListener('DOMContentLoaded', () => {
 
-    const btnShow = document.querySelector('#btn-show');
-    const wrapperConnection = document.querySelector('#wrapper-connection');
-    const btnClose = document.querySelector('#btn-close');
+     const btnShow = document.querySelector('#btn-show');
+     const wrapperConnection = document.querySelector('#wrapper-connection');
+     const btnClose = document.querySelector('#btn-close');
     const form = document.querySelector('#form');
 
 
@@ -25,13 +23,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     
-    form.addEventListener('submit' , (e) => {
+     form.addEventListener('submit' , (e) => {
         e.preventDefault();
         form.replaceWith(textSuccess)
 
     })
     
-    btnClose.addEventListener('click', (e) => {
+     btnClose.addEventListener('click', (e) => {
         e.preventDefault();
         wrapperConnection.classList.remove('open');
     })
