@@ -1,4 +1,7 @@
-let Boxlayout = (function () {
+
+
+
+export const Boxlayout = (function () {
     let wrapper = document.body,
     sgroups = Array.from(document.querySelectorAll(".sgroup")),
     closeButtons = Array.from(document.querySelectorAll(".close-sgroup")),

@@ -36,25 +36,25 @@
 .sgroup:nth-child(1) {
     top: 0;
     left: 0;
-    background-image: url(../img/ecology.webp);
+    background-image: url(../../img/ecology.webp);
 }
 
 .sgroup:nth-child(2) {
     top: 0;
     left: 50%;
-    background-image: url(../img/sport.webp);
+    background-image: url(../../img/sport.webp);
 }
 
 .sgroup:nth-child(3) {
     top: 50%;
     left: 0;
-    background-image: url(../img/roads.webp);
+    background-image: url(../../img/roads.webp);
 }
 
 .sgroup:nth-child(4) {
     top: 50%;
     left: 50%;
-    background-image: url(../img/sale.webp);
+    background-image: url(../../img/sale.webp);
 }
 
 .sgroup.is-expanded {
@@ -133,22 +133,16 @@
     align-items: center;
 }
 
-.info-box .info-col-1,
-.info-box .info-col-2 {
+.info-col-1 {
     padding: 0 40px;
-}
-
-
-.info-box .info-col-1 {
     width: 40%;
 }
 
-
-.info-box .info-col-1 img {
+.info-col-1 img {
     width: 100%;
 }
 
-.info-box .info-col-2 {
+.info-col-2 {
     width: 60%;
     max-height: 100%;
     overflow-y: auto;
@@ -157,9 +151,10 @@
     line-height: 1.6;
     opacity: 0;
     transition: opacity 0.5s linear 0.4s;
+    padding: 0 40px;
 }
 
-.sgroup.is-expanded .info-box .info-col-2 {
+.is-expanded .info-box .info-col-2 {
     opacity: 1;
 }
 
@@ -168,16 +163,6 @@
     font-size: 22px;
     color: var(--dark-green);
     text-align: justify;
-}
-
-.btn-infrastructure {
-    background-color: var(--green);
-    min-height: 50px;
-    min-width: 510px;
-    border-radius: 10px;
-    transition: all 0.9s;
-    position: relative;
-    margin-top: 40px;
 }
 
 .section-infrastructure {
