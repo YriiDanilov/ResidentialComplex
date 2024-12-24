@@ -13,6 +13,31 @@
     max-width: 1140px;
     margin: 0 auto;
 }
+.header__menu {
+    position: relative;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.bar {
+    display: block;
+    width: 18px;
+    height: 2px;
+    background-color: var(--light-blue);
+    border-radius: var(--border-radius);
+}
+
+.bar:nth-child(2) {
+    transform: translateX(5px);
+}
+
 .popup-fade::before {
     content: "";
     background: #000;

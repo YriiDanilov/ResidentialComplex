@@ -1,7 +1,7 @@
 .wrapper-footer {
     max-width: 1140px;
     margin-inline: auto;
-    margin-bottom: 65px;
+    margin: 80px auto 80px auto;
     border: 1px solid var(--dark-blue);
     font-size: 20px;
     color: var(--dark-blue);

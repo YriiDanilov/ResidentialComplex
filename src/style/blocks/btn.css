@@ -57,12 +57,11 @@
 
 .btn-menu {
     position: relative;
-    height: 40px;
+    max-height: 40px;
     min-width: 150px;
     background: none;
-    text-align: center;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     border-radius: 10px;
     transition: 0.9s;
