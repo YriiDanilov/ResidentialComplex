@@ -6,7 +6,7 @@ export const fallMenu = () => {
             mode: 'close',
         }
 
-        const watchedState = onChange(state, (path, current, previous) => {
+        const watchedState = onChange(state, () => {
             const popup = document.querySelector('#popup')
             const popupFade = document.querySelector('#popup-fade')
             const body = document.body
@@ -21,11 +21,13 @@ export const fallMenu = () => {
                 popup.classList.remove('open')
                 body.classList.remove('no-scroll')
                 popupFade.classList.remove('popup-fade')
+                imageContainer.classList.remove('show')
             }
         })
 
         const menuCloseButton = document.querySelector('.menu-close')
         const menuBtn = document.querySelector('#menu_btn')
+        // const menu = document.querySelector('#menu')
 
         menuBtn.addEventListener('click', () => {
             watchedState.mode = 'open'
