@@ -1,5 +1,3 @@
-
-
 export const feedback = () => {
     document.addEventListener('DOMContentLoaded', () => {
 
@@ -12,7 +10,8 @@ export const feedback = () => {
         btnShow.addEventListener('click', (e) => {
             e.preventDefault();
             wrapperConnection.classList.toggle('open')
-        })
+        });
+
 
         const textSuccess = document.createElement('p')
         textSuccess.textContent = 'Спасибо! Наши менеджеры свяжутся с вами в ближайшее время'
@@ -20,21 +19,18 @@ export const feedback = () => {
         textSuccess.style.lineHeight = '30px';
         textSuccess.style.textAlign = 'center';
         textSuccess.style.margin = '50px';
-        textSuccess.style.fontSize= '20px';
-        textSuccess.style.fontFamily= 'Saira, sans-serif';
+        textSuccess.style.fontSize = '20px';
+        textSuccess.style.fontFamily = 'Saira, sans-serif';
 
 
-
-        form.addEventListener('submit' , (e) => {
+        form.addEventListener('submit', (e) => {
             e.preventDefault();
             form.replaceWith(textSuccess)
-
-        })
+        });
 
         btnClose.addEventListener('click', (e) => {
             e.preventDefault();
             wrapperConnection.classList.remove('open');
-        })
-    })
-
+        });
+    });
 }

@@ -1,6 +1,3 @@
-
-
-
 export const Boxlayout = (function () {
     let wrapper = document.body,
     sgroups = Array.from(document.querySelectorAll(".sgroup")),
@@ -37,4 +34,4 @@ export const Boxlayout = (function () {
         }
     }
 })();
-Boxlayout.init();    
+Boxlayout.init();

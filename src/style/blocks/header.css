@@ -99,7 +99,6 @@
 .header__list {
     display: flex;
     flex-direction: column;
-    overflow: auto;
 }
 
 .header__list-item a {

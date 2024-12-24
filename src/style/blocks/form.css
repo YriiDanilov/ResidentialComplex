@@ -12,7 +12,7 @@
     backdrop-filter: blur(10px);
 }
 
-.open {
+.wrapper-connection.open {
     display: block;
 }
 
@@ -102,3 +102,4 @@
     border-color: var(--pink);
     transition: var(--transition-duration);
 }
+
