@@ -1,5 +1,14 @@
 .apartments {
-    margin-top: 150px;
+    padding-top: 130px;
+}
+
+.apartment__item {
+    position: relative;
+    width: 100%;
+    height: 685px;
+    background-color: var(--color-white);
+    border-radius: var(--border-radius);
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25);
 }
 
 .apartments__wrapper-grid {
@@ -11,26 +20,37 @@
 }
 
 .apartment__img {
-    width: 353px;
-    height: 370px;
+    width: 100%;
+    height: 601px;
     object-fit: cover;
-    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.25)
+    border-top-right-radius: var(--border-radius);
+    border-top-left-radius: var(--border-radius);
 }
 
 .apartment__link {
     display: block;
-    padding-block: 13px;
-    margin-top: 30px;
+    margin-top: 25px;
     text-align: center;
-    border-radius: var(--border-radius);
-    border: var(--border);
     font-weight: 400;
-    font-size: 16px;
+    font-size: 26px;
     text-align: center;
-    color: var(--color-white, #fff);
+    color: var(--color-dark-blue);
 }
 
-.apartment__link:hover {
-    color: var(--color-grey);
-    background-color: var(--color-white)
+.apartment_button {
+    position: absolute;
+    margin: 0;
+    top: 30px;
+    right: 16px;
+    min-width: 280px;
+    min-height: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.apartment_button:active {
+    background-color: var(--color-light-blue);
+    color: var(--color-light-green);
 }

@@ -4,7 +4,7 @@
 
 .interior__wrapper-grid {
     display: grid;
-    grid-template-columns: repeat(2, 355px);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 260px 350px 170px 380px;
     grid-auto-rows: 350px;
     margin-top: 60px;
