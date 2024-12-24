@@ -17,10 +17,11 @@ export const feedback = () => {
         const textSuccess = document.createElement('p')
         textSuccess.textContent = 'Спасибо! Наши менеджеры свяжутся с вами в ближайшее время'
         textSuccess.style.color = '#114B5F';
-        textSuccess.style.width = '400px';
         textSuccess.style.lineHeight = '30px';
-        textSuccess.style.textAlign = 'left';
+        textSuccess.style.textAlign = 'center';
         textSuccess.style.margin = '50px';
+        textSuccess.style.fontSize= '20px';
+        textSuccess.style.fontFamily= 'Saira, sans-serif';
 
 
 
@@ -37,4 +38,3 @@ export const feedback = () => {
     })
 
 }
-console.log(wrapperConnection);
