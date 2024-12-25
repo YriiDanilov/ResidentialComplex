@@ -2,6 +2,8 @@
 @import "./base/normalize.css";
 @import "./base/vars.css";
 @import "./base/global.css";
+@import "./base/form.css";
+@import "./base/phone.css";
 @import "./blocks/header.css";
 @import "./blocks/promo.css";
 @import "./blocks/apartments.css";
