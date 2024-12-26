@@ -1,0 +1,41 @@
+.wrapper-footer {
+    max-width: 1140px;
+    margin-inline: auto;
+    margin: 80px auto 80px auto;
+    border: 1px solid var(--dark-blue);
+    font-size: 20px;
+    color: var(--dark-blue);
+}
+
+.wrapper-contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--dark-blue);
+}
+
+.address-footer{
+    max-width: 420px;
+    max-height: 155px;
+    font-style: normal;
+    text-align: center;
+}
+
+.footer-link-telephone {
+   padding: 65px 92px 65px 107px;
+}
+
+.footer-link-telephone:hover {
+    color: var(--light-blue);
+    transition-duration: 0.5s;
+}
+
+.title-footer {
+    display: block;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    font-weight: 900;
+    font-size: 128px;
+    letter-spacing: 10px;
+    color: var(--green);
+}

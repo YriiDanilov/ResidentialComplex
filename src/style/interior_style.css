@@ -1,0 +1,12 @@
+@import url(interior_base/interior_fonts.css);
+@import url(interior_base/interior_global.css);
+@import url(interior_base/interior_normalize.css);
+@import url(interior_base/interior_vars.css);
+@import url(interior_blocks/interior_salectan.css);
+@import url(interior_blocks/interior_footer.css);
+@import url(interior_base/interior_media.css);
+@import url(interior_blocks/interior_hero.css);
+@import url(interior_blocks/interior_infrasrtukture.css);
+@import url(interior_blocks/interior_header.css);
+@import url(interior_blocks/interior_btn.css);
+@import url(interior_blocks/interior_form.css);

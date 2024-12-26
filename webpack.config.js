@@ -4,9 +4,9 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
-    entry: './src/js/index.js',  // Точка входа (главный файл проекта)
+    entry: './src/interior_js/index.interior_js',  // Точка входа (главный файл проекта)
     output: {
-        filename: 'bundle.js',  // Выходной файл для JS
+        filename: 'bundle.interior_js',  // Выходной файл для JS
         path: path.resolve(__dirname, 'dist'),  // Папка для выходных файлов
     },
     module: {
@@ -40,7 +40,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.html',  // Шаблон для генерации HTML
+            template: './src/interior_index.html',  // Шаблон для генерации HTML
         }),
         new MiniCssExtractPlugin({
             filename: 'styles.css',  // Название файла для сгенерированного CSS
