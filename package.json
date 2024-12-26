@@ -2,7 +2,7 @@
   "name": "donuts",
   "version": "1.0.0",
   "description": "1) - Ссылка на документацию (документ с описанием проекта) 2) - Ссылка на макет Figma 3) - Ссылка на deploy vercel или gitHub pages (на выбор)",
-  "main": "src/interior_js",
+  "main": "./src/js/index.js",
   "scripts": {
     "start": "webpack serve --mode development",
     "build": "webpack --mode production"
@@ -24,9 +24,7 @@
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.1.0"
   },
-  "type": "module",
   "dependencies": {
-    "on-change": "^5.0.1",
-    "scss": "^0.2.4"
+    "on-change": "^5.0.1"
   }
 }

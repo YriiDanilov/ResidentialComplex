@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4618ad13-d01f-4893-9ba2-673969735c72" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="feat/Contact" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feat/create_interior" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2pTdpkewLsL9JS4gOnu5HwjhWwO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/osmel/OneDrive/Рабочий стол/Учеба-DESKTOP-9I44DL8/TODO-List-main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\Учеба-DESKTOP-9I44DL8\ResidentComplex\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\Учеба-DESKTOP-9I44DL8\ResidentComplex\src\style" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-WS-243.21565.180" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4618ad13-d01f-4893-9ba2-673969735c72" name="Changes" comment="" />
+      <created>1732794195753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732794195753</updated>
+      <workItem from="1732794201011" duration="2513000" />
+      <workItem from="1732796938813" duration="500000" />
+      <workItem from="1732804415180" duration="531000" />
+      <workItem from="1732804966128" duration="780000" />
+      <workItem from="1732823918400" duration="12000" />
+      <workItem from="1732823947056" duration="730000" />
+      <workItem from="1732904069448" duration="94000" />
+      <workItem from="1732949898932" duration="3922000" />
+      <workItem from="1732954686547" duration="6530000" />
+      <workItem from="1733151159146" duration="1677000" />
+      <workItem from="1733152872396" duration="14807000" />
+      <workItem from="1733242602784" duration="1648000" />
+      <workItem from="1733250101639" duration="1806000" />
+      <workItem from="1733500519062" duration="10547000" />
+      <workItem from="1733551012114" duration="76000" />
+      <workItem from="1733551108293" duration="3525000" />
+      <workItem from="1733555917654" duration="411000" />
+      <workItem from="1733558353773" duration="27000" />
+      <workItem from="1733560146321" duration="849000" />
+      <workItem from="1733570858160" duration="391000" />
+      <workItem from="1733759212883" duration="21000" />
+      <workItem from="1733760193673" duration="3102000" />
+      <workItem from="1733943808785" duration="110000" />
+      <workItem from="1733943922498" duration="4600000" />
+      <workItem from="1734156046945" duration="27000" />
+      <workItem from="1734156242769" duration="16000" />
+      <workItem from="1734201815884" duration="1258000" />
+      <workItem from="1734203086502" duration="6552000" />
+      <workItem from="1734278849484" duration="6469000" />
+      <workItem from="1734290243038" duration="1730000" />
+      <workItem from="1734292479948" duration="846000" />
+      <workItem from="1734293921726" duration="3927000" />
+      <workItem from="1734342973226" duration="3378000" />
+      <workItem from="1734348465487" duration="4887000" />
+      <workItem from="1734365970368" duration="12074000" />
+      <workItem from="1734378372331" duration="5777000" />
+      <workItem from="1734447172363" duration="153000" />
+      <workItem from="1734450433786" duration="3405000" />
+      <workItem from="1734459108627" duration="765000" />
+      <workItem from="1734599988081" duration="19450000" />
+      <workItem from="1734709600424" duration="18000" />
+      <workItem from="1734713005705" duration="715000" />
+      <workItem from="1734760397586" duration="7000" />
+      <workItem from="1734760955762" duration="356000" />
+      <workItem from="1734772938518" duration="277000" />
+      <workItem from="1734773791444" duration="56000" />
+      <workItem from="1734773873160" duration="160000" />
+      <workItem from="1734872535466" duration="1227000" />
+      <workItem from="1734873806337" duration="157000" />
+      <workItem from="1734873979465" duration="886000" />
+      <workItem from="1734874895560" duration="593000" />
+      <workItem from="1734875517608" duration="811000" />
+      <workItem from="1734877970167" duration="957000" />
+      <workItem from="1734878969061" duration="413000" />
+      <workItem from="1734879397463" duration="53000" />
+      <workItem from="1734879462030" duration="78000" />
+      <workItem from="1734879549839" duration="56000" />
+      <workItem from="1734879615279" duration="952000" />
+      <workItem from="1734881055641" duration="249000" />
+      <workItem from="1734881319263" duration="10000" />
+      <workItem from="1734881340416" duration="784000" />
+      <workItem from="1734882149164" duration="155000" />
+      <workItem from="1734887376489" duration="770000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="feat/create_interior" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="feat/create_interior" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+</project>
