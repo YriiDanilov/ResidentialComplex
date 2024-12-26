@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link type="image/x-icon" href="./icons/favicon/favicon.ico" rel="shortcut icon" />
-    <link rel="stylesheet" href="./style/style.css" />
-    <script src="./js/index.js" type="module"></script>
+    <link rel="stylesheet" href="./style/main_page_style.css" />
+    <script src="./js/main_page_index.js" type="module"></script>
     <title>Resident Complex</title>
 </head>
 
@@ -59,11 +59,11 @@
                 <form class="connection__form" id="connection__form" action="" autocomplete="tel">
                     <p class="connection__text-form">Узнайте больше о нашем коттеджном поселке и условиях покупки.Оставьте телефон мы вам перезвоним</p>
                     <label for="connection_input"></label>
-                    <input class="connection__input" id="connection__input" type="number" name='connection__input' placeholder="+7" >
-                    <button type='submit' class="btn-form btn-reset" id='connection__submit'>Хорошо, жду звонка</button>
+                    <input class="connection__input" id="connection__input" type="tel" name='connection__input' placeholder="+7 909 290 05 44" >
+                    <button type='submit' class="btn-form btn-reset" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id='connection__submit'>Хорошо, жду звонка</button>
                 </form>
             </div>
-            <div class='connection__feedback'>
+            <div class='connection__feedback' id='connection__feedback'>
                 <p class='connection__feedback-text'>Спасибо! Наши менеджеры свяжутся с вами в ближайшее время</p>
             </div>
         </div>

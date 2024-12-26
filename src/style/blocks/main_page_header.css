@@ -266,6 +266,8 @@
     left: 0;
     width: 60%;
     transition: right .4s ease, width 1s ease;
-    height: 100%;
 }
 
+.z0 {
+    z-index: 0;
+}
