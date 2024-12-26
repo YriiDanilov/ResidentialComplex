@@ -78,16 +78,16 @@
     background-color: rgba(0, 0, 0, 0.6);
 }
 .block-menu li:nth-child(1):hover ~ .block-menu-wall {
-    background-image: url('../../img/1.webp');
+    background-image: url('../../interior_img/1.webp');
 }
 .block-menu li:nth-child(2):hover ~ .block-menu-wall {
-    background-image: url('../../img/2.webp');
+    background-image: url('../../interior_img/2.webp');
 }
 .block-menu li:nth-child(3):hover ~ .block-menu-wall {
-    background-image: url('../../img/3.webp');
+    background-image: url('../../interior_img/3.webp');
 }
 .block-menu li:nth-child(4):hover ~ .block-menu-wall {
-    background-image: url('../../img/4.webp');
+    background-image: url('../../interior_img/4.webp');
 }
 
 .block-menu li .name {
@@ -138,5 +138,5 @@
     background-color: #000;
     background-size: cover;
     background-position: center center;
-    background-image: url('../../img/1.webp');
+    background-image: url('../../interior_img/1.webp');
 }

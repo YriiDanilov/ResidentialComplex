@@ -40,7 +40,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            template: './src/index.html',  // Шаблон для генерации HTML
+            template: './src/interior_index.html',  // Шаблон для генерации HTML
         }),
         new MiniCssExtractPlugin({
             filename: 'styles.css',  // Название файла для сгенерированного CSS

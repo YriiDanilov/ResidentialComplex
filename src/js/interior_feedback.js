@@ -1,4 +1,4 @@
-export const feedback = () => {
+export const interior_feedback = () => {
     document.addEventListener('DOMContentLoaded', () => {
 
         const btnShow = document.querySelector('#btn-show');

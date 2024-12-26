@@ -142,7 +142,6 @@
 }
 
 .menu-button {
-    margin-top: 160px;
     margin-right: 50px;
     font-weight: 400;
     font-size: 40px;
@@ -152,8 +151,6 @@
     border-radius: var(--border-radius);
     background-color: var(--green);
     position: relative;
-    min-width: 500px;
-    min-height: 70px;
 }
 
 .menu-button::before {

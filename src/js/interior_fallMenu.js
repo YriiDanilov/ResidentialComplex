@@ -1,6 +1,6 @@
 import onChange from "../../node_modules/on-change/index.js"
 
-export const fallMenu = () => {
+export const interior_fallMenu = () => {
     document.addEventListener('DOMContentLoaded', () => {
         const state = {
             mode: 'close',
