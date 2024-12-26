@@ -42,12 +42,11 @@ body:after {
 
 .container {
     max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-inline: auto;
 }
 
 .no-scroll {
-    overflow-y: scroll;
+    overflow-y:scroll;
     position: fixed;
     width: 100%;
 }
