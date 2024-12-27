@@ -9,9 +9,7 @@
 
 .letters {
     top: -10px;
-    font-size: 190px
-        /* calc(var(--index) * 9) */
-    ;
+    font-size: 190px;
     text-transform: uppercase;
     color: var(--color-white, #fff);
     line-height: 1;

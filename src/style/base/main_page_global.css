@@ -156,9 +156,8 @@ button {
     text-align: center;
     color: #cfe4e6;
     border-radius: 10px;
-    background-color: #028090;
+    background-color: var(--color-light-green);
     position: relative;
-
 }
 
 .menu-button::before {
