@@ -12,21 +12,22 @@
     <!-----------------------HEADER----------------------->
 
     <header class="header">
-        <div class="container flex-jc-sp_beet-al-it_cent">
-            <div class="header__wrapper_menu">
 
-                <button class="header__menu-btn flex-jc-sp_beet-al-it_cent btn-reset" id="menu_btn">
+        <div class="container header__wrapper_content flex-jc-sp_beet-al-it_cent">
+            <div class="header__wrapper_menu menu">
+
+                <button class="header__menu-btn flex-jc-sp_beet-al-it_cent" id="menu_btn">
                     <div class="hamb__field">
                         <div class="hamburger">
-                            <span class="bar"></span> 
-                            <span class="bar"></span> 
+                            <span class="bar"></span>
+                            <span class="bar"></span>
                             <span class="bar"></span>
                         </div>
                     </div>
-                    <div class="header__menu">
+                    <div class="header__menu ">
                         меню
                     </div>
-                </button> 
+                </button>
 
             </div>
             <div class="logo">
@@ -81,16 +82,16 @@
                     <p class="logo-text">Cloud Atlas</p>
                 </a>
             </div>
-            <div class="header__wrapper_menu">
-                <button class="header__menu-btn btn-reset" href="#">выбрать</button>
+            <div class="header__wrapper_menu choice">
+                <button class="header__menu-btn " href="#">выбрать</button>
             </div>
         </div>
         <div id="popup-fade">
             <div class="popup" id="popup">
                 <div class="popup__menu-wrapper">
-                    <div>
+                    <div class="popup__menu-overflow">
                         <p class="title-menu">
-                            <span>cloud</span> 
+                            <span>cloud</span>
                             <span>atlas</span>
                         </p>
                         <nav class="nav">
@@ -102,17 +103,17 @@
                                 <li class="header__list-item"><a href="#">контакты</a></li>
                             </ul>
                         </nav>
-                        <a class="menu-button" href="#">как купить</a>
+                        <a class="menu-button" href="#" value="купить">как купить</a>
                     </div>
                     <div class="menu-text">
                         <p class="text">Округ коммуны-Овернь-Рона-Альпы, Изер, Гренобль, Юэ, Альп д'Юэз</p>
                     </div>
                 </div>
                 <div class="image-container" id="imageContainer">
-                    <img class="popup__img" src="./img/main-bg/2150497270.jpg" alt="Картинка" id="image">
+                    <img class="popup__img" src="./img/main-bg/menu-bg.webp" alt="the best view" id="image">
                 </div>
                 <button class="menu-close">
-                    <span></span> 
+                    <span></span>
                     <span></span>
                 </button>
             </div>
@@ -187,6 +188,7 @@
             <span class="title-footer">Cloud  Atlas</span>
         </div>
     </footer>
-    <script src="./js/main.js"></script>
+    <script src="./js/index.js" type="module"></script>
+    <script src="./js/feedback.js" type="module"></script>
 </body>
 </html>

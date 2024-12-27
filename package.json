@@ -24,5 +24,8 @@
     "webpack-dev-server": "^5.1.0",
     "css-minimizer-webpack-plugin": "^7.0.0",
     "mini-css-extract-plugin": "^2.9.2"
+  },
+  "dependencies": {
+    "scss": "^0.2.4"
   }
 }
