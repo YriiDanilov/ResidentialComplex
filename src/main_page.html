@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link type="image/x-icon" href="./icons/favicon/favicon.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="./style/base/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style/main_page_style.css" />
-    <script src="./js/main_page_index.js" type="module"></script>
+    <script src='./js/swiper-bundle.min.js' defer></script>
+    <script src="./js/main_page_index.js" defer type='module'></script>
     <title>Resident Complex</title>
 </head>
 
@@ -22,8 +24,9 @@
         <h2 class="visually-hidden">Connection</h2>
         <div class="connection__phone" id='connection__btn-phone'>
             <svg width="60" height="60" viewBox="0 0 84 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-        
-                <path d="M39.3892 73.0539C56.0315 73.0539 69.5228 72.489 69.5228 71.7923C69.5228 71.0955 56.0315 70.5306 39.3892 70.5306C22.7469 70.5306 9.25562 71.0955 9.25562 71.7923C9.25562 72.489 22.7469 73.0539 39.3892 73.0539Z" fill="#F45B69" />
+
+                <path d="M39.3892 73.0539C56.0315 73.0539 69.5228 72.489 69.5228 71.7923C69.5228 71.0955 56.0315 70.5306 39.3892 70.5306C22.7469 70.5306 9.25562 71.0955 9.25562 71.7923C9.25562 72.489 22.7469 73.0539 39.3892 73.0539Z"
+                      fill="#F45B69" />
                 <path d="M74.0672 59.9998L69.9523 63.2156C69.9523 63.2156 52.8264 76.5997 20.9454 51.6842C-12.5915 25.4746 4.53436 12.0896 4.53436 12.0896L8.64813 8.87465C10.3776 7.52307 13.1825 7.52307 14.9118 8.87465L29.6123 20.3633C31.3418 21.7149 31.3418 23.9062 29.6123 25.2577L23.785 29.8119C23.785 29.8119 26.8106 35.6766 33.5884 40.9736C40.3663 46.2714 47.2765 48.1701 47.2765 48.1701L53.1029 43.6167C54.8324 42.2651 57.6373 42.2651 59.3666 43.6167L74.0671 55.1054C75.7966 56.457 75.7966 58.6482 74.0672 59.9998Z"
                       fill="#F45B69" />
                 <path d="M29.6126 25.2576L23.9883 29.653C23.4217 28.7722 23.1484 28.243 23.1484 28.243L28.7282 23.8823C29.9088 22.9596 30.2477 21.6281 29.7442 20.4709C31.3407 21.829 31.2967 23.9415 29.6126 25.2576Z" fill="#F45B69" />
@@ -59,7 +62,7 @@
                 <form class="connection__form" id="connection__form" action="" autocomplete="tel">
                     <p class="connection__text-form">Узнайте больше о нашем коттеджном поселке и условиях покупки.Оставьте телефон мы вам перезвоним</p>
                     <label for="connection_input"></label>
-                    <input class="connection__input" id="connection__input" type="tel" name='connection__input' placeholder="+7 909 290 05 44" >
+                    <input class="connection__input" id="connection__input" type="tel" name='connection__input' placeholder="+7 909 290 05 44">
                     <button type='submit' class="btn-form btn-reset" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id='connection__submit'>Хорошо, жду звонка</button>
                 </form>
             </div>
@@ -161,7 +164,7 @@
                                 <li class="header__list-item"><a href="#">контакты</a></li>
                             </ul>
                         </nav>
-                        <a class="menu-button" href="#" value="купить">как купить</a>
+                        <a class="header__menu-popup-button menu-button" href="#" value="купить">как купить</a>
                     </div>
                     <div class="menu-text">
                         <p class="text">Округ коммуны-Овернь-Рона-Альпы, Изер, Гренобль, Юэ, Альп д'Юэз</p>
@@ -198,7 +201,7 @@
 
             </div>
         </section>
-        <!-- <div class="bg-image">
+        <div class="bg-image">
             <section class="apartments">
                 <div class="container">
                     <h2 class="apartments__title section-title">Коттеджи</h2>
@@ -209,7 +212,7 @@
                                 <img class="apartment__img" src="./img/apartments/apart-1.webp" alt="apartment" width="353" height="370" loading="lazy" />
                             </picture>
                             <a class="apartment__link" href="#">Альпийские сны</a>
-                            <a class="apartment_button menu-button" href="#">Узнать больше</a>
+                            <a class="apartment_button menu-button" href="#"><span>Узнать больше</span></a>
                         </article>
 
                         <article class="apartment__item">
@@ -256,20 +259,22 @@
                             </div>
                         </div>
                         <div class="slideshow-item">
-                            <img src="./img/advantages/roads.webp" alt="">
+                            <img src="./img/advantages/roads.webp" alt="roads">
                             <div class="slideshow-item-text">
                                 <h5>Дороги</h5>
                                 <p>Хорошие дороги и транспортная инфраструктура обеспечивают удобный доступ ко всем важным местам, помогают экономить время и уменьшают стресс от передвижения.</p>
                             </div>
                         </div>
                         <div class="slideshow-item">
-                            <img src="./img/advantages/sport.webp" alt="">
+                            <img src="./img/advantages/sport.webp" alt="sport">
                             <div class="slideshow-item-text">
                                 <h5>Спорт</h5>
                                 <p>Близость Спортивных объектов И парков позволяет активно заниматься спортом, поддерживать здоровье и находить единомышленников, что улучшает качество жизни.</p>
                             </div>
                         </div>
                     </div>
+
+                </div>
             </section>
 
             <section class="interior">
@@ -281,22 +286,43 @@
                         <img src="./img/interior/interior-3.webp" alt="" class="interior__img">
                         <img src="./img/interior/interior-4.webp" alt="" class="interior__img">
                     </div>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="./img/interior/interior-1.webp" alt="" class="interior__img"></div>
+                            <div class="swiper-slide"><img src="./img/interior/interior-2.webp" alt="" class="interior__img"></div>
+                            <div class="swiper-slide"><img src="./img/interior/interior-3.webp" alt="" class="interior__img"></div>
+                            <div class="swiper-slide"><img src="./img/interior/interior-4.webp" alt="" class="interior__img"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class='interior__button-container'>
+                        <a href='#' class='interior__button menu-button'>Узнать больше</a>
+                    </div>
                 </div>
             </section>
             <footer class="footer">
-                <div class="wrapper-footer">
-                    <div class="wrapper-contact">
-                        <address class="address-footer">Округ коммуны-Овернь-Рона-Альпы, Изер, Гренобль, Юэ, Альп д'Юэз</address>
-                        <button class="btn-footer btn-reset" id="btn-show">Обратная связь</button>
-                        <a aria-colspan="link-telephone" class="footer-link-telephone" href="tel:+7800 000 00">8 800 000 00</a>
+                <div class="container">
+                    <div class="wrapper-footer">
+                        <div class="wrapper-contact">
+                            <div>
+                                <address class="address-footer">Округ коммуны-Овернь-Рона-Альпы, Изер, Гренобль, Юэ, Альп д'Юэз</address>
+                            </div>
+                            <div>
+                                <button class="btn-footer btn-reset" id="btn-feedback">Обратная связь</button>
+                            </div>
+                            <div>
+                                <a aria-colspan="link-telephone" class="footer-link-telephone" href="tel:+7800 000 00">8 800 000 00</a>
+                            </div>
+                        </div>
+                        <span class="title-footer">CLOUD ATLAS</span>
                     </div>
-                    <span class="title-footer">CLOUD ATLAS</span>
                 </div>
             </footer>
         </div>
-        </div>
-    </main> -->
-
+    </main>
 </body>
 
 </html>
