@@ -163,6 +163,7 @@
     font-size: 22px;
     color: var(--dark-green);
     text-align: justify;
+    line-height: 2;
 }
 
 .section-infrastructure {
