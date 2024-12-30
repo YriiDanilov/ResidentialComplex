@@ -3,8 +3,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 50px;
-    right: 100px;
+    bottom: 16vw;
+    right: 3.822vw;
     z-index: 11;
     cursor: pointer;
 }
@@ -19,7 +19,6 @@
     content: " ";
     display: block;
     position: absolute;
-    border: 50%;
     border: 1px solid var(--color-pink);
     left: -20px;
     right: -20px;

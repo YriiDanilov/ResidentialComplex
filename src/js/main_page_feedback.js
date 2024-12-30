@@ -9,6 +9,7 @@ export const feedback = () => {
         const body = document.body
         const header = document.querySelector('.header')
         const btnFeedBack = document.querySelector('#btn-feedback')
+        
         let scrollPosition = 0
 
         const closeConnection = () => {
@@ -23,15 +24,13 @@ export const feedback = () => {
             window.scrollTo(0, scrollPosition)
         }
 
-        const safePosition = () =>{
+        const safePosition = () => {
             scrollPosition = window.scrollY
             body.style.top = `-${scrollPosition}px`
             body.style.position = 'fixed'
         }
 
-
-        btnShow.addEventListener('click', () => {
-            safePosition()
+        const toggleConnection = () => {
             btnShow.classList.toggle('z0')
             header.classList.toggle('z0')
             body.classList.toggle('popup-fade')
@@ -42,7 +41,19 @@ export const feedback = () => {
                 textSuccess.remove()
                 wrapperForm.append(form)
             }
-            
+        }
+
+        const clickOutsideMenu = (e) => {
+            const clickInsideMenu = connectionWrapper.contains(e.target) || btnShow.contains(e.target) || btnFeedBack.contains(e.target)
+            if (!clickInsideMenu) {
+                closeConnection()
+            }
+        }
+
+        btnFeedBack.addEventListener('click', (e) => {
+            e.stopPropagation()
+            safePosition()
+            toggleConnection()
         })
 
         form.addEventListener('submit', (e) => {
@@ -50,30 +61,19 @@ export const feedback = () => {
             form.replaceWith(textSuccess)
         })
 
-        btnClose.addEventListener('click', () => {
+        btnClose.addEventListener('click', (e) => {
+            e.stopPropagation()
             closeConnection()
         })
 
-        btnFeedBack.addEventListener('click', () => {
+        btnShow.addEventListener('click', (e) => {
+            e.stopPropagation()
             safePosition()
-
-            btnShow.classList.toggle('z0')
-            header.classList.toggle('z0')
-            body.classList.toggle('popup-fade')
-            body.classList.toggle('no-scroll')
-            connectionWrapper.classList.add('openForm')
-
-            if (connectionWrapper.contains(textSuccess)) {
-                textSuccess.remove()
-                wrapperForm.append(form)
-            }
+            toggleConnection()
         })
-    })
 
-    document.addEventListener('click', (e) => {
-        const clickInsideMenu = connectionWrapper.contains(e.target) || btnShow.contains(e.target)
-        if (!clickInsideMenu) {
-            closeConnection()
-        }
+        document.addEventListener('click', (e) => {clickOutsideMenu(e)})
+
+        document.addEventListener('touchstart', (e) => {clickOutsideMenu(e)})
     })
 }
