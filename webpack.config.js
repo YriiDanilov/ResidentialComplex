@@ -21,6 +21,7 @@ module.exports = {
             filename: '[name].[contenthash].css',
         }),
         new HtmlWebpackPlugin({
+            filename: 'main_page_index.html',
             template: path.resolve('./src/main_page.html'),
         }),
     ],
