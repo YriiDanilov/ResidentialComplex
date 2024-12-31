@@ -10,18 +10,11 @@ if (process.env.NODE_ENV === 'production') {
 console.log(mode + ' mode')
 
 module.exports = {
-<<<<<<< HEAD
-    entry: './src/interior_js/index.interior_js',  // Точка входа (главный файл проекта)
-    output: {
-        filename: 'bundle.interior_js',  // Выходной файл для JS
-        path: path.resolve(__dirname, 'dist'),  // Папка для выходных файлов
-=======
     devServer: {
         static: {
             directory: path.join(__dirname, 'dist'),
         },
         open: 'main_page.[contenthash].html',
->>>>>>> feat/main_page
     },
     mode: mode,
     entry: './src/js/main_page_index.js',
@@ -85,27 +78,4 @@ module.exports = {
             },
         ],
     },
-<<<<<<< HEAD
-    plugins: [
-        new HtmlWebpackPlugin({
-            template: './src/interior_index.html',  // Шаблон для генерации HTML
-        }),
-        new MiniCssExtractPlugin({
-            filename: 'styles.css',  // Название файла для сгенерированного CSS
-        }),
-    ],
-    optimization: {
-        minimize: true,  // Включаем минимизацию
-        minimizer: [
-            new CssMinimizerPlugin(),  // Плагин для минимизации CSS
-        ],
-    },
-    devServer: {
-        static: path.join(__dirname, 'dist'),
-        compress: true,
-        port: 9000,
-    },
-};
-=======
 }
->>>>>>> feat/main_page
