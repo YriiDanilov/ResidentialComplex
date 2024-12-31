@@ -10,6 +10,12 @@ if (process.env.NODE_ENV === 'production') {
 console.log(mode + ' mode')
 
 module.exports = {
+    devServer: {
+        static: {
+            directory: path.join(__dirname, 'dist'),
+        },
+        open: 'main_page.[contenthash].html',
+    },
     mode: mode,
     entry: './src/js/main_page_index.js',
     output: {
@@ -18,10 +24,10 @@ module.exports = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: '[name].[contenthash].css',
+            filename: 'main_page.[contenthash].css',
         }),
         new HtmlWebpackPlugin({
-            filename: 'main_page_index.html',
+            filename: 'main_page.[contenthash].html',
             template: path.resolve('./src/main_page.html'),
         }),
     ],
