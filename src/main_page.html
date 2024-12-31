@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link type="image/x-icon" href="./icons/favicon/favicon.ico" rel="shortcut icon" />
-    <link rel="stylesheet" href="./style/style.css" />
-    <script src="./js/index.js" type="module"></script>
+    <link rel="stylesheet" href="./style/base/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./style/main_page_style.css" />
+    <script src='./js/swiper-bundle.min.js' defer></script>
+    <!-- <script src="./js/main_page_index.js" defer type='module'></script> -->
     <title>Resident Complex</title>
 </head>
 
@@ -18,37 +20,62 @@
                   d="M13.657,12.873l-4-3.13c-1.271-.992-3.044-.992-4.313,0L1.342,12.874c-.853,.669-1.342,1.674-1.342,2.756v8.37H15V15.63c0-1.082-.489-2.087-1.343-2.757Zm-1.657,8.127H3v-5.37c0-.154,.07-.299,.192-.394l4-3.13c.182-.143,.435-.143,.616,0l3.999,3.129c.123,.096,.193,.24,.193,.395v5.37Zm-6-5h3v3h-3v-3Zm11,5h2.225l-3-7h1.32l-2.956-6h1.755l-2.782-5.001c-.01,.011-.041,.001-.062,0-.018,0-.045,.007-.07,.015l-2.773,5c-.872-.611-1.87-.943-2.885-.993L10.983,1.257c.531-.764,1.519-1.257,2.517-1.257s1.985,.493,2.517,1.257l5.429,9.743h-2.034l2.956,6h-1.592l3,7h-6.775v-3Z" />
         </svg>
     </div>
-    <div class="phone">
-        <svg width="60" height="60" viewBox="0 0 84 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <section class='connection'>
+        <h2 class="visually-hidden">Connection</h2>
+        <div class="connection__phone" id='connection__btn-phone'>
+            <svg width="60" height="60" viewBox="0 0 84 74" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-            <path d="M39.3892 73.0539C56.0315 73.0539 69.5228 72.489 69.5228 71.7923C69.5228 71.0955 56.0315 70.5306 39.3892 70.5306C22.7469 70.5306 9.25562 71.0955 9.25562 71.7923C9.25562 72.489 22.7469 73.0539 39.3892 73.0539Z" fill="#F45B69" />
-            <path d="M74.0672 59.9998L69.9523 63.2156C69.9523 63.2156 52.8264 76.5997 20.9454 51.6842C-12.5915 25.4746 4.53436 12.0896 4.53436 12.0896L8.64813 8.87465C10.3776 7.52307 13.1825 7.52307 14.9118 8.87465L29.6123 20.3633C31.3418 21.7149 31.3418 23.9062 29.6123 25.2577L23.785 29.8119C23.785 29.8119 26.8106 35.6766 33.5884 40.9736C40.3663 46.2714 47.2765 48.1701 47.2765 48.1701L53.1029 43.6167C54.8324 42.2651 57.6373 42.2651 59.3666 43.6167L74.0671 55.1054C75.7966 56.457 75.7966 58.6482 74.0672 59.9998Z"
-                  fill="#F45B69" />
-            <path d="M29.6126 25.2576L23.9883 29.653C23.4217 28.7722 23.1484 28.243 23.1484 28.243L28.7282 23.8823C29.9088 22.9596 30.2477 21.6281 29.7442 20.4709C31.3407 21.829 31.2967 23.9415 29.6126 25.2576Z" fill="#F45B69" />
-            <path d="M74.067 59.9999L69.9522 63.2156C69.9522 63.2156 52.8263 76.5998 20.9454 51.6844C-0.44841 34.9648 -1.22517 23.4638 1.01698 17.3273C-0.652792 23.4166 1.095 34.0749 20.4295 49.1852C50.9551 73.0418 67.3531 60.2265 67.3531 60.2265L71.2927 57.1472C72.4757 56.2227 72.8136 54.8878 72.3059 53.7291L74.067 55.1055C75.7966 56.4568 75.7966 58.6482 74.067 59.9999Z"
-                  fill="#F45B69" />
-            <path d="M5.9198 14.9335C5.61737 15.0619 5.28797 14.7982 5.45765 14.5642C5.65654 14.2899 5.90906 14.0046 6.20428 13.8028C6.77344 13.4136 9.56344 11.4747 10.9585 10.5048C11.4044 10.1948 12.0834 10.2147 12.4986 10.5498L18.6316 15.4983C18.9168 15.7284 18.566 16.0927 18.2046 15.9415C15.2521 14.7067 10.1197 13.1498 5.9198 14.9335Z"
-                  fill="#F45B69" />
-            <path d="M50.6465 49.5674C50.3441 49.6958 50.0147 49.4322 50.1843 49.1981C50.3832 48.9238 50.6357 48.6385 50.931 48.4367C51.5001 48.0475 54.2901 46.1086 55.6852 45.1387C56.1311 44.8287 56.8101 44.8487 57.2253 45.1837L63.3583 50.1322C63.6435 50.3624 63.2927 50.7266 62.9313 50.5754C59.9787 49.3407 54.8464 47.7838 50.6465 49.5674Z"
-                  fill="#F45B69" />
-            <path d="M27.665 10.5912C27.42 10.5912 27.175 10.5182 26.9881 10.3722C26.6143 10.08 26.6143 9.60643 26.9881 9.31429L35.459 2.6942C35.8328 2.40206 36.4388 2.40206 36.8126 2.6942C37.1864 2.98633 37.1864 3.45993 36.8126 3.75206L28.3418 10.3722C28.1549 10.5182 27.9099 10.5912 27.665 10.5912Z"
-                  fill="#F45B69" />
-            <path d="M21.6834 7.7862C21.6039 7.7862 21.5232 7.77841 21.4427 7.76211C20.931 7.65853 20.6236 7.25033 20.7562 6.8504L22.8141 0.641753C22.9466 0.241821 23.4687 0.00141629 23.9807 0.1052C24.4924 0.208781 24.7998 0.616983 24.6673 1.01691L22.6094 7.22556C22.4976 7.56257 22.1091 7.7862 21.6834 7.7862Z"
-                  fill="#F45B69" />
-            <path d="M31.1579 15.7901C30.7322 15.7901 30.3438 15.5665 30.232 15.2295C30.0994 14.8296 30.4068 14.4214 30.9185 14.3178L38.8629 12.7095C39.3749 12.6059 39.897 12.8461 40.0296 13.2461C40.1621 13.646 39.8547 14.0542 39.343 14.1578L31.3986 15.766C31.3182 15.7823 31.2374 15.7901 31.1579 15.7901Z"
-                  fill="#F45B69" />
-            <path d="M71.5505 44.8888C71.3055 44.8888 71.0605 44.8158 70.8736 44.6698C70.4998 44.3776 70.4998 43.904 70.8736 43.6119L79.3445 36.9918C79.7183 36.6997 80.3243 36.6997 80.6981 36.9918C81.0719 37.2839 81.0719 37.7575 80.6981 38.0497L72.2273 44.6698C72.0404 44.8158 71.7954 44.8888 71.5505 44.8888Z"
-                  fill="#F45B69" />
-            <path d="M65.5689 42.0838C65.4894 42.0838 65.4087 42.076 65.3282 42.0597C64.8165 41.9561 64.5091 41.5479 64.6416 41.148L66.6995 34.9394C66.8321 34.5394 67.3542 34.299 67.8662 34.4028C68.3779 34.5064 68.6853 34.9146 68.5528 35.3145L66.4949 41.5232C66.3831 41.8602 65.9946 42.0838 65.5689 42.0838Z"
-                  fill="#F45B69" />
-            <path d="M75.0436 50.0877C74.6178 50.0877 74.2294 49.8642 74.1176 49.5271C73.9851 49.1272 74.2924 48.719 74.8042 48.6154L82.7485 47.0071C83.2605 46.9035 83.7826 47.1437 83.9152 47.5437C84.0477 47.9436 83.7404 48.3518 83.2286 48.4554L75.2842 50.0637C75.2037 50.08 75.1229 50.0877 75.0436 50.0877Z"
-                  fill="#F45B69" />
-        </svg>
-    </div>
+                <path d="M39.3892 73.0539C56.0315 73.0539 69.5228 72.489 69.5228 71.7923C69.5228 71.0955 56.0315 70.5306 39.3892 70.5306C22.7469 70.5306 9.25562 71.0955 9.25562 71.7923C9.25562 72.489 22.7469 73.0539 39.3892 73.0539Z"
+                      fill="#F45B69" />
+                <path d="M74.0672 59.9998L69.9523 63.2156C69.9523 63.2156 52.8264 76.5997 20.9454 51.6842C-12.5915 25.4746 4.53436 12.0896 4.53436 12.0896L8.64813 8.87465C10.3776 7.52307 13.1825 7.52307 14.9118 8.87465L29.6123 20.3633C31.3418 21.7149 31.3418 23.9062 29.6123 25.2577L23.785 29.8119C23.785 29.8119 26.8106 35.6766 33.5884 40.9736C40.3663 46.2714 47.2765 48.1701 47.2765 48.1701L53.1029 43.6167C54.8324 42.2651 57.6373 42.2651 59.3666 43.6167L74.0671 55.1054C75.7966 56.457 75.7966 58.6482 74.0672 59.9998Z"
+                      fill="#F45B69" />
+                <path d="M29.6126 25.2576L23.9883 29.653C23.4217 28.7722 23.1484 28.243 23.1484 28.243L28.7282 23.8823C29.9088 22.9596 30.2477 21.6281 29.7442 20.4709C31.3407 21.829 31.2967 23.9415 29.6126 25.2576Z" fill="#F45B69" />
+                <path d="M74.067 59.9999L69.9522 63.2156C69.9522 63.2156 52.8263 76.5998 20.9454 51.6844C-0.44841 34.9648 -1.22517 23.4638 1.01698 17.3273C-0.652792 23.4166 1.095 34.0749 20.4295 49.1852C50.9551 73.0418 67.3531 60.2265 67.3531 60.2265L71.2927 57.1472C72.4757 56.2227 72.8136 54.8878 72.3059 53.7291L74.067 55.1055C75.7966 56.4568 75.7966 58.6482 74.067 59.9999Z"
+                      fill="#F45B69" />
+                <path d="M5.9198 14.9335C5.61737 15.0619 5.28797 14.7982 5.45765 14.5642C5.65654 14.2899 5.90906 14.0046 6.20428 13.8028C6.77344 13.4136 9.56344 11.4747 10.9585 10.5048C11.4044 10.1948 12.0834 10.2147 12.4986 10.5498L18.6316 15.4983C18.9168 15.7284 18.566 16.0927 18.2046 15.9415C15.2521 14.7067 10.1197 13.1498 5.9198 14.9335Z"
+                      fill="#F45B69" />
+                <path d="M50.6465 49.5674C50.3441 49.6958 50.0147 49.4322 50.1843 49.1981C50.3832 48.9238 50.6357 48.6385 50.931 48.4367C51.5001 48.0475 54.2901 46.1086 55.6852 45.1387C56.1311 44.8287 56.8101 44.8487 57.2253 45.1837L63.3583 50.1322C63.6435 50.3624 63.2927 50.7266 62.9313 50.5754C59.9787 49.3407 54.8464 47.7838 50.6465 49.5674Z"
+                      fill="#F45B69" />
+                <path d="M27.665 10.5912C27.42 10.5912 27.175 10.5182 26.9881 10.3722C26.6143 10.08 26.6143 9.60643 26.9881 9.31429L35.459 2.6942C35.8328 2.40206 36.4388 2.40206 36.8126 2.6942C37.1864 2.98633 37.1864 3.45993 36.8126 3.75206L28.3418 10.3722C28.1549 10.5182 27.9099 10.5912 27.665 10.5912Z"
+                      fill="#F45B69" />
+                <path d="M21.6834 7.7862C21.6039 7.7862 21.5232 7.77841 21.4427 7.76211C20.931 7.65853 20.6236 7.25033 20.7562 6.8504L22.8141 0.641753C22.9466 0.241821 23.4687 0.00141629 23.9807 0.1052C24.4924 0.208781 24.7998 0.616983 24.6673 1.01691L22.6094 7.22556C22.4976 7.56257 22.1091 7.7862 21.6834 7.7862Z"
+                      fill="#F45B69" />
+                <path d="M31.1579 15.7901C30.7322 15.7901 30.3438 15.5665 30.232 15.2295C30.0994 14.8296 30.4068 14.4214 30.9185 14.3178L38.8629 12.7095C39.3749 12.6059 39.897 12.8461 40.0296 13.2461C40.1621 13.646 39.8547 14.0542 39.343 14.1578L31.3986 15.766C31.3182 15.7823 31.2374 15.7901 31.1579 15.7901Z"
+                      fill="#F45B69" />
+                <path d="M71.5505 44.8888C71.3055 44.8888 71.0605 44.8158 70.8736 44.6698C70.4998 44.3776 70.4998 43.904 70.8736 43.6119L79.3445 36.9918C79.7183 36.6997 80.3243 36.6997 80.6981 36.9918C81.0719 37.2839 81.0719 37.7575 80.6981 38.0497L72.2273 44.6698C72.0404 44.8158 71.7954 44.8888 71.5505 44.8888Z"
+                      fill="#F45B69" />
+                <path d="M65.5689 42.0838C65.4894 42.0838 65.4087 42.076 65.3282 42.0597C64.8165 41.9561 64.5091 41.5479 64.6416 41.148L66.6995 34.9394C66.8321 34.5394 67.3542 34.299 67.8662 34.4028C68.3779 34.5064 68.6853 34.9146 68.5528 35.3145L66.4949 41.5232C66.3831 41.8602 65.9946 42.0838 65.5689 42.0838Z"
+                      fill="#F45B69" />
+                <path d="M75.0436 50.0877C74.6178 50.0877 74.2294 49.8642 74.1176 49.5271C73.9851 49.1272 74.2924 48.719 74.8042 48.6154L82.7485 47.0071C83.2605 46.9035 83.7826 47.1437 83.9152 47.5437C84.0477 47.9436 83.7404 48.3518 83.2286 48.4554L75.2842 50.0637C75.2037 50.08 75.1229 50.0877 75.0436 50.0877Z"
+                      fill="#F45B69" />
+            </svg>
+        </div>
+        <div class="connection__wrapper" id="connection__wrapper-content">
+            <picture class="connection__picture">
+                <img class="connection__img" src="./icons/phone/Image.jpg" alt="little house">
+            </picture>
+            <button class="form-close btn-reset" id="btn-close">
+                <span></span>
+                <span></span>
+            </button>
+            <div class="connection__wrapper-form" id="wrapper-form">
+                <form class="connection__form" id="connection__form" action="" autocomplete="tel">
+                    <p class="connection__text-form">Узнайте больше о нашем коттеджном поселке и условиях покупки.<span>Оставьте телефон мы вам перезвоним</span></p>
+                    <label for="connection_input"></label>
+                    <input class="connection__input" id="connection__input" type="tel" name='connection__input' placeholder="+7 909 290 05 44">
+                    <button type='submit' class="btn-form btn-reset" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id='connection__submit'>Хорошо, жду звонка</button>
+                </form>
+            </div>
+            <div class='connection__feedback' id='connection__feedback'>
+                <p class='connection__feedback-text'>Спасибо! Наши менеджеры свяжутся с вами в ближайшее время</p>
+            </div>
+        </div>
+    </section>
+
     <header class="header">
 
-        <div class="container flex-jc-sp_beet-al-it_cent">
-            <div class="header__wrapper_menu">
+        <div class="container header__wrapper_content flex-jc-sp_beet-al-it_cent">
+            <div class="header__wrapper_menu menu">
 
                 <button class="header__menu-btn flex-jc-sp_beet-al-it_cent" id="menu_btn">
                     <div class="hamb__field">
@@ -58,7 +85,7 @@
                             <span class="bar"></span>
                         </div>
                     </div>
-                    <div class="header__menu">
+                    <div class="header__menu ">
                         меню
                     </div>
                 </button>
@@ -116,14 +143,14 @@
                     <p class="logo-text">Cloud Atlas</p>
                 </a>
             </div>
-            <div class="header__wrapper_menu">
-                <button class="header__menu-btn" href="#">выбрать</button>
+            <div class="header__wrapper_menu choice">
+                <button class="header__menu-btn " href="#">выбрать</button>
             </div>
         </div>
         <div id="popup-fade">
             <div class="popup" id="popup">
                 <div class="popup__menu-wrapper">
-                    <div>
+                    <div class="popup__menu-overflow">
                         <p class="title-menu">
                             <span>cloud</span>
                             <span>atlas</span>
@@ -137,7 +164,7 @@
                                 <li class="header__list-item"><a href="#">контакты</a></li>
                             </ul>
                         </nav>
-                        <a class="menu-button" href="#" value="купить">как купить</a>
+                        <a class="header__menu-popup-button menu-button" href="#" value="купить">как купить</a>
                     </div>
                     <div class="menu-text">
                         <p class="text">Округ коммуны-Овернь-Рона-Альпы, Изер, Гренобль, Юэ, Альп д'Юэз</p>
@@ -185,7 +212,7 @@
                                 <img class="apartment__img" src="./img/apartments/apart-1.webp" alt="apartment" width="353" height="370" loading="lazy" />
                             </picture>
                             <a class="apartment__link" href="#">Альпийские сны</a>
-                            <a class="apartment_button menu-button" href="#">Узнать больше</a>
+                            <a class="apartment_button menu-button" href="#"><span>Узнать больше</span></a>
                         </article>
 
                         <article class="apartment__item">
@@ -232,20 +259,22 @@
                             </div>
                         </div>
                         <div class="slideshow-item">
-                            <img src="./img/advantages/roads.webp" alt="">
+                            <img src="./img/advantages/roads.webp" alt="roads">
                             <div class="slideshow-item-text">
                                 <h5>Дороги</h5>
                                 <p>Хорошие дороги и транспортная инфраструктура обеспечивают удобный доступ ко всем важным местам, помогают экономить время и уменьшают стресс от передвижения.</p>
                             </div>
                         </div>
                         <div class="slideshow-item">
-                            <img src="./img/advantages/sport.webp" alt="">
+                            <img src="./img/advantages/sport.webp" alt="sport">
                             <div class="slideshow-item-text">
                                 <h5>Спорт</h5>
                                 <p>Близость Спортивных объектов И парков позволяет активно заниматься спортом, поддерживать здоровье и находить единомышленников, что улучшает качество жизни.</p>
                             </div>
                         </div>
                     </div>
+
+                </div>
             </section>
 
             <section class="interior">
@@ -257,27 +286,42 @@
                         <img src="./img/interior/interior-3.webp" alt="" class="interior__img">
                         <img src="./img/interior/interior-4.webp" alt="" class="interior__img">
                     </div>
-                </div>
-            </section>
-            <section class="book">
-                <div class="wrapper-content">
-                    <h2 class="section-title">Book your dream home</h2>
-                    <div class="contacts">
-                        <form action="" class="book__forms">
-                            <label for="name"></label>
-                            <input class="book__input-name" type="text" name="name" id="name" placeholder="Name" autocomplete="on">
-                            <label for="phone"></label>
-                            <input class="book__input-phone" type="phone" name="phone" id="phone" placeholder="Phone" autocomplete="on">
-                            <label for="message"></label>
-                            <textarea class="book__message" name="message" id="message" placeholder="Comment" maxlength="100" spellcheck="true" resize: none></textarea>
-                            <button class="book__submit" type="submit">get started</button>
-                            <form>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide"><img src="./img/interior/interior-1.webp" alt="" class="interior__img"></div>
+                            <div class="swiper-slide"><img src="./img/interior/interior-2.webp" alt="" class="interior__img"></div>
+                            <div class="swiper-slide"><img src="./img/interior/interior-3.webp" alt="" class="interior__img"></div>
+                            <div class="swiper-slide"><img src="./img/interior/interior-4.webp" alt="" class="interior__img"></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                    <div class='interior__button-container'>
+                        <a href='#' class='interior__button menu-button'>Узнать больше</a>
                     </div>
                 </div>
             </section>
         </div>
-        </div>
     </main>
-
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper-footer">
+                <div class="wrapper-contact">
+                    <div>
+                        <address class="address-footer">Округ коммуны-Овернь-Рона-Альпы, Изер, Гренобль, Юэ, Альп д'Юэз</address>
+                    </div>
+                    <div>
+                        <button class="btn-footer btn-reset" id="btn-feedback">Обратная связь</button>
+                    </div>
+                    <div>
+                        <a aria-colspan="link-telephone" class="footer-link-telephone" href="tel:+7800 000 00">8 800 000 00</a>
+                    </div>
+                </div>
+                <span class="title-footer">CLOUD ATLAS</span>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
