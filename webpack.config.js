@@ -14,20 +14,23 @@ module.exports = {
         static: {
             directory: path.join(__dirname, 'dist'),
         },
-        open: 'main_page.[contenthash].html',
+        open: '[name].[contenthash].html',
     },
     mode: mode,
     entry: './src/js/main_page_index.js',
     output: {
-        assetModuleFilename: 'assets/[hash][ext][query]',
+        filename: mode === 'development' ? '[name].bundle.js' : '[name].[contenthash].js',
+        assetModuleFilename: mode === 'development' ? 'assets/[name][ext][query]' : 'assets/[hash][ext][query]',
+        path: mode === 'development' ? path.resolve(__dirname, 'dist') : path.resolve(__dirname, 'build'),
         clean: true,
     },
+    devtool: 'source-map',
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'main_page.[contenthash].css',
+            filename: '[name].[contenthash].css',
         }),
         new HtmlWebpackPlugin({
-            filename: 'main_page.[contenthash].html',
+            filename: '[name].[contenthash].html',
             template: path.resolve('./src/main_page.html'),
         }),
     ],
@@ -35,15 +38,15 @@ module.exports = {
         rules: [
             {
                 test: /\.html$/i,
-                loader: 'html-loader', //html загрузчик
+                loader: 'html-loader',
             },
             {
                 test: /\.(c|sc|sa)ss$/i,
                 use: [
-                    mode === 'development' ? 'style-loader' : MiniCssExtractPlugin.loader, // css загрузчик
+                    mode === 'development' ? 'style-loader' : MiniCssExtractPlugin.loader,
                     'css-loader',
                     {
-                        loader: 'postcss-loader', // vendored prefix
+                        loader: 'postcss-loader',
                         options: {
                             postcssOptions: {
                                 plugins: ['postcss-preset-env'],
@@ -54,18 +57,13 @@ module.exports = {
                 ],
             },
             {
-                test: /\.(png|svg|jpg|gif|webp)$/i, // img
+                test: /\.(png|svg|jpg|gif|webp)$/i,
                 type: 'asset/resource',
             },
             {
-                test: /\.(woff|woff2|eot|ttf|otf)$/i, //fonts
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
                 type: 'asset/resource',
             },
-            // {
-            //     test: /.\pug$/i,
-            //     loader: 'pug-loader',
-            //     exclude: /(node_modules|bower_components)/,
-            // },
             {
                 test: /\.m?js$/i,
                 exclude: /node_modules/,
@@ -77,5 +75,10 @@ module.exports = {
                 },
             },
         ],
+    },
+    optimization: {
+        splitChunks: {
+            chunks: 'all',
+        },
     },
 }
