@@ -7,6 +7,7 @@ export const interior_feedback = () => {
         const form = document.querySelector('#form');
         const wrapperForm = document.querySelector('#wrapper-form');
         const textSuccess = document.createElement('p')
+
         textSuccess.textContent = 'Спасибо! Наши менеджеры свяжутся с вами в ближайшее время'
         textSuccess.style.color = '#114B5F';
         textSuccess.style.lineHeight = '30px';

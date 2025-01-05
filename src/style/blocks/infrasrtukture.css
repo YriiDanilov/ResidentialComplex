@@ -36,25 +36,25 @@
 .sgroup:nth-child(1) {
     top: 0;
     left: 0;
-    background-image: url(../../interior_img/ecology.webp);
+    background-image: url(../../img/infrastructure/ecology.webp);
 }
 
 .sgroup:nth-child(2) {
     top: 0;
     left: 50%;
-    background-image: url(../../interior_img/sport.webp);
+    background-image: url(../../img/infrastructure/sport.webp);
 }
 
 .sgroup:nth-child(3) {
     top: 50%;
     left: 0;
-    background-image: url(../../interior_img/roads.webp);
+    background-image: url(../../img/infrastructure/roads.webp);
 }
 
 .sgroup:nth-child(4) {
     top: 50%;
     left: 50%;
-    background-image: url(../../interior_img/sale.webp);
+    background-image: url(../../img/infrastructure/sale.webp);
 }
 
 .sgroup.is-expanded {
