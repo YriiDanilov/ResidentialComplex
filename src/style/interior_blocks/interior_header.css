@@ -116,6 +116,13 @@
     color: var(--pink);
 }
 
+.header__menu-popup-button {
+    min-width: 400px;
+    padding-top: 9px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
 .menu-close {
     position: absolute;
     display: flex;
@@ -159,13 +166,13 @@
 .image-container.show {
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     transition: right .4s ease, width 1s ease;
 }
 
 .popup__img {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     object-fit: cover;
 }
 
