@@ -6,20 +6,16 @@ export const interior_feedback = () => {
         const btnClose = document.querySelector('#btn-close');
         const form = document.querySelector('#form');
         const wrapperForm = document.querySelector('#wrapper-form');
-        const textSuccess = document.createElement('p')
+        const textSuccess = document.querySelector('#connection__feedback')
 
-        textSuccess.textContent = 'Спасибо! Наши менеджеры свяжутся с вами в ближайшее время'
-        textSuccess.style.color = '#114B5F';
-        textSuccess.style.lineHeight = '30px';
-        textSuccess.style.textAlign = 'center';
-        textSuccess.style.margin = '50px';
-        textSuccess.style.fontSize = '20px';
-        textSuccess.style.fontFamily = 'Saira, sans-serif';
-
+        const closeForm = () => {
+            wrapperConnection.classList.remove('open_form');
+            form.reset();
+        }
 
         btnShow.addEventListener('click', (e) => {
             e.preventDefault();
-            wrapperConnection.classList.toggle('open_form')
+            wrapperConnection.classList.toggle('open_form');
             if (wrapperConnection.contains(textSuccess)) {
                 textSuccess.remove();
                 wrapperForm.append(form);
@@ -28,12 +24,20 @@ export const interior_feedback = () => {
 
         form.addEventListener('submit', (e) => {
             e.preventDefault();
-            form.replaceWith(textSuccess)
+            form.replaceWith(textSuccess);
         });
 
         btnClose.addEventListener('click', (e) => {
-            wrapperConnection.classList.remove('open_form');
-            form.reset()
+            closeForm();
+        });
+
+        // Обработчик клика по документу
+        document.addEventListener('click', (e) => {
+            // Проверяем, произошел ли клик вне формы
+            const clickInsideForm = wrapperConnection.contains(e.target) || btnShow.contains(e.target);
+            if (!clickInsideForm) {
+                closeForm();
+            }
         });
     });
 }
