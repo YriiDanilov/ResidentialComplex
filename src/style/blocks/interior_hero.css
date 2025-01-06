@@ -34,3 +34,14 @@
     position: absolute;
     inset: 0;
 }
+
+.purchase_hero_h1 {
+    max-width: 1140px;
+    z-index: 2;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'saira', sans-serif;
+    color: var(--light-blue);
+    position: absolute;
+    padding-top: 300px;
+}

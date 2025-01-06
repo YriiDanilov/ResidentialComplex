@@ -6,5 +6,5 @@
 @import "./blocks/promo.css";
 @import "./blocks/apartments.css";
 @import "./blocks/advantages.css";
-@import "./blocks/interior.css";
+@import "blocks/interior_main.css";
 @import "./blocks/book.css";

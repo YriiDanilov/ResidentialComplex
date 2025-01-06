@@ -107,4 +107,11 @@
     transition: var(--transition-duration);
 }
 
-
+.connection__feedback-text {
+    color: var(--dark-green);
+    line-height: 30px;
+    text-align: center;
+    margin: 50px;
+    font-size: 20px;
+    font-family: 'Saira',sans-serif;
+}
