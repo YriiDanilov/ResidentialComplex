@@ -7,12 +7,33 @@
     --color-grey: grey;
     --color-blue: #456990;
     --color-dark-blue: #114B5F;
+    --color-dark-blue: #113B5f;
+    --color-white: #ffffff;
+    --color-light-blue: #CFE4E6;
+    --color-light-green: #028090;
+    --color-pink: #F45B69;
+    --color-grey: grey;
+    --color-blue: #456990;
+    --color-dark-blue: #114B5F;
+    --blue: #456990;
+    --light-blue: #CFE4E6;
+    --white: #fff;
+    --light-blue: #CFE4E6;
+    --dark-blue: #113B5f;
+    --dark-green: #114B5F;
+    --green: #028090;
+    --blue: #456990;
+    --pink: #F45B69;
+    --transition-duration: ease-in-out .2s;
+    --border-radius: 10px;
+    
+    
 
 
     --border-radius: 10px;
     --border: 1px solid var(--color-white);
     --outline: 1px solid var(--color-dark-blue);
-        
+    
     
     --font-base: 'Overpass', sans-serif;
     --font-secondary: 'Saira', sans-serif;
@@ -20,5 +41,8 @@
 
     --transition-duration: ease-in-out .2s;
 
+    --container-width: 1060px;
+    --container-padding-x: 20px;
     --index: calc(1vw + 1vh);
 }
+

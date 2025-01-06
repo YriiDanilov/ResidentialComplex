@@ -12,7 +12,7 @@
     
          btnShow.addEventListener('click', (e) => {
             e.preventDefault();
-            wrapperConnection.classList.toggle('open')
+            wrapperConnection.classList.toggle('openForm')
         })
     
         const textSuccess = document.createElement('p')
@@ -33,7 +33,7 @@
         
          btnClose.addEventListener('click', (e) => {
             e.preventDefault();
-            wrapperConnection.classList.remove('open');
+            wrapperConnection.classList.remove('openForm');
         })
     })
 

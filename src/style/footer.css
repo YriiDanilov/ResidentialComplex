@@ -5,14 +5,14 @@
     height: 310px;
     margin-inline: auto;
     margin-bottom: 65px;
-    border: 1px solid var(--header-color);
+    border: 1px solid var(--green);
 }
 
 .wrapper-contact {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid var(--fonts-color);
+    border-bottom: 1px solid var(--green);
 }
 
 .addres-footer {
@@ -21,14 +21,14 @@
     font-style: normal;
     text-align: center;
     font-size: 20px;
-    color: var(--dark-blue);
+    color: var(--green);
 }
 
 .btn-footer {
     position: relative;
     min-width: 315px;
     min-height: 155px;
-    color: var(--dark-blue);
+    color: var(--green);
     border-radius: 0;
     text-align: center;
     font-size: 20px;
@@ -61,12 +61,12 @@
     z-index: 1;
     opacity: 0;
     transition: 0.6s;
-    border: 1px solid var(--dark-blue);
+    border: 1px solid var(--green);
     transform: scale(1.2, 1.2);
 }
 
 .btn-footer:active {
-    background-color: var(--dark-green);
+    background-color: var(--green);
     color: var(--light-blue);
 }
 
@@ -80,7 +80,7 @@
     width: 311px;
     font-weight: 600;
     font-size: 20px;
-    color: var(--header-color);
+    color: var(--green);
 }
 
 .footer-link-telephone:hover {
@@ -96,5 +96,5 @@
     font-weight: 900;
     font-size: 128px;
     letter-spacing: 10px;
-    color: var(--header-btn);
+    color: var(--green);
 }

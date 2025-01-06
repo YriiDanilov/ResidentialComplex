@@ -1,5 +1,5 @@
-import '../style/style.scss';
-export {fallMenu} from './fallMenu.js'
+// import '../style/style.scss';
+import {fallMenu} from './fallMenu.js'
 
 
 fallMenu();

@@ -32,7 +32,7 @@
     width: 249px;
     font-weight: 600;
     font-size: 22px;
-    color: var(--fonts-color);
+    color: var(--green);
     
 }
 
@@ -42,7 +42,7 @@
     font-weight: 600;
     font-size: 22px;
     font-style: normal;
-    color: var(--fonts-color);
+    color: var(--green);
 }
 
 .btn-telephone {
