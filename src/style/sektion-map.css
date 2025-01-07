@@ -44,9 +44,3 @@
     font-style: normal;
     color: var(--green);
 }
-
-.btn-telephone {
-    position: absolute;
-    top: 1250px;
-    right: 60px;
-}
