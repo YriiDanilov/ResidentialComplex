@@ -15,11 +15,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    transition: 0.6s ease-out;
-     color: #808080;
-}
-
 img {
     max-width: 100%;
     word-break: normal;
