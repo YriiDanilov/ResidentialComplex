@@ -4,10 +4,14 @@
 @import url(base/interior_vars.css);
 @import url(blocks/interior_salectan.css);
 @import url(blocks/interior_footer.css);
-@import url(base/interior_media.css);
+@import url(blocks/infrastructure_media.css);
 @import url(blocks/interior_hero.css);
 @import url(blocks/infrasrtukture.css);
 @import url(blocks/interior_header.css);
 @import url(blocks/interior_btn.css);
-@import url(blocks/interior_form.css);
+@import url(blocks/main_page_connection.css);
 @import url(blocks/interior_purchase.css);
+@import url(base/main_page_phone.css);
+
+
+

@@ -1,7 +1,7 @@
 export const interior_feedback = () => {
     document.addEventListener('DOMContentLoaded', () => {
 
-        const btnShow = document.querySelector('#btn-show');
+        const btnShow = document.querySelector('#btn-feedback');
         const wrapperConnection = document.querySelector('#wrapper-connection');
         const btnClose = document.querySelector('#btn-close');
         const form = document.querySelector('#form');
@@ -31,9 +31,9 @@ export const interior_feedback = () => {
             closeForm();
         });
 
-        // Обработчик клика по документу
+
         document.addEventListener('click', (e) => {
-            // Проверяем, произошел ли клик вне формы
+
             const clickInsideForm = wrapperConnection.contains(e.target) || btnShow.contains(e.target);
             if (!clickInsideForm) {
                 closeForm();

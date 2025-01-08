@@ -2,11 +2,11 @@
 
 import { interior_fallMenu } from './interior_fallMenu.js'
 import { Boxlayout } from './infrastructure.js'
-import { interior_feedback }  from './interior_feedback.js';
 import { purchase } from './purchase.js';
+import {feedback} from "./main_page_feedback.js";
 
 interior_fallMenu()
-interior_feedback()
+feedback ()
 Boxlayout()
 purchase()
 

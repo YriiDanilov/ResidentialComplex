@@ -51,20 +51,20 @@
     gap: 50px;
 }
 
-.input {
+.connection__input {
+    display: inline-block;
+    padding-left: 14px;
+    margin-right: 50px;
     outline: none;
-}
-
-.input:focus::placeholder {
-    color: transparent;
-}
-
-.input {
     min-width: 200px;
     min-height: 40px;
-    padding-left: 14px;
     border-radius: 10px;
     border: 1px solid var(--pink);
+    background-color: var(--white);
+}
+
+.connection__input:focus::placeholder {
+    color: transparent;
 }
 
 .form-close {
