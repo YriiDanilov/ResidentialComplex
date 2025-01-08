@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='./js/swiper-bundle.min.js' defer></script>
     <link type="image/x-icon" href="./icons/favicon/favicon.ico" rel="shortcut icon" />
     <link rel="stylesheet" href="./style/base/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./style/main_page_style.css" />
-    <script src='./js/swiper-bundle.min.js' defer></script>
-    <script src="./js/main_page_index.js" defer type='module'></script>
-    <title>Resident Complex</title>
+    <link rel="stylesheet" href="./layout_pages_style/layout_pages_style.css">
+    <script src='./layout_pages_js/layout_pages.js' type='module' defer></script>
+    <script></script>
+    <title>Alpine dreams</title>
 </head>
 
 <body>
@@ -22,7 +22,7 @@
     </div>
     <section class='connection'>
         <h2 class="visually-hidden">Connection</h2>
-        <button class="connection__phone" id='connection__btn-phone'>
+        <div class="connection__phone" id='connection__btn-phone'>
             <svg width="60" height="60" viewBox="0 0 84 74" fill="none" xmlns="http://www.w3.org/2000/svg">
 
                 <path d="M39.3892 73.0539C56.0315 73.0539 69.5228 72.489 69.5228 71.7923C69.5228 71.0955 56.0315 70.5306 39.3892 70.5306C22.7469 70.5306 9.25562 71.0955 9.25562 71.7923C9.25562 72.489 22.7469 73.0539 39.3892 73.0539Z"
@@ -49,7 +49,7 @@
                 <path d="M75.0436 50.0877C74.6178 50.0877 74.2294 49.8642 74.1176 49.5271C73.9851 49.1272 74.2924 48.719 74.8042 48.6154L82.7485 47.0071C83.2605 46.9035 83.7826 47.1437 83.9152 47.5437C84.0477 47.9436 83.7404 48.3518 83.2286 48.4554L75.2842 50.0637C75.2037 50.08 75.1229 50.0877 75.0436 50.0877Z"
                       fill="#F45B69" />
             </svg>
-        </button>
+        </div>
         <div class="connection__wrapper" id="connection__wrapper-content">
             <picture class="connection__picture">
                 <img class="connection__img" src="./icons/phone/Image.jpg" alt="little house">
@@ -180,148 +180,144 @@
             </div>
         </div>
     </header>
-
-
-    <main class="main">
-        <section class="promo">
-            <div class="bg-filter"></div>
+    <main>
+        <section class='flat'>
             <div class="container">
-                <div class="promo__title">
-                    <h1 class="letters">
-                        Cloud Atlas
-                    </h1>
-                    <div class="promo__slang">
-                        <span class='promo__subtitle'>
-                            <h1 class='promo__subtitle-header'>Ваш дом в Альпах:</h1>
-                            <p class='promo__subtitle-text'>жизнь на вершине комфорта!</p>
-                        </span>
-
+                <h2 class="visually-hidden">Alpine dreams</h2>
+                <div class="flat__title">Альпийские Сны</div>
+                <div class="grid-container">
+                    <div class='first'>
+                        <img src="./img/interior/interior-5.webp" alt="first room">
+                    </div>
+                    <div class='second'>
+                        <img src="./img/interior/interior-3.webp" alt="second room">
+                    </div>
+                    <div class='third'>
+                        <img src="./img/interior/interior-6.webp" alt="third room">
+                    </div>
+                    <div class='fourth'>
+                        <img src="./img/interior/interior-2.webp" alt="fourth room">
                     </div>
                 </div>
-
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./img/interior/interior-5.webp" alt="" class="interior__img"></div>
+                        <div class="swiper-slide"><img src="./img/interior/interior-3.webp" alt="" class="interior__img"></div>
+                        <div class="swiper-slide"><img src="./img/interior/interior-6.webp" alt="" class="interior__img"></div>
+                        <div class="swiper-slide"><img src="./img/interior/interior-2.webp" alt="" class="interior__img"></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
             </div>
         </section>
-        <div class="bg-image">
-            <section class="apartments">
-                <div class="container">
-                    <h2 class="apartments__title section-title">Коттеджи</h2>
-                    <div class="apartments__wrapper-grid">
+        <section class="descr">
+            <div class="container">
+                <h2 class="visually-hidden">description floor</h2>
+                <div class="descr__wraper">
+                    <div class="descr__left">
+                        <div class='descr__left-block-wrapper '>
+                            <div class='descr__block'>
+                                <svg width="20" height="20" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M16.25 0.666504H3.75C1.6825 0.666504 0 2.6855 0 5.1665V20.1665C0 20.4425 0.186667 20.6665 0.416667 20.6665C0.646667 20.6665 0.833333 20.4425 0.833333 20.1665V17.6665H19.1667V20.1665C19.1667 20.4425 19.3533 20.6665 19.5833 20.6665C19.8133 20.6665 20 20.4425 20 20.1665V5.1665C20 2.6855 18.3175 0.666504 16.25 0.666504ZM3.75 1.6665H16.25C17.8583 1.6665 19.1667 3.2365 19.1667 5.1665V12.6665H17.5V11.1665C17.5 9.2365 16.1917 7.6665 14.5833 7.6665H12.5C11.44 7.6665 10.5108 8.3485 10 9.3655C9.48917 8.3485 8.56 7.6665 7.5 7.6665H5.41667C3.80833 7.6665 2.5 9.2365 2.5 11.1665V12.6665H0.833333V5.1665C0.833333 3.2365 2.14167 1.6665 3.75 1.6665ZM10.4167 12.6665V11.1665C10.4167 9.7885 11.3508 8.6665 12.5 8.6665H14.5833C15.7325 8.6665 16.6667 9.7885 16.6667 11.1665V12.6665H10.4167ZM3.33333 12.6665V11.1665C3.33333 9.7885 4.26833 8.6665 5.41667 8.6665H7.5C8.64833 8.6665 9.58333 9.7885 9.58333 11.1665V12.6665H3.33333ZM0.833333 16.6665V13.6665H19.1667V16.6665H0.833333Z"
+                                          fill="#113F5B" />
+                                </svg>
+                                <p class='descr__title'>2 Спальни</p>
+                            </div>
+                            <div class='descr__block'>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 6.66667V1.66667C20 0.7475 19.2525 0 18.3333 0H13.3333V0.833333H18.3333C18.3608 0.833333 18.3833 0.846667 18.41 0.849167L9.93417 9.32417L1.48083 0.870833C1.5425 0.856667 1.60083 0.833333 1.66667 0.833333H6.66667V0H1.66667C0.7475 0 0 0.7475 0 1.66667V6.66667H0.833333V1.66667C0.833333 1.58833 0.8575 1.51833 0.878333 1.44667L9.345 9.91333L0.849167 18.41C0.846667 18.3833 0.833333 18.3608 0.833333 18.3333V13.3333H0V18.3333C0 19.2525 0.7475 20 1.66667 20H6.66667V19.1667H1.66667C1.55 19.1667 1.44 19.1417 1.33917 19.0983L9.93417 10.5033L18.5533 19.1225C18.4817 19.1425 18.4108 19.1667 18.3333 19.1667H13.3333V20H18.3333C19.2525 20 20 19.2525 20 18.3333V13.3333H19.1667V18.3333C19.1667 18.3992 19.1433 18.4575 19.1292 18.5192L10.5233 9.91333L19.0983 1.33917C19.1417 1.44 19.1667 1.55083 19.1667 1.66667V6.66667H20Z"
+                                          fill="#113F5B" />
+                                </svg>
+                                <p class='descr__title'>160 m</p>
+                            </div>
+                            <div class='descr__block'>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.0325 7.97902L8.15833 12.0182C8.72667 12.3407 9.36333 12.5015 10 12.5015C10.6367 12.5015 11.2742 12.3407 11.8425 12.0182L18.9675 7.97819C19.6142 7.61152 20 6.96569 20 6.24902C20 5.53236 19.6142 4.88652 18.9675 4.51986L11.8425 0.481523C10.7075 -0.16181 9.29417 -0.16181 8.15833 0.481523L1.0325 4.52069C0.385833 4.88736 0 5.53319 0 6.24986C0 6.96652 0.385833 7.61236 1.0325 7.97902ZM11.0208 10.5682C10.4008 10.9199 9.59917 10.9199 8.98 10.5682L6.47083 9.14569L11.0483 6.56652L14.5742 8.55319L11.02 10.5682H11.0208ZM18.3333 6.24986C18.3333 6.31402 18.3092 6.43652 18.145 6.52819L16.2667 7.59319L12.7458 5.60986L15.135 4.26402L18.1458 5.97152C18.3092 6.06402 18.3333 6.18569 18.3333 6.24986ZM8.98 1.93152C9.29 1.75569 9.645 1.66819 10 1.66819C10.355 1.66819 10.7108 1.75569 11.0208 1.93152L13.4425 3.30486L8.815 5.91236L5.37667 3.97486L8.98083 1.93152H8.98ZM1.85417 5.97152L3.68417 4.93402L7.1175 6.86902L4.77917 8.18652L1.855 6.52819C1.69167 6.43569 1.6675 6.31402 1.6675 6.24986C1.6675 6.18569 1.69167 6.06319 1.855 5.97152H1.85417ZM19.8858 10.1349C20.1175 10.5324 19.9842 11.0424 19.5875 11.2749L11.8525 15.8024C11.2783 16.1282 10.6375 16.2907 9.9975 16.2907C9.3575 16.2907 8.725 16.1299 8.15833 15.8082L0.425 11.4599C0.0241667 11.234 -0.118333 10.7265 0.1075 10.3249C0.333333 9.92319 0.84 9.78069 1.2425 10.0074L8.97833 14.3565C9.6 14.709 10.4017 14.709 11.0217 14.3574L18.7475 9.83569C19.1425 9.60236 19.6542 9.73652 19.8875 10.1332L19.8858 10.1349ZM19.8858 13.8465C20.1175 14.244 19.9842 14.754 19.5875 14.9865L11.8525 19.514C11.2783 19.8399 10.6375 20.0024 9.9975 20.0024C9.3575 20.0024 8.725 19.8415 8.15833 19.519L0.425 15.1707C0.0241667 14.9449 -0.118333 14.4374 0.1075 14.0357C0.333333 13.6349 0.84 13.4915 1.2425 13.7182L8.97833 18.0674C9.6 18.4199 10.4017 18.4199 11.0217 18.0682L18.7475 13.5465C19.1425 13.3149 19.6542 13.4465 19.8875 13.8449L19.8858 13.8465Z"
+                                          fill="#113F5B" />
+                                </svg>
+                                <p class='descr__title'>2 этажа</p>
+                            </div>
+                            <div class='descr__block'>
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M19.6872 16.075L12.0631 1.24417C11.6564 0.476667 10.8656 0 9.99972 0C9.13389 0 8.34306 0.476667 7.93222 1.2525L0.313889 16.0708C-0.131944 16.9175 -0.103611 17.9108 0.389722 18.7308C0.882222 19.5483 1.74472 20.0367 2.69722 20.0367H17.3006C18.2531 20.0367 19.1156 19.5483 19.6081 18.7308C20.1031 17.9092 20.1297 16.9125 19.6856 16.0742L19.6872 16.075ZM9.40972 2.02333C9.58055 1.70083 9.87889 1.66667 9.99972 1.66667C10.1206 1.66667 10.4197 1.70167 10.5856 2.01417L13.5647 7.80917L12.3356 9.91L11.5464 8.6075C11.3964 8.36 11.1289 8.20833 10.8389 8.20583H10.8331C10.5456 8.20583 10.2789 8.35333 10.1264 8.5975L8.77222 10.8475L6.62306 7.44417L9.40972 2.02333ZM18.1814 17.8717C17.9906 18.1883 17.6697 18.3708 17.3014 18.3708H2.69806C2.32972 18.3708 2.00889 18.1892 1.81806 17.8717C1.62472 17.5508 1.61472 17.1767 1.78972 16.8458C1.79139 16.8433 1.79306 16.84 1.79389 16.8367L5.73722 9.165L7.36222 11.7375C7.66389 12.215 8.18056 12.5 8.74472 12.5H8.74889C9.31472 12.4992 9.83222 12.2108 10.1322 11.7317L10.8214 10.6292L10.9864 10.9025C11.2772 11.3825 11.7764 11.6275 12.3472 11.6633C12.9089 11.6592 13.4131 11.3675 13.6972 10.8825L14.4672 9.5675L18.2089 16.8467C18.3839 17.1775 18.3739 17.5517 18.1806 17.8725L18.1814 17.8717Z"
+                                          fill="#113F5B" />
+                                </svg>
+                                <p class='descr__title'>Панорамный вид</p>
+                            </div>
+                        </div>
+                        <div class='descr__left-block-wrapper-text ds-flex'>
+                            <p class='descr__left-block-text'>
+                                Современный дизайн, большая веранда, камин, ландшафтный дизайн на участке
+                            </p>
+                        </div>
+                    </div>
+                    <div class="descr__rigth">
+                        <div class="descr__rigth-block">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 7.27273H18.3333V4.09091C18.3333 1.83545 16.6508 0 14.5833 0H5.41667C3.34917 0 1.66667 1.83545 1.66667 4.09091V7.27273H0V18.1818H1.66667V20H2.5V18.1818H17.5V20H18.3333V18.1818H20V7.27273ZM5.41667 0.909091H14.5833C16.1917 0.909091 17.5 2.33636 17.5 4.09091V7.31818C16.55 7.52909 15.8333 8.44727 15.8333 9.54545V12.7273H4.16667V9.54545C4.16667 8.44818 3.45 7.53 2.5 7.31818V4.09091C2.5 2.33636 3.80833 0.909091 5.41667 0.909091ZM19.1667 17.2727H0.833333V8.18182H2.08333C2.7725 8.18182 3.33333 8.79364 3.33333 9.54545V13.6364H16.6667V9.54545C16.6667 8.79364 17.2275 8.18182 17.9167 8.18182H19.1667V17.2727Z"
+                                      fill="#113F5B" />
+                            </svg>
+                            <p class='descr__rigth-block-text'>1 Гостиная</p>
+                        </div>
+                        <div class="descr__rigth-block">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.4208 10.7093C19.0082 10.2455 18.4482 9.99075 17.8431 9.99075H0.833439V3.36259C0.833439 2.66156 1.08264 1.96386 1.59187 1.48263C2.53699 0.589278 3.86216 0.675866 4.7106 1.38272L4.1897 4.37085C4.12469 4.73801 4.20053 5.11434 4.40222 5.42905C4.62559 5.77624 4.98563 6.01685 5.39152 6.09012C5.47819 6.10677 5.56654 6.11343 5.65405 6.11343C5.97409 6.11343 6.28996 6.01019 6.54916 5.81703L9.40536 3.67731C10.0254 3.2119 10.1846 2.33686 9.7554 1.66747C9.49453 1.262 9.04948 1.0064 8.56775 0.985585L5.35568 0.841549C4.1772 -0.237472 2.22278 -0.378178 0.902614 1.00557C0.296704 1.64166 0 2.5142 0 3.39174V10.1439C0 10.3221 0.0100013 10.4978 0.0308372 10.6743C0.107514 11.3329 0.302538 12.9989 0.302538 12.9989C0.534234 14.9637 1.52436 16.658 2.9387 17.7679C2.93537 17.7787 2.51198 19.4838 2.51198 19.4838C2.45698 19.7078 2.59366 19.9326 2.81619 19.9875C2.84953 19.9958 2.8837 20 2.9162 20C3.10373 20 3.27375 19.8734 3.32042 19.6836L3.6713 18.2674C4.62809 18.8302 5.72572 19.1483 6.88504 19.1483H13.3475C14.4277 19.1483 15.4536 18.8719 16.3621 18.379L16.6804 19.6645C16.7279 19.8543 16.898 19.9809 17.0847 19.9809C17.1172 19.9809 17.1513 19.9767 17.1847 19.9684C17.408 19.9134 17.5447 19.6878 17.4889 19.4647L17.1038 17.9102C18.619 16.8062 19.6883 15.0503 19.93 12.998L19.9834 12.5343C20.0625 11.8657 19.8567 11.1997 19.4183 10.7084L19.4208 10.7093ZM9.06448 2.13288C9.24867 2.42095 9.17866 2.80643 8.90613 3.01041L6.04993 5.15014C5.90158 5.26004 5.71989 5.30084 5.53987 5.2717C5.35901 5.23839 5.20482 5.13515 5.10481 4.98029C5.01647 4.84209 4.98313 4.6764 5.01147 4.51405L5.5057 1.68162L8.53191 1.81567C8.74444 1.82566 8.9403 1.93805 9.06615 2.13288H9.06448ZM19.1574 12.4385L19.1041 12.9023C18.7399 15.9895 16.2662 18.3174 13.3484 18.3174H6.88587C3.968 18.3174 1.49352 15.9895 1.13014 12.9023L0.885945 10.8242H17.8439C18.2073 10.8242 18.5465 10.9807 18.799 11.2629C19.0791 11.5776 19.2099 12.0064 19.1591 12.4385H19.1574Z"
+                                      fill="#113F5B" />
+                            </svg>
+                            <p class='descr__rigth-block-text'>2 ванные комнаты</p>
+                        </div>
+                        <div class="descr__rigth-block">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 7.91893C20 6.75248 19.4267 5.66102 18.4642 5.00031L12.2625 0.739446C10.9083 -0.246203 9.08917 -0.244536 7.74667 0.73278L1.53583 5.00031C0.574167 5.66102 0 6.75248 0 7.91893C0 9.06788 0.934167 10.0019 2.08333 10.0019H9.58333V19.5834C9.58333 19.8134 9.77 20 10 20C10.23 20 10.4167 19.8134 10.4167 19.5834V10.0019H17.9167C19.0658 10.0019 20 9.06788 20 7.91893ZM5 7.76063V9.1687H2.08333C1.39417 9.1687 0.833333 8.60797 0.833333 7.91893C0.833333 7.0266 1.27167 6.19259 2.0075 5.68685L8.2275 1.41265C8.49 1.22186 8.775 1.07855 9.07083 0.9819L5.72583 5.54271C5.2575 6.18093 5 6.96828 5 7.7598V7.76063ZM9.58333 9.1687H5.83333V7.76063C5.83333 7.14491 6.03333 6.53253 6.39833 6.03679L9.58333 1.69427V9.16953V9.1687ZM14.1667 9.1687H10.4167V1.69343L13.6017 6.03595C13.9667 6.53253 14.1667 7.14408 14.1667 7.7598V9.16786V9.1687ZM14.2742 5.54271L10.93 0.983567C11.2283 1.08105 11.5158 1.22602 11.7808 1.41932L17.9917 5.68685C18.7275 6.19176 19.1658 7.02577 19.1658 7.91893C19.1658 8.60797 18.605 9.1687 17.9158 9.1687H14.9992V7.76063C14.9992 6.96911 14.7408 6.18093 14.2733 5.54355L14.2742 5.54271ZM5 17.9171V19.5834C5 19.8134 4.81333 20 4.58333 20C4.35333 20 4.16667 19.8134 4.16667 19.5834V17.9171C4.16667 17.228 3.60583 16.6673 2.91667 16.6673H0.833333V19.5834C0.833333 19.8134 0.646667 20 0.416667 20C0.186667 20 0 19.8134 0 19.5834V12.918C0 12.688 0.186667 12.5014 0.416667 12.5014C0.646667 12.5014 0.833333 12.688 0.833333 12.918V15.8341H2.91667C4.06583 15.8341 5 16.7681 5 17.9171ZM20 12.918V19.5834C20 19.8134 19.8133 20 19.5833 20C19.3533 20 19.1667 19.8134 19.1667 19.5834V16.6673H17.0833C16.3942 16.6673 15.8333 17.228 15.8333 17.9171V19.5834C15.8333 19.8134 15.6467 20 15.4167 20C15.1867 20 15 19.8134 15 19.5834V17.9171C15 16.7681 15.9342 15.8341 17.0833 15.8341H19.1667V12.918C19.1667 12.688 19.3533 12.5014 19.5833 12.5014C19.8133 12.5014 20 12.688 20 12.918Z"
+                                      fill="#113F5B" />
+                            </svg>
+                            <p class='descr__rigth-block-text'>1 Отдельная терраса</p>
+                        </div>
+                        <div class="descr__rigth-block">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.5325 12.3183C8.93833 12.7158 9.4725 12.9133 10.005 12.9133C10.5317 12.9133 11.0567 12.7192 11.4517 12.3325L14.1242 9.95833C15.2258 8.85667 15.8333 7.39167 15.8333 5.83333C15.8333 4.275 15.2258 2.81083 14.1242 1.70833C13.0233 0.606667 11.5583 0 10 0C8.44167 0 6.97667 0.606667 5.875 1.70833C3.60083 3.9825 3.60083 7.68333 5.8925 9.975L8.5325 12.3183ZM6.46417 2.2975C7.40917 1.35333 8.665 0.833333 10 0.833333C11.335 0.833333 12.5908 1.35333 13.535 2.2975C14.48 3.24167 15 4.4975 15 5.83333C15 7.16917 14.48 8.42417 13.5533 9.35167L10.8842 11.7225C10.3975 12.2 9.60417 12.1975 9.10083 11.7083L6.46417 9.36833C4.515 7.41917 4.515 4.24667 6.46417 2.2975ZM10 8.31667C11.3733 8.31667 12.4917 7.19917 12.4917 5.825C12.4917 4.45083 11.3733 3.33333 10 3.33333C8.62667 3.33333 7.50833 4.45083 7.50833 5.825C7.50833 7.19917 8.62667 8.31667 10 8.31667ZM10 4.16667C10.915 4.16667 11.6583 4.91083 11.6583 5.825C11.6583 6.73917 10.9142 7.48333 10 7.48333C9.08583 7.48333 8.34167 6.73917 8.34167 5.825C8.34167 4.91083 9.08583 4.16667 10 4.16667ZM20 14.18C20 14.3267 19.9233 14.4625 19.7975 14.5375L11.2058 19.6925C10.8342 19.9158 10.4175 20.0275 10 20.0275C9.5825 20.0275 9.16583 19.915 8.79417 19.6925L0.2025 14.5367C0.0766667 14.4617 0 14.3258 0 14.1792C0 14.0325 0.0766667 13.8967 0.2025 13.8217L4.36917 11.3217C4.56417 11.2025 4.8225 11.2675 4.94083 11.465C5.06 11.6617 4.995 11.9183 4.7975 12.0367L1.22667 14.1792L9.2225 18.9767C9.7025 19.265 10.2983 19.265 10.7783 18.9767L18.7742 14.1792L15.1817 12.0233C14.9842 11.905 14.92 11.6492 15.0383 11.4517C15.1575 11.2542 15.415 11.19 15.61 11.3083L19.7975 13.8217C19.9233 13.8975 20 14.0325 20 14.1792V14.18Z"
+                                      fill="#113F5B" />
+                            </svg>
 
-                        <article class="apartment__item">
-                            <picture>
-                                <img class="apartment__img" src="./img/apartments/apart-1.webp" alt="apartment" width="353" height="370" loading="lazy" />
-                            </picture>
-                            <a class="apartment__link" href="#">Альпийские сны</a>
-                            <a class="apartment_button menu-button" href="#"><span>Узнать больше</span></a>
-                        </article>
-
-                        <article class="apartment__item">
-                            <picture>
-                                <img class="apartment__img" src="./img/apartments/apart-2.webp" alt="apartment" width="353" height="370" loading="lazy" />
-                            </picture>
-                            <a class="apartment__link" href="#">Тишина горы</a>
-                            <a class="apartment_button menu-button" href="#">Узнать больше</a>
-                        </article>
-
-                        <article class="apartment__item">
-                            <picture>
-                                <img class="apartment__img" src="./img/apartments/apart-3.webp" alt="apartment" width="353" height="370" loading="lazy" />
-                            </picture>
-                            <a class="apartment__link" href="#">Шале на скалах</a>
-                            <a class="apartment_button menu-button" href="#">Узнать больше</a>
-                        </article>
-                        <article class="apartment__item">
-                            <picture>
-                                <img class="apartment__img" src="./img/apartments/apart-4.webp" alt="apartment" width="353" height="370" loading="lazy" />
-                            </picture>
-                            <a class="apartment__link" href="#">Снеговое небо</a>
-                            <a class="apartment_button menu-button" href="#">Узнать больше</a>
-                        </article>
+                            <p class='descr__rigth-block-text'>Участок 8 соток</p>
+                        </div>
+                    </div>
+                    <div class='descr__left-block-wrapper-text ds-none'>
+                        <p class='descr__left-block-text'>
+                            Современный дизайн, большая веранда, камин, ландшафтный дизайн на участке
+                        </p>
                     </div>
                 </div>
-            </section>
-
-            <section class="advantages">
-                <div class="container">
-                    <div class="slideshow">
-                        <div class="slideshow-item">
-                            <img src="./img/advantages/ecology.webp" alt="ecology">
-                            <div class="slideshow-item-text">
-                                <h5>Экологичность</h5>
-                                <p>Покупка дома в экологически чистом районе обеспечивает здоровую окружающую среду, чистый воздух и доступ к зеленым зонам, что способствует общему благополучию.</p>
-                            </div>
-                        </div>
-                        <div class="slideshow-item">
-                            <img src="./img/advantages/infrastructure.webp" alt="ifrastructure">
-                            <div class="slideshow-item-text">
-                                <h5>Инфраструктура</h5>
-                                <p>Развитая инфраструктура рядом с домом, включая медцентры и магазины, делает повседневную жизнь удобной и комфортной.</p>
-                            </div>
-                        </div>
-                        <div class="slideshow-item">
-                            <img src="./img/advantages/roads.webp" alt="roads">
-                            <div class="slideshow-item-text">
-                                <h5>Дороги</h5>
-                                <p>Хорошие дороги и транспортная инфраструктура обеспечивают удобный доступ ко всем важным местам, помогают экономить время и уменьшают стресс от передвижения.</p>
-                            </div>
-                        </div>
-                        <div class="slideshow-item">
-                            <img src="./img/advantages/sport.webp" alt="sport">
-                            <div class="slideshow-item-text">
-                                <h5>Спорт</h5>
-                                <p>Близость Спортивных объектов И парков позволяет активно заниматься спортом, поддерживать здоровье и находить единомышленников, что улучшает качество жизни.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
-
-            <section class="interior">
-                <div class="container">
-                    <h2 class="interior__title section-title">Интерьер</h2>
-                    <div class="interior__wrapper-grid">
-                        <img src="./img/interior/interior-1.webp" alt="" class="interior__img">
-                        <img src="./img/interior/interior-2.webp" alt="" class="interior__img">
-                        <img src="./img/interior/interior-3.webp" alt="" class="interior__img">
-                        <img src="./img/interior/interior-4.webp" alt="" class="interior__img">
-                    </div>
-                    <div class="swiper">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="./img/interior/interior-1.webp" alt="" class="interior__img"></div>
-                            <div class="swiper-slide"><img src="./img/interior/interior-2.webp" alt="" class="interior__img"></div>
-                            <div class="swiper-slide"><img src="./img/interior/interior-3.webp" alt="" class="interior__img"></div>
-                            <div class="swiper-slide"><img src="./img/interior/interior-4.webp" alt="" class="interior__img"></div>
-                        </div>
-                        <div class="swiper-pagination"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>
-                    <div class='interior__button-container'>
-                        <a href='#' class='interior__button menu-button'>Узнать больше</a>
-                    </div>
-                </div>
-            </section>
-            <footer class="footer">
-                <div class="container">
-                    <div class="wrapper-footer">
-                        <div class="wrapper-contact">
-                            <div>
-                                <address class="address-footer">Округ коммуны-Овернь-Рона-Альпы, Изер, Гренобль, Юэ, Альп д'Юэз</address>
-                            </div>
-                            <div>
-                                <button type='button' class="btn-footer btn-reset" id="btn-feedback">Обратная связь</button>
-                            </div>
-                            <div>
-                                <a aria-colspan="link-telephone" class="footer-link-telephone" href="tel:+7800 000 00">8 800 000 00</a>
-                            </div>
-                        </div>
-                        <span class="title-footer">CLOUD ATLAS</span>
-                    </div>
-                </div>
-            </footer>
-        </div>
+            </div>
+        </section>
+        <section class='plan'>
+            <div class="container">
+                <h2 class="plan__title">План этажа</h2>
+                <img src="./img/plans/alpine_drems_plan.webp" alt="plan">
+            </div>
+        </section>
     </main>
-   
+    <footer class="footer">
+        <div class="container">
+            <div class="wrapper-footer">
+                <div class="wrapper-contact">
+                    <div>
+                        <address class="address-footer">Округ коммуны-Овернь-Рона-Альпы, Изер, Гренобль, Юэ, Альп д'Юэз</address>
+                    </div>
+                    <div>
+                        <button class="btn-footer btn-reset" id="btn-feedback">Обратная связь</button>
+                    </div>
+                    <div>
+                        <a aria-colspan="link-telephone" class="footer-link-telephone" href="tel:+7800 000 00">8 800 000 00</a>
+                    </div>
+                </div>
+                <span class="title-footer">CLOUD ATLAS</span>
+            </div>
+        </div>
+    </footer>
 </body>
+
+
 </html>

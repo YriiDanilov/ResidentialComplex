@@ -13,8 +13,8 @@ button {
 html {
     height: 100%;
     scroll-behavior: smooth;
+    scrollbar-gutter: stable;
 }
-
 
 body {
     position: relative;
@@ -48,9 +48,7 @@ body:after {
 }
 
 .no-scroll {
-    overflow-y:scroll;
-    position: fixed;
-    width: 100%;
+    overflow: hidden;
 }
 
 a {

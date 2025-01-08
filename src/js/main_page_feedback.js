@@ -9,8 +9,6 @@ export const feedback = () => {
         const body = document.body
         const header = document.querySelector('.header')
         const btnFeedBack = document.querySelector('#btn-feedback')
-        
-        let scrollPosition = 0
 
         const closeConnection = () => {
             body.classList.remove('popup-fade')
@@ -19,15 +17,6 @@ export const feedback = () => {
             form.reset()
             header.classList.remove('z0')
             btnShow.classList.remove('z0')
-            body.style.position = ''
-            body.style.top = ''
-            window.scrollTo(0, scrollPosition)
-        }
-
-        const safePosition = () => {
-            scrollPosition = window.scrollY
-            body.style.top = `-${scrollPosition}px`
-            body.style.position = 'fixed'
         }
 
         const toggleConnection = () => {
@@ -36,7 +25,7 @@ export const feedback = () => {
             body.classList.toggle('popup-fade')
             body.classList.toggle('no-scroll')
             connectionWrapper.classList.add('openForm')
-
+            
             if (connectionWrapper.contains(textSuccess)) {
                 textSuccess.remove()
                 wrapperForm.append(form)
@@ -52,7 +41,6 @@ export const feedback = () => {
 
         btnFeedBack.addEventListener('click', (e) => {
             e.stopPropagation()
-            safePosition()
             toggleConnection()
         })
 
@@ -68,12 +56,15 @@ export const feedback = () => {
 
         btnShow.addEventListener('click', (e) => {
             e.stopPropagation()
-            safePosition()
             toggleConnection()
         })
 
-        document.addEventListener('click', (e) => {clickOutsideMenu(e)})
+        document.addEventListener('click', (e) => {
+            clickOutsideMenu(e)
+        })
 
-        document.addEventListener('touchstart', (e) => {clickOutsideMenu(e)})
+        document.addEventListener('touchstart', (e) => {
+            clickOutsideMenu(e)
+        })
     })
 }

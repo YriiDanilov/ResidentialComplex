@@ -1,0 +1,134 @@
+@media screen and (max-width: 1300px) {
+    .header {
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    .descr__left-block-wrapper-text {
+        font-size: 14px;
+        margin-top: 20px;
+        padding-right: 40px;
+    }
+
+    .descr__block {
+        font-size: 16px;
+    }
+
+    .descr__left-block-text {
+        font-size: 18px;
+
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    .descr__rigth-block {
+        font-size: 16px;
+
+        svg {
+            width: 16px;
+            height: 16px;
+        }
+    }
+
+    .plan__title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .flat__title {
+        margin-top: 15px;
+    }
+
+    .grid-container {
+        display: none;
+    }
+
+    .descr__left-block-wrapper-text {
+        font-size: 14px;
+        margin-top: 20px;
+        padding-right: 40px;
+    }
+
+    .descr__block {
+        font-size: 14px;
+    }
+
+    .descr__left-block-text {
+        font-size: 16px;
+
+        svg {
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    .descr__rigth-block {
+        font-size: 14px;
+
+        svg {
+            width: 15px;
+            height: 15px;
+        }
+    }
+
+    .plan__title {
+        font-size: 30px;
+    }
+
+    .swiper {
+        display: block;
+        margin-top: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 730px) {
+
+    .descr__wraper {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+
+    .descr__left-block-wrapper {
+        flex-direction: column;
+    }
+    .descr__block {
+        justify-content: left;
+    }
+
+    .descr__left {
+        width: 100%;
+    }
+
+    .descr__rigth {
+        width: 100%;
+    }
+
+    .descr__left-block-wrapper {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+
+    .descr__block:not(:last-child) {
+        border-right: none;
+    }
+
+    .ds-flex {
+        display: none;
+    }
+
+    .ds-none {
+        display: flex;
+    }
+
+
+
+}

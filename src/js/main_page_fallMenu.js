@@ -10,7 +10,6 @@ export const fallMenu = () => {
             window.scrollTo(0, 0)
         })
 
-
         const watchedState = onChange(state, () => {
             const popup = document.querySelector('#popup')
             const popupFade = document.querySelector('#popup-fade')
@@ -22,13 +21,11 @@ export const fallMenu = () => {
                 body.classList.add('no-scroll')
                 popupFade.classList.toggle('popup-fade')
                 imageContainer.classList.add('show')
-                
             } else {
                 popup.classList.remove('open')
                 body.classList.remove('no-scroll')
                 popupFade.classList.remove('popup-fade')
                 imageContainer.classList.remove('show')
-                
             }
         })
 
@@ -50,15 +47,12 @@ export const fallMenu = () => {
 
         menuCloseButton.addEventListener('click', () => {
             watchedState.mode = 'close'
-
         })
 
         document.addEventListener('click', (event) => {
             const isClickInsideMenu = popup.contains(event.target) || menuBtn.contains(event.target)
-
             if (!isClickInsideMenu) {
                 watchedState.mode = 'close'
-
             }
         })
     })
