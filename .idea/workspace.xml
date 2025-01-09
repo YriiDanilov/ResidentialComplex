@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4618ad13-d01f-4893-9ba2-673969735c72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/style/blocks/infrastructure_media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infrastructure.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/interior_feedback.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/interior_feedback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/interior_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/interior_index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/purchase.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/purchase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/select.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/interior_media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/main_page_connection.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/infrasrtukture.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/infrasrtukture.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/base/interior_normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/interior_normalize.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/infrastructure_media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/infrastructure_media.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_btn.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/interior_btn.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/interior_footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/interior_form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/interior_header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/interior_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/interior_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,7 +208,9 @@
       <workItem from="1736111374342" duration="187000" />
       <workItem from="1736261598249" duration="11880000" />
       <workItem from="1736277590849" duration="1609000" />
-      <workItem from="1736322501551" duration="21313000" />
+      <workItem from="1736322501551" duration="21652000" />
+      <workItem from="1736428132155" duration="596000" />
+      <workItem from="1736431717834" duration="904000" />
     </task>
     <servers />
   </component>
