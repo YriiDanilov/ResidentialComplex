@@ -84,6 +84,7 @@
     .swiper {
         display: block;
         margin-top: 15px;
+        z-index: 0;
     }
 
 }

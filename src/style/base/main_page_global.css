@@ -150,10 +150,9 @@ button {
     position: relative;
     text-transform: uppercase;
     text-align: center;
-    color: #cfe4e6;
-    border-radius: 10px;
+    color: var(--color-light-blue);
+    border-radius: var(--border-radius);
     background-color: var(--color-light-green);
-    
 }
 
 .menu-button::before {

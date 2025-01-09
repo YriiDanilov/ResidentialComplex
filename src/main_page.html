@@ -62,8 +62,8 @@
                 <form class="connection__form" id="connection__form" action="" autocomplete="tel">
                     <p class="connection__text-form">Узнайте больше о нашем коттеджном поселке и условиях покупки.<span>Оставьте телефон мы вам перезвоним</span></p>
                     <label for="connection_input"></label>
-                    <input class="connection__input" id="connection__input" type="tel" name='connection__input' placeholder="+7 909 290 05 44">
-                    <button type='submit' class="btn-form btn-reset" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id='connection__submit'>Хорошо, жду звонка</button>
+                    <input class="connection__input" id="connection__input" type='phone' name='connection__input' pattern="\+?[1-9]\d{10}|(\+?[1-9]\(\d{3}\)\d{7})"  placeholder="+7 909 290 05 44">
+                    <button type='submit' class="btn-form btn-reset"  id='connection__submit'>Хорошо, жду звонка</button>
                 </form>
             </div>
             <div class='connection__feedback' id='connection__feedback'>
@@ -164,7 +164,7 @@
                                 <li class="header__list-item"><a href="#">контакты</a></li>
                             </ul>
                         </nav>
-                        <a class="header__menu-popup-button menu-button" href="#" value="купить">как купить</a>
+                        <a class="header__menu-popup-button menu-button lh pt fz sz" href="#" value="купить">как купить</a>
                     </div>
                     <div class="menu-text">
                         <p class="text">Округ коммуны-Овернь-Рона-Альпы, Изер, Гренобль, Юэ, Альп д'Юэз</p>
@@ -248,28 +248,28 @@
                             <img src="./img/advantages/ecology.webp" alt="ecology">
                             <div class="slideshow-item-text">
                                 <h5>Экологичность</h5>
-                                <p>Покупка дома в экологически чистом районе обеспечивает здоровую окружающую среду, чистый воздух и доступ к зеленым зонам, что способствует общему благополучию.</p>
+                                <p>Покупка дома в экологически чистом районе обеспечивает здоровую окружающую среду<span class='dshidden'>, чистый воздух и доступ к зеленым зонам, что способствует общему благополучию.<span></p>
                             </div>
                         </div>
                         <div class="slideshow-item">
                             <img src="./img/advantages/infrastructure.webp" alt="ifrastructure">
                             <div class="slideshow-item-text">
                                 <h5>Инфраструктура</h5>
-                                <p>Развитая инфраструктура рядом с домом, включая медцентры и магазины, делает повседневную жизнь удобной и комфортной.</p>
+                                <p>Развитая инфраструктура рядом с домом, включая медцентры и магазины<span class='dshidden'>, делает повседневную жизнь удобной и комфортной.</span></p>
                             </div>
                         </div>
                         <div class="slideshow-item">
                             <img src="./img/advantages/roads.webp" alt="roads">
                             <div class="slideshow-item-text">
                                 <h5>Дороги</h5>
-                                <p>Хорошие дороги и транспортная инфраструктура обеспечивают удобный доступ ко всем важным местам, помогают экономить время и уменьшают стресс от передвижения.</p>
+                                <p>Хорошие дороги и транспортная инфраструктура обеспечивают удобный доступ ко всем важным местам<span class='dshidden'>, помогают экономить время и уменьшают стресс от передвижения.</span></p>
                             </div>
                         </div>
                         <div class="slideshow-item">
                             <img src="./img/advantages/sport.webp" alt="sport">
                             <div class="slideshow-item-text">
                                 <h5>Спорт</h5>
-                                <p>Близость Спортивных объектов И парков позволяет активно заниматься спортом, поддерживать здоровье и находить единомышленников, что улучшает качество жизни.</p>
+                                <p>Близость спортивных объектов и парков позволяет активно заниматься спортом<span class='dshidden'> поддерживать здоровье и находить единомышленников, что улучшает качество жизни.</span>,</p>
                             </div>
                         </div>
                     </div>
@@ -298,7 +298,7 @@
                         <div class="swiper-button-next"></div>
                     </div>
                     <div class='interior__button-container'>
-                        <a href='#' class='interior__button menu-button'>Узнать больше</a>
+                        <a href='#' class='interior__button menu-button pt6'>Узнать больше</a>
                     </div>
                 </div>
             </section>

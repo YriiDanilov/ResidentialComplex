@@ -221,9 +221,6 @@
     margin-right: 50px;
     font-size: 20px;
     font-weight: 400;
-    position: relative;
-    display: grid;
-    place-items: center;
 }
 
 .menu-close {
@@ -287,4 +284,8 @@
 
 .z0 {
     z-index: 0;
+}
+
+.pt {
+    padding-top: 7px;
 }

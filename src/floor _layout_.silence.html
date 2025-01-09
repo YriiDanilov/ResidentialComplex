@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./layout_pages_style/layout_pages_style.css">
     <script src='./layout_pages_js/layout_pages.js' type='module' defer></script>
     <script></script>
-    <title>Alpine dreams</title>
+    <title>Silence</title>
 </head>
 
 <body>
@@ -22,11 +22,10 @@
     </div>
     <section class='connection'>
         <h2 class="visually-hidden">Connection</h2>
-        <div class="connection__phone" id='connection__btn-phone'>
+        <button class="connection__phone" id='connection__btn-phone'>
             <svg width="60" height="60" viewBox="0 0 84 74" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-                <path d="M39.3892 73.0539C56.0315 73.0539 69.5228 72.489 69.5228 71.7923C69.5228 71.0955 56.0315 70.5306 39.3892 70.5306C22.7469 70.5306 9.25562 71.0955 9.25562 71.7923C9.25562 72.489 22.7469 73.0539 39.3892 73.0539Z"
-                      fill="#F45B69" />
+    
+                <path d="M39.3892 73.0539C56.0315 73.0539 69.5228 72.489 69.5228 71.7923C69.5228 71.0955 56.0315 70.5306 39.3892 70.5306C22.7469 70.5306 9.25562 71.0955 9.25562 71.7923C9.25562 72.489 22.7469 73.0539 39.3892 73.0539Z" fill="#F45B69" />
                 <path d="M74.0672 59.9998L69.9523 63.2156C69.9523 63.2156 52.8264 76.5997 20.9454 51.6842C-12.5915 25.4746 4.53436 12.0896 4.53436 12.0896L8.64813 8.87465C10.3776 7.52307 13.1825 7.52307 14.9118 8.87465L29.6123 20.3633C31.3418 21.7149 31.3418 23.9062 29.6123 25.2577L23.785 29.8119C23.785 29.8119 26.8106 35.6766 33.5884 40.9736C40.3663 46.2714 47.2765 48.1701 47.2765 48.1701L53.1029 43.6167C54.8324 42.2651 57.6373 42.2651 59.3666 43.6167L74.0671 55.1054C75.7966 56.457 75.7966 58.6482 74.0672 59.9998Z"
                       fill="#F45B69" />
                 <path d="M29.6126 25.2576L23.9883 29.653C23.4217 28.7722 23.1484 28.243 23.1484 28.243L28.7282 23.8823C29.9088 22.9596 30.2477 21.6281 29.7442 20.4709C31.3407 21.829 31.2967 23.9415 29.6126 25.2576Z" fill="#F45B69" />
@@ -49,7 +48,7 @@
                 <path d="M75.0436 50.0877C74.6178 50.0877 74.2294 49.8642 74.1176 49.5271C73.9851 49.1272 74.2924 48.719 74.8042 48.6154L82.7485 47.0071C83.2605 46.9035 83.7826 47.1437 83.9152 47.5437C84.0477 47.9436 83.7404 48.3518 83.2286 48.4554L75.2842 50.0637C75.2037 50.08 75.1229 50.0877 75.0436 50.0877Z"
                       fill="#F45B69" />
             </svg>
-        </div>
+        </button>
         <div class="connection__wrapper" id="connection__wrapper-content">
             <picture class="connection__picture">
                 <img class="connection__img" src="./icons/phone/Image.jpg" alt="little house">
@@ -62,8 +61,8 @@
                 <form class="connection__form" id="connection__form" action="" autocomplete="tel">
                     <p class="connection__text-form">Узнайте больше о нашем коттеджном поселке и условиях покупки.<span>Оставьте телефон мы вам перезвоним</span></p>
                     <label for="connection_input"></label>
-                    <input class="connection__input" id="connection__input" type="tel" name='connection__input' placeholder="+7 909 290 05 44">
-                    <button type='submit' class="btn-form btn-reset" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" id='connection__submit'>Хорошо, жду звонка</button>
+                    <input class="connection__input" id="connection__input" type='phone' name='connection__input' pattern="\+?[1-9]\d{10}|(\+?[1-9]\(\d{3}\)\d{7})" placeholder="+7 909 290 05 44">
+                    <button type='submit' class="btn-form btn-reset" id='connection__submit'>Хорошо, жду звонка</button>
                 </form>
             </div>
             <div class='connection__feedback' id='connection__feedback'>
@@ -71,6 +70,7 @@
             </div>
         </div>
     </section>
+
 
     <header class="header">
 

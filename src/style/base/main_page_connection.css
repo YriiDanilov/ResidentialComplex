@@ -66,6 +66,14 @@
     background-color: var(--color-white);
 }
 
+.connection__input:invalid {
+    border: 2px solid red;
+}
+
+.connection__input:valid {
+    border: 2px solid green;
+}
+
 .connection__input:focus::placeholder {
     color: transparent;
 }

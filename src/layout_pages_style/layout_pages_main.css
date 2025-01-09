@@ -3,7 +3,10 @@
 }
 
 body {
-    background: url('../img/main-bg/body.webp') top / cover no-repeat;
+    background-image: url(../img/main-bg/body.webp);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
 }
 
 .flat__title {
