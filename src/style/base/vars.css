@@ -26,4 +26,7 @@
     --transition-duration: ease-in-out .2s;
 
     --index: calc(1vw + 1vh);
+
+    --container-width: 1060px;
+    --container-padding-x: 20px;
 }

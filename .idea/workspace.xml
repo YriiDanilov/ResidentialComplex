@@ -7,25 +7,13 @@
     <list default="true" id="4618ad13-d01f-4893-9ba2-673969735c72" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/infrastructure.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/purchase.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/purchase.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/select.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/interior_fonts.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/base/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/base/interior_global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/interior_global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/interior_normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/interior_vars.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/base/vars.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/vars.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/blocks/infrasrtukture.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/infrasrtukture.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/blocks/infrastructure_media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/infrastructure_media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_btn.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/interior_footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/interior_header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/interior_hero.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_purchase.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/purchase.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_salectan.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/salectan.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/main_page_connection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_connection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/interior_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/interior_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/salectan.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/salectan.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +46,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="feat/floor_layout" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -227,6 +215,8 @@
       <workItem from="1736322501551" duration="21652000" />
       <workItem from="1736428132155" duration="596000" />
       <workItem from="1736431717834" duration="14275000" />
+      <workItem from="1736519921106" duration="11064000" />
+      <workItem from="1736536592204" duration="325000" />
     </task>
     <servers />
   </component>
@@ -286,11 +276,6 @@
           <url>file://$PROJECT_DIR$/src/js/interior_index.js</url>
           <line>2</line>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/js/main_page_feedback.js</url>
-          <line>72</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

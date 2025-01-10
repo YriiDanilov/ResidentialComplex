@@ -158,18 +158,10 @@
 }
 
 .sgroup-container-mobile {
-    padding: 20px;
-    text-align: center;
     color: var(--light-blue);
     font-size: 22px;
     min-height: 640px;
-}
-
-.sgroup-mobile-parameters {
-    min-width: 320px;
-    min-height: 320px;
-    padding: 40px 20px;
-    overflow: hidden;
+    display: none;
 }
 
 .sgroup-mobile-item1 {
