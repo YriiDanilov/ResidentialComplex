@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4618ad13-d01f-4893-9ba2-673969735c72" name="Changes" comment="" />
+    <list default="true" id="4618ad13-d01f-4893-9ba2-673969735c72" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/interior_feedback.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/interior_feedback.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/purchase.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/purchase.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/select.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/select.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_btn.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/interior_btn.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_form.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/interior_form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/interior_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/interior_style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +25,7 @@
         <option value="Sass File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -35,7 +45,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feat/create_interior" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,6 +66,8 @@
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat/create__interior&quot;,
+    &quot;js.last.introduce.type&quot;: &quot;CONST&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/osmel/OneDrive/Рабочий стол/Учеба-DESKTOP-9I44DL8/TODO-List-main&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -75,7 +87,11 @@
       <recent name="C:\Users\osmel\OneDrive\Рабочий стол\Учеба-DESKTOP-9I44DL8\ResidentComplex\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\Учеба-DESKTOP-9I44DL8\ResidentComplex\src\style" />
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\fonts" />
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\img" />
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\img\main-bg" />
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\interior_img\infrastructure" />
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\icons\logo" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -187,6 +203,10 @@
       <workItem from="1734881340416" duration="784000" />
       <workItem from="1734882149164" duration="155000" />
       <workItem from="1734887376489" duration="770000" />
+      <workItem from="1736077224205" duration="8787000" />
+      <workItem from="1736090720782" duration="654000" />
+      <workItem from="1736103616018" duration="5935000" />
+      <workItem from="1736109667415" duration="1051000" />
     </task>
     <servers />
   </component>
@@ -238,5 +258,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/js/interior_index.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/js/main_page_feedback.js</url>
+          <line>72</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

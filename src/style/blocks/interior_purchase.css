@@ -1,0 +1,33 @@
+.purchase_section {
+    padding: 40px;
+}
+
+.purchase_list {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.9s ease, transform 0.9s ease;
+    margin-bottom: 60px;
+    color: var(--dark-blue);
+}
+
+.purchase_list.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.subtitle {
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+.purchase_list_text {
+    color: var(--dark-blue);
+    font-size: 20px;
+}
+
+.purchase_text_bottom {
+    color: var(--dark-blue);
+    padding: 80px 0 40px 0;
+    font-size: 22px;
+    text-align: center;
+    line-height: 2;
+}

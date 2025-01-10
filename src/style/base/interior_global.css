@@ -56,7 +56,7 @@ body {
 }
 
 .bg {
-  background-image: url("../../interior_img/body.webp");
+  background-image: url("../../img/main-bg/body.webp");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;

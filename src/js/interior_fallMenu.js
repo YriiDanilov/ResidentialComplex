@@ -1,4 +1,4 @@
-import onChange from "../../node_modules/on-change/index.js"
+import onChange from '../../node_modules/on-change/index.js'
 
 export const interior_fallMenu = () => {
     document.addEventListener('DOMContentLoaded', () => {
