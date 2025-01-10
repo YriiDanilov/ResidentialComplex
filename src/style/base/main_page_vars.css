@@ -1,5 +1,5 @@
 :root {
-    --color-dark-blue: #113B5f;
+    
     --color-white: #ffffff;
     --color-light-blue: #CFE4E6;
     --color-light-green: #028090;
@@ -7,6 +7,7 @@
     --color-grey: grey;
     --color-blue: #456990;
     --color-dark-blue: #114B5F;
+    --color-dark-blue-footer: #113B5f;
 
 
     --border-radius: 10px;
