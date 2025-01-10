@@ -29,7 +29,6 @@
 }
 
 .sgroup:hover:after {
-    content: "";
     background-color: rgba(0,0,0,0.2);
 }
 
@@ -167,10 +166,12 @@
 }
 
 .sgroup-mobile-parameters {
-    min-width: 300px;
+    min-width: 320px;
     min-height: 320px;
     padding: 40px 20px;
+    overflow: hidden;
 }
+
 .sgroup-mobile-item1 {
     background-color: var(--green);
 }
@@ -201,6 +202,16 @@
     line-height: 2;
 }
 
+.btn-infrastructure {
+    position: relative;
+    min-height: 50px;
+    min-width: 100%;
+    background-color: var(--green);
+    border-radius: var(--border-radius);
+    transition: all 0.9s;
+    margin-top: 40px;
+}
+
 .section-infrastructure {
     position: relative;
     overflow: hidden;
@@ -208,4 +219,3 @@
     height: 100vh;
     transition: transform 0.5s ease;
 }
-

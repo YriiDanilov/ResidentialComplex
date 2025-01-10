@@ -6,8 +6,13 @@
     --color-pink: #F45B69;
     --color-grey: grey;
     --color-blue: #456990;
-    --color-dark-blue: #114B5F;
-
+    --white: #fff;
+    --light-blue: #CFE4E6;
+    --dark-blue: #113B5f;
+    --dark-green: #114B5F;
+    --green: #028090;
+    --blue: #456990;
+    --pink: #F45B69;
 
     --border-radius: 10px;
     --border: 1px solid var(--color-white);

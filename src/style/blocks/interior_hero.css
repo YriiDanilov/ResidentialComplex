@@ -3,20 +3,20 @@
 }
 
 .hero-h1 {
+    position: absolute;
     max-width: 1140px;
     z-index: 2;
     text-align: center;
     font-size: 60px;
     font-family: 'saira', sans-serif;
     color: var(--light-blue);
-    position: absolute;
     padding-top: 200px;
 }
 
 .hero-background {
-    width: 100%;
     position: absolute;
     inset: 0;
+    width: 100%;
     height: 100vh;
 }
 
@@ -27,21 +27,21 @@
 }
 
 .hero-img {
+    position: absolute;
+    inset: 0;
     z-index: 1;
     backdrop-filter: brightness(40%);
     width: 100%;
     height: 100%;
-    position: absolute;
-    inset: 0;
 }
 
 .purchase_hero_h1 {
+    position: absolute;
     max-width: 1140px;
     z-index: 2;
     text-align: center;
     font-size: 60px;
     font-family: 'saira', sans-serif;
     color: var(--light-blue);
-    position: absolute;
     padding-top: 300px;
 }
