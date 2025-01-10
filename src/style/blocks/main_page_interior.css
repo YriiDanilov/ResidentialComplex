@@ -41,6 +41,7 @@
 
 .swiper {
     display: none;
+    z-index: 0;
 }
 
 .interior__button-container {

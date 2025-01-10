@@ -9,8 +9,8 @@ export const feedback = () => {
         const body = document.body
         const header = document.querySelector('.header')
         const btnFeedBack = document.querySelector('#btn-feedback')
-        
-        let scrollPosition = 0
+        const btnSubmit = document.querySelector('#connection__submit')
+        const connectionInput = document.querySelector('#connection__input')
 
         const closeConnection = () => {
             body.classList.remove('popup-fade')
@@ -19,15 +19,17 @@ export const feedback = () => {
             form.reset()
             header.classList.remove('z0')
             btnShow.classList.remove('z0')
-            body.style.position = ''
-            body.style.top = ''
-            window.scrollTo(0, scrollPosition)
+            btnShow.style.display = 'flex'
         }
 
-        const safePosition = () => {
-            scrollPosition = window.scrollY
-            body.style.top = `-${scrollPosition}px`
-            body.style.position = 'fixed'
+        const isDisabled = () => {
+            btnSubmit.disabled = true
+            btnSubmit.style.background = 'grey'
+        }
+
+        const notDisabled = () => {
+            btnSubmit.disabled = false
+            btnSubmit.style.background = '#F45B69'
         }
 
         const toggleConnection = () => {
@@ -36,6 +38,15 @@ export const feedback = () => {
             body.classList.toggle('popup-fade')
             body.classList.toggle('no-scroll')
             connectionWrapper.classList.add('openForm')
+            btnShow.style.display = 'none'
+            isDisabled()
+            connectionInput.addEventListener('input', (e) => {
+                if (connectionInput.checkValidity() && e.target.value !== '0' && e.target.value.length > 0) {
+                    notDisabled()
+                } else {
+                    isDisabled()
+                }
+            })
 
             if (connectionWrapper.contains(textSuccess)) {
                 textSuccess.remove()
@@ -52,7 +63,6 @@ export const feedback = () => {
 
         btnFeedBack.addEventListener('click', (e) => {
             e.stopPropagation()
-            safePosition()
             toggleConnection()
         })
 
@@ -68,12 +78,15 @@ export const feedback = () => {
 
         btnShow.addEventListener('click', (e) => {
             e.stopPropagation()
-            safePosition()
             toggleConnection()
         })
 
-        document.addEventListener('click', (e) => {clickOutsideMenu(e)})
+        document.addEventListener('click', (e) => {
+            clickOutsideMenu(e)
+        })
 
-        document.addEventListener('touchstart', (e) => {clickOutsideMenu(e)})
+        document.addEventListener('touchstart', (e) => {
+            clickOutsideMenu(e)
+        })
     })
 }

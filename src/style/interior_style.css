@@ -1,7 +1,7 @@
-@import url(base/fonts.css);
+@import url(base/main_page_fonts.css);
 @import url(base/interior_global.css);
-@import url(base/normalize.css);
-@import url(base/vars.css);
+@import url(base/main_page_normalize.css);
+@import url(base/main_page_vars.css);
 @import url(blocks/salectan.css);
 @import url(blocks/interior_footer.css);
 @import url(blocks/infrastructure_media.css);
