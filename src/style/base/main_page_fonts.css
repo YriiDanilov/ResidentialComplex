@@ -70,3 +70,57 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url("../../fonts/Overpass-Regular.woff") format("woff"),
+    url("../../fonts/Overpass-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Saira";
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+    url("../../fonts/Saira-Regular.woff") format("woff"),
+    url("../../fonts/Saira-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url("../../fonts/Overpass-SemiBold.woff") format("woff"),
+    url("../../fonts/Overpass-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Saira";
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+    url("../../fonts/Saira-SemiBold.woff") format("woff"),
+    url("../../fonts/Saira-SemiBold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Overpass";
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+    url("../../fonts/Overpass-Black.woff") format("woff"),
+    url("../../fonts/Overpass-Black.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Saira";
+    font-style: normal;
+    font-weight: 800;
+    src: local(''),
+    url("../../fonts/Saira-Black.woff") format("woff"),
+    url("../../fonts/Saira-Black.woff2") format("woff2");
+}

@@ -12,8 +12,17 @@
 }
 
 .select-h2-text {
-   margin-left: 180px;
-   text-align: justify;
+    margin-left: 180px;
+    text-align: justify;
+}
+
+.select-btn {
+    position: relative;
+    min-height: 50px;
+    min-width: 510px;
+    background-color: var(--green);
+    border-radius: var(--border-radius);
+    transition: all 0.9s;
 }
 
 .block-menu {
@@ -22,13 +31,14 @@
     list-style-type: none;
     margin: 80px 0 0 0;
     min-height: 100%;
+    max-height: 100%;
 }
 
 .block-menu-link {
+    position: relative;
     min-width: 100%;
     min-height: 150px;
     border-bottom: 1px solid var(--light-blue);
-    position: relative;
     box-sizing: border-box;
     display: block;
     z-index: 2;
@@ -85,10 +95,10 @@
     height: 50px;
     fill: none;
     stroke: var(--light-blue);
-    stroke-width: 4;
+    stroke-width: 2;
 }
 
-.block-menu-item:hover .block-menu-name{
+.block-menu-item:hover .block-menu-name {
     left: 60px;
     margin-right: 60px;
     transition: all 0.9s ease-in;
