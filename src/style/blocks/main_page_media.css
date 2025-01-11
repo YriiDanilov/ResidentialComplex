@@ -162,7 +162,7 @@
     }
 
     .promo__slang {
-        font-size: 5vw;
+        font-size: 4vw;
         justify-content: center;
     }
 
@@ -387,6 +387,7 @@
         left: 0;
         top: auto;
         padding-top: 10px;
+        min-width: auto;
     }
 
     .apartment__link {
