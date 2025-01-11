@@ -3,7 +3,7 @@
 @import "./base/main_page_normalize.css";
 @import "./base/main_page_vars.css";
 @import "./base/main_page_global.css";
-@import "./base/main_page_connection.css";
+@import "./blocks/main_page_connection.css";
 @import "./base/main_page_phone.css";
 @import "./blocks/main_page_header.css";
 @import "./blocks/main_page_promo.css";

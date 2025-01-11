@@ -1,9 +1,7 @@
 .wrapper-footer {
-    max-width: 1140px;
-    margin-inline: auto;
-    margin: 80px auto 80px auto;
+    margin-top: 4.166vw;
     border: 1px solid var(--dark-blue);
-    font-size: 20px;
+    font-size: 22px;
     color: var(--dark-blue);
 }
 
@@ -14,19 +12,36 @@
     border-bottom: 1px solid var(--dark-blue);
 }
 
-.address-footer{
-    max-width: 420px;
-    max-height: 155px;
+.wrapper-contact > div:nth-child(1) {
+    width: 42%;
+}
+
+.wrapper-contact > div:nth-child(2) {
+    width: 29%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper-contact > div:nth-child(3) {
+    width: 29%;
+    display: flex;
+    justify-content: center;
+}
+
+.address-footer {
+    max-height: 8.072vw;
     font-style: normal;
     text-align: center;
+    font-size: clamp(15px, 1.041vw, 22px);
 }
 
 .footer-link-telephone {
-   padding: 65px 92px 65px 107px;
+    white-space: nowrap;
+    font-size: clamp(15px, 1.041vw, 22px);
 }
 
 .footer-link-telephone:hover {
-    color: var(--light-blue);
+    color: var(--dark-blue);
     transition-duration: 0.5s;
 }
 
@@ -35,7 +50,19 @@
     text-align: center;
     font-family: 'Saira', sans-serif;
     font-weight: 900;
-    font-size: 128px;
-    letter-spacing: 10px;
+    font-size: 6.666vw;
+    letter-spacing: 0.520vw;
     color: var(--green);
 }
+
+.btn-footer {
+    position: relative;
+    min-width: 315px;
+    min-height: 155px;
+    color: var(--dark-blue);
+    border-radius: 0;
+    text-align: center;
+    font-size: clamp(15px, 1.041vw, 22px);
+    transition: 0.9s;
+}
+
