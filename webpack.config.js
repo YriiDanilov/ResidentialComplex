@@ -17,7 +17,11 @@ module.exports = {
         open: '[name].[contenthash].html',
     },
     mode: mode,
-    entry: './src/js/main_page_index.js',
+    entry: {
+        main_page: './src/js/main_page_index.js',
+        common_layout: './src/layout_pages_js/layout_pages.js',
+        common_interior: './src/js/interior_index.js',
+    },
     output: {
         filename: mode === 'development' ? '[name].bundle.js' : '[name].[contenthash].js',
         assetModuleFilename: mode === 'development' ? 'assets/[name][ext][query]' : 'assets/[hash][ext][query]',
@@ -30,8 +34,39 @@ module.exports = {
             filename: '[name].[contenthash].css',
         }),
         new HtmlWebpackPlugin({
-            filename: '[name].[contenthash].html',
+            filename: 'main_page.html',
             template: path.resolve('./src/main_page.html'),
+            chunks: ['main_page'],
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'sky.html',
+            template: path.resolve('./src/sky.html'),
+            chunks: ['common_layout'],
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'floor_layout_silence.html',
+            template: path.resolve('./src/floor_layout_silence.html'),
+            chunks: ['common_layout'],
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'floor_layout_rocks.html',
+            template: path.resolve('./src/floor_layout_rocks.html'),
+            chunks: ['common_layout'],
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'floor_layout_alpine_dreams.html',
+            template: path.resolve('./src/floor_layout_alpine_dreams.html'),
+            chunks: ['common_layout'],
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'select.html',
+            template: path.resolve('./src/select.html'),
+            chunks: ['common_interior'],
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'purchase.html',
+            template: path.resolve('./src/purchase.html'),
+            chunks: ['common_interior'],
         }),
     ],
     module: {

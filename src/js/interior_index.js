@@ -1,4 +1,4 @@
-//import '../style/interior_style.css';
+import '../style/interior_style.css';
 
 import { interior_fallMenu } from './interior_fallMenu.js'
 import { Boxlayout } from './infrastructure.js'
