@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 @import url(../style/normolaiz.css);
 @import url(../style/globol.css);
@@ -13,3 +14,15 @@
 @import url(../style/media/media-footer.css);
 @import url(../style/media/media-form.css);
 
+=======
+@import "./base/fonts.css";
+@import "./base/normalize.css";
+@import "./base/vars.css";
+@import "./base/global.css";
+@import "./blocks/header.css";
+@import "./blocks/promo.css";
+@import "./blocks/actions.css";
+@import "./blocks/apartments.css";
+@import "./blocks/interior.css";
+@import "./blocks/book.css";
+>>>>>>> develop
