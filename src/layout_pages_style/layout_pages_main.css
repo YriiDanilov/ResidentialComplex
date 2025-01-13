@@ -1,0 +1,144 @@
+.header {
+    position: relative;
+}
+
+body {
+    background-image: url(../img/main-bg/body.webp);
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.flat__title {
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: clamp(25px, 3.333vw, 64px);
+    text-align: center;
+    color: var(--color-dark-blue);
+}
+
+.grid-container {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-flow: 300px;
+    gap: 38px;
+
+    &>div:nth-child(n+2) {
+        width: 100%;
+        height: 300px;
+    }
+
+    & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.first {
+    grid-column: 1 / 4;
+    max-width: 1060px;
+    max-height: 689px;
+    margin: 0 auto;
+}
+
+.swiper {
+    display: none;
+}
+
+.descr {
+    margin-top: 40px;
+    color: var(--color-dark-blue);
+}
+
+.descr__wraper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.descr__left {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.descr__left-block-wrapper {
+display: flex;
+}
+
+.ds-flex {
+    display: flex;
+}
+
+
+.descr__block {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    text-align: center;
+    margin-right: 10px;
+    padding-right: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--color-dark-blue);
+
+    svg {
+        margin-right: 10px;
+        display: inline-block;
+        margin-block: auto;
+    }
+
+    p {
+        display: inline-block;
+        margin-block: auto;
+        transform: translateY(10%);
+    }
+}
+
+.descr__block:not(:last-child) {
+    border-right: 1px solid var(--color-dark-blue);
+}
+
+.descr__left-block-wrapper-text {
+    margin-top: 40px;
+    padding-right: 20px;
+}
+
+.descr__left-block-text {
+    font-size: 22px;
+}
+
+.descr__rigth {
+    width: 30%;
+}
+
+.descr__rigth-block {
+    display: flex;
+    align-items: baseline;
+    column-gap: 12px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.ds-none {
+    display: none;
+}
+
+.plan {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.plan__title {
+    text-align: center;
+    color: var(--color-dark-blue);
+    font-size: 35px;
+}
+
+.plan img {
+    margin-top: 20px;
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1;
+}

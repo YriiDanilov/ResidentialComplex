@@ -1,0 +1,39 @@
+.promo {
+    position: relative;
+    z-index: -15;
+    padding-top: 180px;
+    height: 100vh;
+    background: url('../../img/main-bg/promo.webp') top / cover no-repeat;
+}
+
+.letters {
+    top: -10px;
+    font-size: 190px;
+    text-transform: uppercase;
+    color: var(--color-white, #fff);
+    line-height: 1;
+}
+
+.letters .letter {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    position: relative;
+    letter-spacing: -10px;
+    text-shadow: 25px 0 35px rgba(0 0 0 / .4);
+    margin-left: -0.1em;
+}
+
+.bg-filter {
+    position: absolute;
+    inset: 0 0 0 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: -10;
+}
+
+.promo__slang {
+    display: flex;
+    justify-content: end;
+    color: var(--color-white);
+    font-size: 27px;
+}
+
