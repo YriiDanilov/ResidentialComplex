@@ -46,6 +46,7 @@
         max-width: 580px;
         display: flex;
         flex-direction: column;
+        padding-top: 295px;
     }
 
     .link-map  {

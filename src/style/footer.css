@@ -2,7 +2,7 @@
 .wrapper-footer {
     max-width: 1140px;
     margin-top: 640px;
-    height: 310px;
+    height: 345px;
     margin-inline: auto;
     margin-bottom: 65px;
     border: 1px solid var(--green);
@@ -83,10 +83,10 @@
     color: var(--green);
 }
 
-.footer-link-telephone:hover {
-    color: var(--white-color);
+/* .footer-link-telephone:hover {
+    color: var(--white);
     transition-duration: 0.5s;
-}
+} */
 
 .title-footer {
     text-transform: uppercase;

@@ -36,6 +36,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
+    align-content: center;
 }
 
 .text-form {
@@ -44,7 +45,7 @@
     font-size: 20px;
     text-align: left;
     letter-spacing: normal;
-    width: 400px;
+    width: 467px;
     line-height: 30px;
     color: #114B5F;
 }
@@ -53,6 +54,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
+    margin-top: 20px;
+}
+
+.wrapper-input {
+    display: flex;
+    gap: 10px;
+    margin-top: 35px;
 }
 
 .input {
@@ -81,4 +89,10 @@
     line-height: auto;
     color: #CFE4E6;
     background-color: #F45B69;
+}
+
+
+.message {
+    margin-top: 60px;
+    display: none;
 }
