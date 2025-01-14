@@ -1,0 +1,53 @@
+@media (max-width: 1000px) {
+    .wrapper-connection {
+        margin: 0 auto;
+        max-width: 360px;
+        height: 450px;
+    }
+
+    .btn-close {
+        left: 310px;
+        bottom: 395px;
+    }
+
+    .img-connection {    
+        width: 130px;
+        left: 32%;
+    }
+
+    .wrapper-input {
+        display: flex;
+         gap: 10px;
+        flex-direction: column;
+    }
+
+    .wrapper-form {
+        max-width: 300px;
+        margin-top: 92px;
+    }
+
+    .form {
+        max-width: 300px;
+        margin-top: 50px;
+    }
+
+    .text-form {
+        max-width: 300px;
+        text-align: center;
+        font-size: 19px;
+
+    }
+    .wrapper-input {
+        max-width: 300px;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .input {
+        width: 300px;
+    }
+
+    .btn-form {
+        width: 300px;
+    }
+}
