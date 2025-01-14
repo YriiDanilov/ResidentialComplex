@@ -21,8 +21,14 @@
 @import "./base/global.css";
 @import "./blocks/header.css";
 @import "./blocks/promo.css";
-@import "./blocks/actions.css";
 @import "./blocks/apartments.css";
+<<<<<<< HEAD
 @import "./blocks/interior.css";
 @import "./blocks/book.css";
+>>>>>>> develop
+=======
+@import "./blocks/advantages.css";
+@import "blocks/interior_main.css";
+@import "./blocks/book.css";
+
 >>>>>>> develop

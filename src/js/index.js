@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import {fallMenu} from './fallMenu.js';
 import { feedback } from './feedback.js';
@@ -14,4 +15,8 @@ import { preloader } from './preloader.js'
 fallMenu()
 splitWords()
 preloader()
+>>>>>>> develop
+=======
+
+
 >>>>>>> develop

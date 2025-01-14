@@ -1,0 +1,14 @@
+@import "./base/swiper-bundle.min.css";
+@import "./base/main_page_fonts.css";
+@import "./base/main_page_normalize.css";
+@import "./base/main_page_vars.css";
+@import "./base/main_page_global.css";
+@import "./blocks/main_page_connection.css";
+@import "./base/main_page_phone.css";
+@import "./blocks/main_page_header.css";
+@import "./blocks/main_page_promo.css";
+@import "./blocks/main_page_apartments.css";
+@import "./blocks/main_page_advantages.css";
+@import "./blocks/main_page_interior.css";
+@import "./blocks/main_page_footer.css";
+@import "./blocks/main_page_media.css";
