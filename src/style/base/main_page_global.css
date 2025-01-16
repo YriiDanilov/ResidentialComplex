@@ -31,7 +31,7 @@ body {
 
 body:after {
     content:
-        url('../../img/main-bg/body.webp') url('../../img/main-bg/menu-bg.webp') url('../../img/main-bg/promo.webp') url('../../img/advantages/ecology.webp') url('../../img/advantages/infrastructure.webp') url('../../img/advantages/roads.webp') url('../../img/advantages/sport.webp') url('../../img/apartments/apart-1.webp') url('../../img/apartments/apart-2.webp') url('../../img/apartments/apart-3.webp') url('../../img/apartments/apart-4.webp') url('../../img/interior/interior-1.webp') url('../../img/interior/interior-2.webp') url('../../img/interior/interior-3.webp') url('../../img/interior/interior-4.webp');
+        url('../../img/main-bg/body.webp') url('../../img/main-bg/menu-bg.webp') url('../../img/main-bg/promo.webp') url('../../img/advantages/ecology_main.webp') url('../../img/advantages/infrastructure.webp') url('../../img/advantages/roads_main.webp') url('../../img/advantages/sport_main.webp') url('../../img/apartments/apart-1.webp') url('../../img/apartments/apart-2.webp') url('../../img/apartments/apart-3.webp') url('../../img/apartments/apart-4.webp') url('../../img/interior/interior-1.webp') url('../../img/interior/interior-2.webp') url('../../img/interior/interior-3.webp') url('../../img/interior/interior-4.webp');
     display: none;
 }
 

@@ -1,11 +1,3 @@
-@import "../style/base/main_page_fonts.css";
-@import "../style/base/main_page_normalize.css";
-@import "../style/base/main_page_vars.css";
-@import "../style/base/main_page_global.css";
-@import "../style/blocks/main_page_connection.css";
-@import "../style/base/main_page_phone.css";
-@import "../style/blocks/main_page_header.css";
-@import "../style/blocks/main_page_footer.css";
-@import "../style/blocks/main_page_media.css";
+@import "../style/main_page_style.css";
 @import "./layout_pages_main.css";
 @import "./layout_pages_media.css";

@@ -1,0 +1,46 @@
+
+.section-map {
+    position: relative;
+    max-width: 1140px;
+    padding-top: 85px;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.link-map {
+    height: 125px;
+    font-weight: 400;
+    font-size: 128px;
+    margin: 170px 0 170px 0;
+    color: #028090;
+}
+
+.wrapper-map {
+    padding-left: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wrapper-address {
+    display: flex;
+    flex-direction: column;
+    row-gap: 60px;
+}
+
+.text-map {
+    width: 249px;
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--green);
+    
+}
+
+.addres-map {
+    line-height: 30px;
+    width: 249px;
+    font-weight: 600;
+    font-size: 22px;
+    font-style: normal;
+    color: var(--green);
+}
