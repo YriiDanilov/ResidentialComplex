@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 @import url(../style/normolaiz.css);
 @import url(../style/globol.css);
@@ -13,22 +12,3 @@
 @import url(../style/media/media-sektion-map.css);
 @import url(../style/media/media-footer.css);
 @import url(../style/media/media-form.css);
-
-=======
-@import "./base/fonts.css";
-@import "./base/normalize.css";
-@import "./base/vars.css";
-@import "./base/global.css";
-@import "./blocks/header.css";
-@import "./blocks/promo.css";
-@import "./blocks/apartments.css";
-<<<<<<< HEAD
-@import "./blocks/interior.css";
-@import "./blocks/book.css";
->>>>>>> develop
-=======
-@import "./blocks/advantages.css";
-@import "blocks/interior_main.css";
-@import "./blocks/book.css";
-
->>>>>>> develop

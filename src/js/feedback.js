@@ -1,5 +1,3 @@
-
-
 export const feedback = () => {
 
     document.addEventListener('DOMContentLoaded', () => {
@@ -18,8 +16,6 @@ export const feedback = () => {
            wrapperConnection.classList.toggle('openForm')
        })
    
-   
-       
        form.addEventListener('submit' , (e) => {
            e.preventDefault();
            form.style.display = 'none';

@@ -21,6 +21,7 @@ module.exports = {
         main_page: './src/js/main_page_index.js',
         common_layout: './src/layout_pages_js/layout_pages.js',
         common_interior: './src/js/interior_index.js',
+        index: './src/js/index.js',
     },
     output: {
         filename: mode === 'development' ? '[name].bundle.js' : '[name].[contenthash].js',
@@ -66,6 +67,16 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'purchase.html',
             template: path.resolve('./src/purchase.html'),
+            chunks: ['common_interior'],
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'contact.html',
+            template: path.resolve('./src/contact.html'),
+            chunks: ['index'],
+        }),
+        new HtmlWebpackPlugin({
+            filename: 'infrastructure.html',
+            template: path.resolve('./src/infrastructure.html'),
             chunks: ['common_interior'],
         }),
     ],
