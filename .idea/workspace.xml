@@ -4,63 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4618ad13-d01f-4893-9ba2-673969735c72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fonts/Новый текстовый документ.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/Infrastructure-body.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/btn-close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/header/Logo-contact.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/header/burger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/header/menu-bg.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/modern-сottage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/telephone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/feedback.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/interior_fallMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/interior_index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/btns.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/fonts.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/globol.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/interior_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/media/media-footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/media/media-form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/media/media-header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/media/media-sektion-map.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/normolaiz.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/sektion-map.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/vars.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/floor _layout_.silence.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/floor_layout_silence.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/floor _layout_alpine_dreams.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/floor_layout_alpine_dreams.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/floor _layout_rocks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/floor_layout_rocks.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Overpass-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Overpass-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Overpass-SemiBold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Overpass-SemiBold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Saira-Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Saira-Black.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Saira-Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Saira-Black.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Saira-Regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Saira-Regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/advantages/ecology.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/advantages/ecology_main.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/advantages/roads.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/advantages/roads_main.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/advantages/sport.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/advantages/sport_main.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/infrastructure_page_style/infrastructure_page_media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure_page_style/infrastructure_page_media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main_page_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main_page_index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout_pages_js/layout_pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout_pages_js/layout_pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout_pages_style/layout_pages_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout_pages_style/layout_pages_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/select_page_style/select_page_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/select_page_style/select_page_main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sky.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sky.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/main_page_global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/main_page_global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/main_page_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/main_page_media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/main_page_promo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_promo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="4618ad13-d01f-4893-9ba2-673969735c72" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +57,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging feat/create__interior",
+    "git-widget-placeholder": "feat/create__interior",
     "last_opened_file_path": "C:/Users/osmel/OneDrive/Рабочий стол/проект/ResidentialComplex/src/link_page.js",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
