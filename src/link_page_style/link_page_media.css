@@ -1,0 +1,57 @@
+
+
+@media (max-width: 820px) and (min-width: 600px) {
+    .hero-container {
+        height: 67vh;
+    }
+
+    .hero-h1 {
+        font-size: 35px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .page_text-bottom {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+
+    .hero-container {
+        height: 100%;
+        padding-top: 230px;
+    }
+
+    .hero-background {
+        display: none;
+    }
+
+    .hero-h1 {
+        font-size: 34px;
+        padding: 40px 20px 20px 20px;
+        color: var(--dark-blue);
+        position: relative;
+    }
+
+    .page_text_bottom {
+        display: none;
+    }
+
+    .bottom_button {
+        max-width: 100%;
+        min-height: 50px;
+    }
+
+    .select-h2 {
+        display: none;
+    }
+
+    .purchase-h2-btn {
+        display: none;
+    }
+
+}
