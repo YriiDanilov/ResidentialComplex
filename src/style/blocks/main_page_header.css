@@ -7,7 +7,7 @@
     left: 0;
     right: 0;
     min-height: 150px;
-    padding-top: 75px;
+    padding-top: 40px;
     background-color: rgba(0, 0, 0, 0);
     background-image: linear-gradient(var(--color-light-green), rgba(0, 0, 0, 0));
     z-index: 10;
@@ -172,13 +172,6 @@
     min-width: 450px;
 }
 
-<<<<<<< HEAD
-/* .popup__menu-overflow {
-    overflow-y: auto;
-} */
-
-=======
->>>>>>> feat/floor_layout
 .title-menu {
     margin-top: 64px;
 }
@@ -293,10 +286,11 @@
 .z0 {
     z-index: 0;
 }
-<<<<<<< HEAD
-=======
 
 .pt {
     padding-top: 7px;
 }
->>>>>>> feat/floor_layout
+
+.text {
+    color: var(--color-blue);
+}

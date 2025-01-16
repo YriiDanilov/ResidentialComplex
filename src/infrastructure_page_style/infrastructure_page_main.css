@@ -35,25 +35,25 @@
 .sgroup:nth-child(1) {
     top: 0;
     left: 0;
-    background-image: url(../../img/infrastructure/ecology.webp);
+    background-image: url(../img/infrastructure/ecology.webp);
 }
 
 .sgroup:nth-child(2) {
     top: 0;
     left: 50%;
-    background-image: url(../../img/infrastructure/sport.webp);
+    background-image: url(../img/infrastructure/sport.webp);
 }
 
 .sgroup:nth-child(3) {
     top: 50%;
     left: 0;
-    background-image: url(../../img/infrastructure/roads.webp);
+    background-image: url(../img/infrastructure/roads.webp);
 }
 
 .sgroup:nth-child(4) {
     top: 50%;
     left: 50%;
-    background-image: url(../../img/infrastructure/sale.webp);
+    background-image: url(../img/infrastructure/sale.webp);
 }
 
 .sgroup.is-expanded {
@@ -186,18 +186,17 @@
     padding-bottom: 20px;
 }
 
-.text-bottom {
-    padding: 80px 0 40px 0;
+.page_text_bottom {
+    padding: 80px 20px 40px 20px;
     font-size: 22px;
     color: var(--dark-green);
     text-align: justify;
-    line-height: 2;
 }
 
-.btn-infrastructure {
+.bottom_button {
     position: relative;
     min-height: 50px;
-    min-width: 100%;
+    width: 100%;
     background-color: var(--green);
     border-radius: var(--border-radius);
     transition: all 0.9s;
@@ -211,3 +210,4 @@
     height: 100vh;
     transition: transform 0.5s ease;
 }
+

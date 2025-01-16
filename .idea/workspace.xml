@@ -5,84 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4618ad13-d01f-4893-9ba2-673969735c72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/floor _layout_.silence.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/floor _layout_alpine_dreams.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/floor _layout_rocks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/rooms/arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/rooms/bath.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/rooms/bed.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/rooms/layors.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/rooms/location.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/rooms/relax.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/rooms/sofa.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/icons/rooms/triangle.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-10.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-11.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-12.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-13.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-14.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-15.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-16.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-5.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-6.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-7.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-8.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/interior/interior-9.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/plans/alpine_drems_plan.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/plans/rocks.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/plans/silence.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/main_page_index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/main_page_swiperSettings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/swiper-bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout_pages_js/layout_pages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout_pages_style/layout_pages_main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout_pages_style/layout_pages_media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout_pages_style/layout_pages_style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sky.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/base/swiper-bundle.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/blocks/main_page_footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/blocks/main_page_interior.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/blocks/main_page_media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/main_page_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ResidentComplex.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Saira-Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Saira-Black.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Saira-Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Saira-Black.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/interior/interior-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/interior/interior-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/interior/interior-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/interior/interior-3.webp" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/interior/interior-3.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/interior/interior-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/animationLetters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main_page_animationLetters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/fallMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main_page_fallMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure_page_style/infrastructure_page_media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastructure_page_style/infrastructure_page_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/link_page.js/link_page_index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/link_page_style/link_page_media.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/link_page_style/link_page_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/select_page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/select_page.js/select_page_index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/select_page_style/select_page_media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/floor _layout_.silence.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/floor _layout_.silence.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/floor _layout_alpine_dreams.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/floor _layout_alpine_dreams.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/floor _layout_rocks.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/floor _layout_rocks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/infrastructure.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/infrastructure.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/infrastructure_page_main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/interior_fallMenu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/interior_feedback.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/interior_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure_page.js/infrastructure_page_index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main_page_feedback.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main_page_feedback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main_page_preloader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/main_page_fonts.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/main_page_global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/main_page_phone.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/main_page_phone.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/main_page_normalize.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/base/vars.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/main_page_vars.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/actions.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/advantages.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_advantages.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/apartments.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_apartments.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/book.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/interior_main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/purchase.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/link_page_main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout_pages_style/layout_pages_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout_pages_style/layout_pages_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/purchase.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/link_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/select.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sky.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/sky.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/base/interior_global.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/base/main_page_global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/base/main_page_global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/infrasrtukture.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/infrastructure_page_style/infrastructure_page_main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/infrastructure_media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/page_media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/interior_hero.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/page_hero.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/blocks/main_page_connection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_connection.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/blocks/promo.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_promo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/interior_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/interior_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/main_page_footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/main_page_header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/main_page_media.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/blocks/main_page_media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/purchase.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/link_page_style/link_page_main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/blocks/salectan.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/select_page_style/select_page_main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/interior_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/select_page_style/select_page_style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,6 +57,7 @@
       <list>
         <option value="Sass File" />
         <option value="HTML File" />
+        <option value="package.json" />
         <option value="CSS File" />
       </list>
     </option>
@@ -130,32 +94,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "Merging feat/create__interior",
-    "last_opened_file_path": "C:/Users/osmel/OneDrive/Рабочий стол/Учеба-DESKTOP-9I44DL8/TODO-List-main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build.executor": "Run",
-    "npm.start.executor": "Run",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat/create__interior&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/osmel/OneDrive/Рабочий стол/проект/ResidentialComplex/src/link_page.js&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\link_page.js" />
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\select_page.js" />
       <recent name="C:\Users\osmel\OneDrive\Рабочий стол\Учеба-DESKTOP-9I44DL8\ResidentComplex\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\Учеба-DESKTOP-9I44DL8\ResidentComplex\src\style" />
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\link_page_style" />
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\js" />
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\infrastructure_page.js" />
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\select_page_style" />
+      <recent name="C:\Users\osmel\OneDrive\Рабочий стол\проект\ResidentialComplex\src\infrastructure_page_style" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -268,7 +238,16 @@
       <workItem from="1734882149164" duration="155000" />
       <workItem from="1734887376489" duration="770000" />
       <workItem from="1736537618270" duration="635000" />
-      <workItem from="1736538270913" duration="302000" />
+      <workItem from="1736538270913" duration="584000" />
+      <workItem from="1736575307321" duration="491000" />
+      <workItem from="1736580163477" duration="804000" />
+      <workItem from="1736583413536" duration="961000" />
+      <workItem from="1736593551371" duration="33000" />
+      <workItem from="1736772943153" duration="11452000" />
+      <workItem from="1736870211383" duration="1805000" />
+      <workItem from="1736872384595" duration="1193000" />
+      <workItem from="1736945345215" duration="16001000" />
+      <workItem from="1737024028130" duration="2931000" />
     </task>
     <servers />
   </component>
@@ -320,5 +299,20 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/layout_pages_js/layout_pages.js</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/link_page.js/link_page_index.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,0 +1,11 @@
+@import url(../style/base/main_page_fonts.css);
+@import url(../style/base/main_page_global.css);
+@import url(../style/base/main_page_normalize.css);
+@import url(../style/base/main_page_vars.css);
+@import url(../style/blocks/main_page_header.css);
+@import url(../style/blocks/main_page_footer.css);
+@import url(../style/blocks/main_page_connection.css);
+@import url(../style/base/main_page_phone.css);
+@import url(../style/blocks/page_hero.css);
+@import url(../infrastructure_page_style/infrastructure_page_main.css);
+

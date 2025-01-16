@@ -1,4 +1,4 @@
-export const purchase  = document.querySelectorAll('.purchase_list');
+export const link_page_main  = document.querySelectorAll('.purchase_list');
 
 const observerOptions = {
     root: null,
@@ -14,6 +14,6 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-purchase.forEach(purchase => {
+link_page_main.forEach(purchase => {
     observer.observe(purchase)
 });

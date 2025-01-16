@@ -1,7 +1,8 @@
 .selectan-h2-btn {
-    padding-top: 80px;
+    padding: 80px 20px;
     font-size: 22px;
     color: var(--dark-blue);
+    display: flex;
 }
 
 .select-h2 {
@@ -50,22 +51,22 @@
 }
 
 .block-menu-item:nth-child(1):hover ~ .block-menu-wall {
-    background-image: url('../../img/select/house_1.webp');
+    background-image: url('../img/select/house_1.webp');
     transition: all 0.4s ease-in;
 }
 
 .block-menu-item:nth-child(2):hover ~ .block-menu-wall {
-    background-image: url('../../img/select/house_2.webp');
+    background-image: url('../img/select/house_2.webp');
     transition: all 0.4s ease-in;
 }
 
 .block-menu-item:nth-child(3):hover ~ .block-menu-wall {
-    background-image: url('../../img/select/house_3.webp');
+    background-image: url('../img/select/house_3.webp');
     transition: all 0.4s ease-in;
 }
 
 .block-menu-item:nth-child(4):hover ~ .block-menu-wall {
-    background-image: url('../../img/select/house_4.webp');
+    background-image: url('../img/select/house_4.webp');
     transition: all 0.4s ease-in;
 }
 
@@ -118,6 +119,13 @@
     background-color: var(--dark-blue);
     background-size: cover;
     background-position: center center;
-    background-image: url('../../img/select/house_1.webp');
+    background-image: url('../img/select/house_1.webp');
     transition: all 0.4s ease-in;
+}
+
+.page_text_bottom {
+    padding: 80px 20px 40px 20px;
+    font-size: 22px;
+    color: var(--dark-green);
+    text-align: justify;
 }
