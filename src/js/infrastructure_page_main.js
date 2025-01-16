@@ -1,3 +1,6 @@
+
+// import '../style/blocks/infrastructure_media.css'
+
 export const Boxlayout = (function () {
     let wrapper = document.body,
     sgroups = Array.from(document.querySelectorAll(".sgroup")),
