@@ -166,13 +166,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   preloader: () => (/* binding */ preloader)
 /* harmony export */ });
 var preloader = function preloader() {
-  window.onload = function () {
-    document.body.classList.add('loaded_hiding');
+  document.addEventListener('DOMContentLoaded', function () {
+    var preloader = document.getElementById('preloader');
+    var mainContent = document.getElementById('main-content');
+    window.addEventListener('load', function () {
+      preloader.style.display = 'none'; // Скрываем прелоадер
+      mainContent.classList.remove('hidden'); // Показываем контент
+    });
+    /* window.onload = function () {
+    document.body.classList.add('loaded_hiding')
     window.setTimeout(function () {
-      document.body.classList.add('loaded');
-      document.body.classList.remove('loaded_hiding');
-    }, 500);
-  };
+        document.body.classList.add('loaded')
+        document.body.classList.remove('loaded_hiding')
+    }, 500)
+    } */
+  });
 };
 
 /***/ }),
