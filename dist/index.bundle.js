@@ -166,19 +166,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   preloader: () => (/* binding */ preloader)
 /* harmony export */ });
 var preloader = function preloader() {
-  window.addEventListener('load', function () {
-    var preloader = document.querySelector('#preloader');
-    var mainContent = document.querySelector('.body');
-    // let preloader = document.getElementById('preloader')
-    if (preloader) {
-      preloader.style.display = 'none';
-    }
-    if (mainContent) {
-      mainContent.style.display = 'block';
-    }
-    // preloader.style.display = 'none'
-    document.body.style.overflow = 'auto';
-  });
+  window.onload = function () {
+    document.body.classList.add('loaded_hiding');
+    window.setTimeout(function () {
+      document.body.classList.add('loaded');
+      document.body.classList.remove('loaded_hiding');
+    }, 500);
+  };
 };
 
 /***/ }),
