@@ -20,8 +20,10 @@ module.exports = {
     entry: {
         main_page: './src/js/main_page_index.js',
         common_layout: './src/layout_pages_js/layout_pages.js',
-        common_interior: './src/js/interior_index.js',
         index: './src/js/index.js',
+        infrastructura: './src/infrastructure_page.js/infrastructure_page_index.js',
+        link_page: './src/link_page.js/link_page_index.js',
+        select_page_index: './src/select_page.js/select_page_index.js',
     },
     output: {
         filename: mode === 'development' ? '[name].bundle.js' : '[name].[contenthash].js',
@@ -60,14 +62,14 @@ module.exports = {
             chunks: ['common_layout'],
         }),
         new HtmlWebpackPlugin({
-            filename: 'select.html',
-            template: path.resolve('./src/select.html'),
-            chunks: ['common_interior'],
+            filename: 'select_page.html',
+            template: path.resolve('./src/select_page.html'),
+            chunks: ['select_page_index'],
         }),
         new HtmlWebpackPlugin({
-            filename: 'purchase.html',
-            template: path.resolve('./src/purchase.html'),
-            chunks: ['common_interior'],
+            filename: 'link_page.html',
+            template: path.resolve('./src/link_page.html'),
+            chunks: ['link_page'],
         }),
         new HtmlWebpackPlugin({
             filename: 'contact.html',
@@ -75,9 +77,9 @@ module.exports = {
             chunks: ['index'],
         }),
         new HtmlWebpackPlugin({
-            filename: 'infrastructure.html',
-            template: path.resolve('./src/infrastructure.html'),
-            chunks: ['common_interior'],
+            filename: 'infrastructure_page.html',
+            template: path.resolve('./src/infrastructure_page.html'),
+            chunks: ['infrastructura'],
         }),
     ],
     module: {

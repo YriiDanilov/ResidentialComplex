@@ -1,4 +1,7 @@
-//import '../style/select_page_style.css';
+import '../infrastructure_page_style/infrastructure_page_style.css'
+import '../infrastructure_page_style/infrastructure_page_media.css';
+import '../style/blocks/main_page_media.css';
+
 
 import { fallMenu } from '../js/main_page_fallMenu.js'
 import { preloader } from '../js/main_page_preloader.js'
