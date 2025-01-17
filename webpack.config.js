@@ -37,7 +37,7 @@ module.exports = {
             filename: '[name].[contenthash].css',
         }),
         new HtmlWebpackPlugin({
-            filename: 'main_page.html',
+            filename: 'index.html',
             template: path.resolve('./src/main_page.html'),
             chunks: ['main_page'],
         }),

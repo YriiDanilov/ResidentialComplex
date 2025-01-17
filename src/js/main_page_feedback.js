@@ -12,7 +12,6 @@ export const feedback = () => {
         const btnSubmit = document.querySelector('#connection__submit')
         const connectionInput = document.querySelector('#connection__input')
         const buttonInfrastructure = document.querySelector('#button_infrastructure')
-        const buttonSelect = document.querySelector('#button_select')
         const buttonLink = document.querySelector('#button_link')
 
         const closeConnection = () => {
@@ -84,11 +83,6 @@ export const feedback = () => {
             toggleConnection()
         })
 
-        buttonSelect.addEventListener('click', (e) => {
-            e.stopPropagation()
-            toggleConnection()
-        })
-
         buttonLink.addEventListener('click', (e) => {
             e.stopPropagation()
             toggleConnection()
@@ -106,7 +100,5 @@ export const feedback = () => {
         document.addEventListener('touchstart', (e) => {
             clickOutsideMenu(e)
         })
-
-
     })
 }
