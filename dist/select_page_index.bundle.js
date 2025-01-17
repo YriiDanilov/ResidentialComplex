@@ -143,51 +143,51 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@media (max-width: 820px) and (min-wid
     display: none;
   }
   .block-menu-name {
-    position: absolute;
-    right: 0;
-    left: 0;
-    font-size: 20px;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: var(--border-radius);
     color: var(--dark-green);
     display: block;
-    transform: none;
+    font-size: 20px;
+    left: 0;
     min-height: 40px;
+    position: absolute;
+    right: 0;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.4);
-    align-content: center;
-    border-radius: var(--border-radius);
+    transform: none;
   }
   .block-menu li .arrow svg {
-    width: 30px;
     height: 30px;
     opacity: 1;
     stroke: var(--dark-green);
     stroke-width: 4;
+    width: 30px;
   }
   .block-menu-wall {
     display: none;
   }
   .block-menu li .arrow {
-    top: 4px;
     height: 0;
-    width: 0;
     opacity: 1;
+    top: 4px;
     transition: none;
+    width: 0;
   }
   .block-menu li:hover .arrow {
-    right: 30px;
     opacity: 1;
+    right: 30px;
   }
   .mobile_menu_link {
-    position: relative;
-    box-sizing: border-box;
-    display: block;
-    min-width: 100%;
-    min-height: 420px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: var(--border-radius);
-    right: 0;
+    box-sizing: border-box;
+    display: block;
     left: 0;
     margin-bottom: 40px;
+    min-height: 420px;
+    min-width: 100%;
+    position: relative;
+    right: 0;
   }
   .mobile_menu_link:hover {
     background-color: rgba(17, 59, 95, 0.6);
@@ -195,23 +195,23 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@media (max-width: 820px) and (min-wid
   }
   .mobile-card_1 {
     background: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .mobile-card_2 {
     background: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .mobile-card_3 {
     background: url(${___CSS_LOADER_URL_REPLACEMENT_2___});
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .mobile-card_4 {
     background: url(${___CSS_LOADER_URL_REPLACEMENT_3___});
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media (max-width: 600px) {
@@ -223,17 +223,17 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@media (max-width: 820px) and (min-wid
     display: none;
   }
   .hero-h1 {
+    color: var(--dark-blue);
     font-size: 30px;
     padding: 40px 20px 20px 20px;
-    color: var(--dark-blue);
     position: relative;
   }
   .page_text_bottom {
     display: none;
   }
   .selectan-h2-btn {
-    padding: 40px 0;
     justify-content: center;
+    padding: 40px 0;
   }
   .select-h2 {
     display: none;
@@ -251,51 +251,51 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@media (max-width: 820px) and (min-wid
     display: none;
   }
   .block-menu-name {
-    position: absolute;
-    right: 0;
-    left: 0;
-    font-size: 20px;
+    align-content: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: var(--border-radius);
     color: var(--dark-green);
     display: block;
-    transform: none;
+    font-size: 20px;
+    left: 0;
     min-height: 40px;
+    position: absolute;
+    right: 0;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.4);
-    align-content: center;
-    border-radius: var(--border-radius);
+    transform: none;
   }
   .block-menu li .arrow svg {
-    width: 30px;
     height: 30px;
     opacity: 1;
     stroke: var(--dark-green);
     stroke-width: 4;
+    width: 30px;
   }
   .block-menu-wall {
     display: none;
   }
   .block-menu li .arrow {
-    top: 4px;
     height: 0;
-    width: 0;
     opacity: 1;
+    top: 4px;
     transition: none;
+    width: 0;
   }
   .block-menu li:hover .arrow {
-    right: 30px;
     opacity: 1;
+    right: 30px;
   }
   .mobile_menu_link {
-    position: relative;
-    box-sizing: border-box;
-    display: block;
-    min-width: 100%;
-    min-height: 320px;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: var(--border-radius);
-    right: 0;
+    box-sizing: border-box;
+    display: block;
     left: 0;
     margin-bottom: 40px;
+    min-height: 320px;
+    min-width: 100%;
+    position: relative;
+    right: 0;
   }
   .mobile_menu_link {
     background-color: rgba(17, 59, 95, 0.6);
@@ -303,25 +303,25 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@media (max-width: 820px) and (min-wid
   }
   .mobile-card_1 {
     background: url(${___CSS_LOADER_URL_REPLACEMENT_0___});
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .mobile-card_2 {
     background: url(${___CSS_LOADER_URL_REPLACEMENT_1___});
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .mobile-card_3 {
     background: url(${___CSS_LOADER_URL_REPLACEMENT_2___});
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
   }
   .mobile-card_4 {
     background: url(${___CSS_LOADER_URL_REPLACEMENT_3___});
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
   }
-}`, "",{"version":3,"sources":["webpack://./src/select_page_style/select_page_media.css"],"names":[],"mappings":"AACA;EAEI;IACI,YAAA;EADN;EAIE;IACI,eAAA;IACA,kBAAA;IACA,mBAAA;EAFN;EAKE;IACI,eAAA;IACA,cAAA;IACA,kBAAA;EAHN;EAME;IACI,cAAA;EAJN;EAOE;IACI,eAAA;IACA,iBAAA;IACA,kBAAA;EALN;EAQE;IACI,cAAA;EANN;EASE;IACI,aAAA;EAPN;EAUE;IACI,kBAAA;IACA,QAAA;IACA,OAAA;IACA,eAAA;IACA,wBAAA;IACA,cAAA;IACA,eAAA;IACA,gBAAA;IACA,kBAAA;IACA,0CAAA;IACA,qBAAA;IACA,mCAAA;EARN;EAWE;IACI,WAAA;IACA,YAAA;IACA,UAAA;IACA,yBAAA;IACA,eAAA;EATN;EAYE;IACI,aAAA;EAVN;EAaE;IACI,QAAA;IACA,SAAA;IACA,QAAA;IACA,UAAA;IACA,gBAAA;EAXN;EAcE;IACI,WAAA;IACA,UAAA;EAZN;EAeE;IACI,kBAAA;IACA,sBAAA;IACA,cAAA;IACA,eAAA;IACA,iBAAA;IACA,0CAAA;IACA,mCAAA;IACA,QAAA;IACA,OAAA;IACA,mBAAA;EAbN;EAgBE;IACI,uCAAA;IACA,4BAAA;EAdN;EAiBE;IACI,mDAAA;IACA,sBAAA;IACA,4BAAA;EAfN;EAkBE;IACI,mDAAA;IACA,sBAAA;IACA,4BAAA;EAhBN;EAmBE;IACI,mDAAA;IACA,sBAAA;IACA,4BAAA;EAjBN;EAoBE;IACI,mDAAA;IACA,sBAAA;IACA,4BAAA;EAlBN;AACF;AAqBA;EAEI;IACI,YAAA;IACA,kBAAA;EApBN;EAuBE;IACI,aAAA;EArBN;EAwBE;IACI,eAAA;IACA,4BAAA;IACA,uBAAA;IACA,kBAAA;EAtBN;EAyBE;IACI,aAAA;EAvBN;EA0BE;IACI,eAAA;IACA,uBAAA;EAxBN;EA2BE;IACI,aAAA;EAzBN;EA4BE;IACI,aAAA;EA1BN;EA6BE;IACI,eAAA;EA3BN;EA8BE;IACI,cAAA;EA5BN;EA+BE;IACI,aAAA;EA7BN;EAgCE;IACI,kBAAA;IACA,QAAA;IACA,OAAA;IACA,eAAA;IACA,wBAAA;IACA,cAAA;IACA,eAAA;IACA,gBAAA;IACA,kBAAA;IACA,0CAAA;IACA,qBAAA;IACA,mCAAA;EA9BN;EAiCE;IACI,WAAA;IACA,YAAA;IACA,UAAA;IACA,yBAAA;IACA,eAAA;EA/BN;EAkCE;IACI,aAAA;EAhCN;EAmCE;IACI,QAAA;IACA,SAAA;IACA,QAAA;IACA,UAAA;IACA,gBAAA;EAjCN;EAoCE;IACI,WAAA;IACA,UAAA;EAlCN;EAqCE;IACI,kBAAA;IACA,sBAAA;IACA,cAAA;IACA,eAAA;IACA,iBAAA;IACA,0CAAA;IACA,mCAAA;IACA,QAAA;IACA,OAAA;IACA,mBAAA;EAnCN;EAsCE;IACI,uCAAA;IACA,4BAAA;EApCN;EAuCE;IACI,mDAAA;IACA,sBAAA;IACA,4BAAA;EArCN;EAwCE;IACI,mDAAA;IACA,sBAAA;IACA,4BAAA;EAtCN;EAyCE;IACI,mDAAA;IACA,sBAAA;IACA,4BAAA;EAvCN;EA0CE;IACI,mDAAA;IACA,sBAAA;IACA,4BAAA;EAxCN;AACF","sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/select_page_style/select_page_media.css"],"names":[],"mappings":"AACA;EAEI;IACI,YAAA;EADN;EAIE;IACI,eAAA;IACA,kBAAA;IACA,mBAAA;EAFN;EAKE;IACI,eAAA;IACA,cAAA;IACA,kBAAA;EAHN;EAME;IACI,cAAA;EAJN;EAOE;IACI,eAAA;IACA,iBAAA;IACA,kBAAA;EALN;EAQE;IACI,cAAA;EANN;EASE;IACI,aAAA;EAPN;EAUE;IAWI,qBAAA;IADA,0CAAA;IAEA,mCAAA;IAPA,wBAAA;IACA,cAAA;IAFA,eAAA;IADA,OAAA;IAKA,gBAAA;IAPA,kBAAA;IACA,QAAA;IAOA,kBAAA;IAFA,eAAA;EAHN;EAWE;IAEI,YAAA;IACA,UAAA;IACA,yBAAA;IACA,eAAA;IAJA,WAAA;EALN;EAYE;IACI,aAAA;EAVN;EAaE;IAEI,SAAA;IAEA,UAAA;IAHA,QAAA;IAIA,gBAAA;IAFA,QAAA;EATN;EAcE;IAEI,UAAA;IADA,WAAA;EAXN;EAeE;IAMI,0CAAA;IACA,mCAAA;IALA,sBAAA;IACA,cAAA;IAMA,OAAA;IACA,mBAAA;IALA,iBAAA;IADA,eAAA;IAHA,kBAAA;IAOA,QAAA;EAXN;EAgBE;IACI,uCAAA;IACA,4BAAA;EAdN;EAiBE;IACI,mDAAA;IAEA,4BAAA;IADA,sBAAA;EAdN;EAkBE;IACI,mDAAA;IAEA,4BAAA;IADA,sBAAA;EAfN;EAmBE;IACI,mDAAA;IAEA,4BAAA;IADA,sBAAA;EAhBN;EAoBE;IACI,mDAAA;IAEA,4BAAA;IADA,sBAAA;EAjBN;AACF;AAqBA;EAEI;IACI,YAAA;IACA,kBAAA;EApBN;EAuBE;IACI,aAAA;EArBN;EAwBE;IAGI,uBAAA;IAFA,eAAA;IACA,4BAAA;IAEA,kBAAA;EAtBN;EAyBE;IACI,aAAA;EAvBN;EA0BE;IAEI,uBAAA;IADA,eAAA;EAvBN;EA2BE;IACI,aAAA;EAzBN;EA4BE;IACI,aAAA;EA1BN;EA6BE;IACI,eAAA;EA3BN;EA8BE;IACI,cAAA;EA5BN;EA+BE;IACI,aAAA;EA7BN;EAgCE;IAWI,qBAAA;IADA,0CAAA;IAEA,mCAAA;IAPA,wBAAA;IACA,cAAA;IAFA,eAAA;IADA,OAAA;IAKA,gBAAA;IAPA,kBAAA;IACA,QAAA;IAOA,kBAAA;IAFA,eAAA;EAzBN;EAiCE;IAEI,YAAA;IACA,UAAA;IACA,yBAAA;IACA,eAAA;IAJA,WAAA;EA3BN;EAkCE;IACI,aAAA;EAhCN;EAmCE;IAEI,SAAA;IAEA,UAAA;IAHA,QAAA;IAIA,gBAAA;IAFA,QAAA;EA/BN;EAoCE;IAEI,UAAA;IADA,WAAA;EAjCN;EAqCE;IAMI,0CAAA;IACA,mCAAA;IALA,sBAAA;IACA,cAAA;IAMA,OAAA;IACA,mBAAA;IALA,iBAAA;IADA,eAAA;IAHA,kBAAA;IAOA,QAAA;EAjCN;EAsCE;IACI,uCAAA;IACA,4BAAA;EApCN;EAuCE;IACI,mDAAA;IAEA,4BAAA;IADA,sBAAA;EApCN;EAwCE;IACI,mDAAA;IAEA,4BAAA;IADA,sBAAA;EArCN;EAyCE;IACI,mDAAA;IAEA,4BAAA;IADA,sBAAA;EAtCN;EA0CE;IACI,mDAAA;IAEA,4BAAA;IADA,sBAAA;EAvCN;AACF","sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

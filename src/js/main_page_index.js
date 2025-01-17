@@ -5,7 +5,6 @@ import { splitWords } from './main_page_animationLetters.js'
 import { feedback } from './main_page_feedback.js'
 import { swiper } from './main_page_swiperSettings.js'
 
-
 preloader()
 fallMenu()
 splitWords()

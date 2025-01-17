@@ -128,22 +128,22 @@ button {
     margin-top: -35px;
     margin-left: -35px;
     text-align: center;
-    animation: preloader-rotate 2s infinite linear
+    animation: preloader-rotate 2s infinite linear;
 }
 
 @keyframes preloader-rotate {
     100% {
-        transform: rotate(360deg)
+        transform: rotate(360deg);
     }
 }
 
 .loaded_hiding .preloader {
     transition: .3s opacity;
-    opacity: 0
+    opacity: 0;
 }
 
 .loaded .preloader {
-    display: none
+    display: none;
 }
 
 .menu-button {
@@ -230,7 +230,7 @@ button {
 
 .phone:before,
 .phone:after {
-    animation: animate 1.5s linear infinite
+    animation: animate 1.5s linear infinite;
 }
 
 

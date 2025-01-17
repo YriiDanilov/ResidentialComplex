@@ -102,9 +102,9 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@media (max-width: 820px) and (min-wid
     display: none;
   }
   .hero-h1 {
+    color: var(--dark-blue);
     font-size: 34px;
     padding: 40px 20px 20px 20px;
-    color: var(--dark-blue);
     position: relative;
   }
   .page_text_bottom {
@@ -120,7 +120,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, `@media (max-width: 820px) and (min-wid
   .purchase-h2-btn {
     display: none;
   }
-}`, "",{"version":3,"sources":["webpack://./src/link_page_style/link_page_media.css"],"names":[],"mappings":"AAEA;EACI;IACI,YAAA;EADN;EAIE;IACI,eAAA;IACA,kBAAA;IACA,mBAAA;EAFN;EAKE;IACI,eAAA;IACA,iBAAA;IACA,kBAAA;EAHN;AACF;AAMA;EAGI;IACI,YAAA;IACA,kBAAA;EANN;EASE;IACI,aAAA;EAPN;EAUE;IACI,eAAA;IACA,4BAAA;IACA,uBAAA;IACA,kBAAA;EARN;EAWE;IACI,aAAA;EATN;EAYE;IACI,eAAA;IACA,gBAAA;EAVN;EAaE;IACI,aAAA;EAXN;EAcE;IACI,aAAA;EAZN;AACF","sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/link_page_style/link_page_media.css"],"names":[],"mappings":"AAEA;EACI;IACI,YAAA;EADN;EAIE;IACI,eAAA;IACA,kBAAA;IACA,mBAAA;EAFN;EAKE;IACI,eAAA;IACA,iBAAA;IACA,kBAAA;EAHN;AACF;AAMA;EAGI;IACI,YAAA;IACA,kBAAA;EANN;EASE;IACI,aAAA;EAPN;EAUE;IAGI,uBAAA;IAFA,eAAA;IACA,4BAAA;IAEA,kBAAA;EARN;EAWE;IACI,aAAA;EATN;EAYE;IACI,eAAA;IACA,gBAAA;EAVN;EAaE;IACI,aAAA;EAXN;EAcE;IACI,aAAA;EAZN;AACF","sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
