@@ -38,22 +38,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _main_page_fallMenu_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./main_page_fallMenu.js */ "./src/js/main_page_fallMenu.js");
 /* harmony import */ var _main_page_animationLetters_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./main_page_animationLetters.js */ "./src/js/main_page_animationLetters.js");
 /* harmony import */ var _main_page_feedback_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./main_page_feedback.js */ "./src/js/main_page_feedback.js");
-/* harmony import */ var _main_page_swiperSettings_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./main_page_swiperSettings.js */ "./src/js/main_page_swiperSettings.js");
-/* harmony import */ var _swiper_bundle_min_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./swiper-bundle.min.js */ "./src/js/swiper-bundle.min.js");
-/* harmony import */ var _swiper_bundle_min_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_swiper_bundle_min_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _main_page_preloader_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./main_page_preloader.js */ "./src/js/main_page_preloader.js");
+/* harmony import */ var _swiper_bundle_min_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./swiper-bundle.min.js */ "./src/js/swiper-bundle.min.js");
+/* harmony import */ var _swiper_bundle_min_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_swiper_bundle_min_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _main_page_preloader_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./main_page_preloader.js */ "./src/js/main_page_preloader.js");
 
 
 
 
-
+// import './main_page_swiperSettings.js'
 
 
 (0,_main_page_fallMenu_js__WEBPACK_IMPORTED_MODULE_1__.fallMenu)();
 (0,_main_page_animationLetters_js__WEBPACK_IMPORTED_MODULE_2__.splitWords)();
 (0,_main_page_feedback_js__WEBPACK_IMPORTED_MODULE_3__.feedback)();
-(0,_main_page_preloader_js__WEBPACK_IMPORTED_MODULE_6__.preloader)();
-// swiper
+(0,_main_page_preloader_js__WEBPACK_IMPORTED_MODULE_5__.preloader)();
+_swiper_bundle_min_js__WEBPACK_IMPORTED_MODULE_4__.swiper;
 
 /***/ }),
 
@@ -5381,7 +5380,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_getU-ff8cde","src_js_main_page_fallMenu_js-src_js_main_page_feedback_js-src_js_main_page_preloader_js-node_-c82f4d","src_js_main_page_swiperSettings_js-node_modules_css-loader_dist_cjs_js_src_style_base_swiper--688e5c"], () => (__webpack_require__("./src/js/main_page_index.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_getU-ff8cde","src_js_main_page_fallMenu_js-src_js_main_page_feedback_js-src_js_main_page_preloader_js-node_-c82f4d","node_modules_css-loader_dist_cjs_js_src_style_base_swiper-bundle_min_css-node_modules_css-loa-16691f"], () => (__webpack_require__("./src/js/main_page_index.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
