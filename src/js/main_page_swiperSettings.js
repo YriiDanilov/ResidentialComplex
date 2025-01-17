@@ -1,3 +1,5 @@
+import Swiper from 'swiper'
+
 export const swiper = new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,

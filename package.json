@@ -32,6 +32,7 @@
         "webpack-dev-server": "^5.1.0"
     },
     "dependencies": {
-        "on-change": "^5.0.1"
+        "on-change": "^5.0.1",
+        "swiper": "^11.2.1"
     }
 }
