@@ -18,7 +18,7 @@ module.exports = {
     },
     mode: mode,
     entry: {
-        index: './src/js/main_page_index.js',
+        index_main: './src/js/main_page_index.js',
         common_layout: './src/layout_pages_js/layout_pages.js',
         index: './src/js/index.js',
         infrastructura: './src/infrastructure_page.js/infrastructure_page_index.js',
@@ -39,7 +39,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             filename: 'index.html',
             template: path.resolve('./src/index.html'),
-            chunks: ['index'],
+            chunks: ['index_main'],
         }),
         new HtmlWebpackPlugin({
             filename: 'sky.html',

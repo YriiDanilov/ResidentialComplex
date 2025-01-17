@@ -8,8 +8,6 @@ import { feedback } from '../js/main_page_feedback.js'
 import { link_page_main } from '../js/link_page_main.js'
 
 
-
-
 fallMenu()
 preloader()
 feedback()

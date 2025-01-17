@@ -87,7 +87,8 @@ var feedback = function feedback() {
     var btnSubmit = document.querySelector('#connection__submit');
     var connectionInput = document.querySelector('#connection__input');
     var buttonInfrastructure = document.querySelector('#button_infrastructure');
-    var buttonLink = document.querySelector('#button_link');
+    // const buttonLink = document.querySelector('#button_link')
+
     var closeConnection = function closeConnection() {
       body.classList.remove('popup-fade');
       connectionWrapper.classList.remove('openForm');
@@ -147,14 +148,17 @@ var feedback = function feedback() {
       e.stopPropagation();
       toggleConnection();
     });
-    buttonLink.addEventListener('click', function (e) {
-      e.stopPropagation();
-      toggleConnection();
-    });
-    buttonInfrastructure.addEventListener('click', function (e) {
-      e.stopPropagation();
-      toggleConnection();
-    });
+
+    // buttonLink.addEventListener('click', (e) => {
+    //     e.stopPropagation()
+    //     toggleConnection()
+    // })
+
+    // buttonInfrastructure.addEventListener('click', (e) => {
+    //     e.stopPropagation()
+    //     toggleConnection()
+    // })
+
     document.addEventListener('click', function (e) {
       clickOutsideMenu(e);
     });
@@ -177,13 +181,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   preloader: () => (/* binding */ preloader)
 /* harmony export */ });
 var preloader = function preloader() {
-  window.onload = function () {
-    document.body.classList.add('loaded_hiding');
-    window.setTimeout(function () {
-      document.body.classList.add('loaded');
-      document.body.classList.remove('loaded_hiding');
-    }, 500);
-  };
+  window.addEventListener('load', function () {
+    var preloader = document.querySelector('#preloader');
+    var mainContent = document.querySelector('.body');
+    // let preloader = document.getElementById('preloader')
+    if (preloader) {
+      preloader.style.display = 'none';
+    }
+    if (mainContent) {
+      mainContent.style.display = 'block';
+    }
+    // preloader.style.display = 'none'
+    document.body.style.overflow = 'auto';
+  });
 };
 
 /***/ }),
@@ -395,36 +405,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/main-bg/body.webp */ "./src/img/main-bg/body.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_1___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/main-bg/menu-bg.webp */ "./src/img/main-bg/menu-bg.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_2___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/main-bg/promo.webp */ "./src/img/main-bg/promo.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_3___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/advantages/ecology_main.webp */ "./src/img/advantages/ecology_main.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_4___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/advantages/infrastructure.webp */ "./src/img/advantages/infrastructure.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_5___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/advantages/roads_main.webp */ "./src/img/advantages/roads_main.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_6___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/advantages/sport_main.webp */ "./src/img/advantages/sport_main.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_7___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/apartments/apart-1.webp */ "./src/img/apartments/apart-1.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_8___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/apartments/apart-2.webp */ "./src/img/apartments/apart-2.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_9___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/apartments/apart-3.webp */ "./src/img/apartments/apart-3.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_10___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/apartments/apart-4.webp */ "./src/img/apartments/apart-4.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_11___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/interior/interior-1.webp */ "./src/img/interior/interior-1.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_12___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/interior/interior-2.webp */ "./src/img/interior/interior-2.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_13___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/interior/interior-3.webp */ "./src/img/interior/interior-3.webp"), __webpack_require__.b);
-var ___CSS_LOADER_URL_IMPORT_14___ = new URL(/* asset import */ __webpack_require__(/*! ../../img/interior/interior-4.webp */ "./src/img/interior/interior-4.webp"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
-var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_1___);
-var ___CSS_LOADER_URL_REPLACEMENT_2___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_2___);
-var ___CSS_LOADER_URL_REPLACEMENT_3___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_3___);
-var ___CSS_LOADER_URL_REPLACEMENT_4___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_4___);
-var ___CSS_LOADER_URL_REPLACEMENT_5___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_5___);
-var ___CSS_LOADER_URL_REPLACEMENT_6___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_6___);
-var ___CSS_LOADER_URL_REPLACEMENT_7___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_7___);
-var ___CSS_LOADER_URL_REPLACEMENT_8___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_8___);
-var ___CSS_LOADER_URL_REPLACEMENT_9___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_9___);
-var ___CSS_LOADER_URL_REPLACEMENT_10___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_10___);
-var ___CSS_LOADER_URL_REPLACEMENT_11___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_11___);
-var ___CSS_LOADER_URL_REPLACEMENT_12___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_12___);
-var ___CSS_LOADER_URL_REPLACEMENT_13___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_13___);
-var ___CSS_LOADER_URL_REPLACEMENT_14___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_14___);
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, `img {
     display: block;
@@ -455,13 +437,14 @@ body {
     font-family: 'Overpass', sans-serif;
     font-weight: 400;
     background-color: var(--color-light-blue);
-}
-
-body:after {
-    content:
-        url(${___CSS_LOADER_URL_REPLACEMENT_0___}) url(${___CSS_LOADER_URL_REPLACEMENT_1___}) url(${___CSS_LOADER_URL_REPLACEMENT_2___}) url(${___CSS_LOADER_URL_REPLACEMENT_3___}) url(${___CSS_LOADER_URL_REPLACEMENT_4___}) url(${___CSS_LOADER_URL_REPLACEMENT_5___}) url(${___CSS_LOADER_URL_REPLACEMENT_6___}) url(${___CSS_LOADER_URL_REPLACEMENT_7___}) url(${___CSS_LOADER_URL_REPLACEMENT_8___}) url(${___CSS_LOADER_URL_REPLACEMENT_9___}) url(${___CSS_LOADER_URL_REPLACEMENT_10___}) url(${___CSS_LOADER_URL_REPLACEMENT_11___}) url(${___CSS_LOADER_URL_REPLACEMENT_12___}) url(${___CSS_LOADER_URL_REPLACEMENT_13___}) url(${___CSS_LOADER_URL_REPLACEMENT_14___});
     display: none;
 }
+
+/* body:after {
+    content:
+        url('../../img/main-bg/body.webp') url('../../img/main-bg/menu-bg.webp') url('../../img/main-bg/promo.webp') url('../../img/advantages/ecology_main.webp') url('../../img/advantages/infrastructure.webp') url('../../img/advantages/roads_main.webp') url('../../img/advantages/sport_main.webp') url('../../img/apartments/apart-1.webp') url('../../img/apartments/apart-2.webp') url('../../img/apartments/apart-3.webp') url('../../img/apartments/apart-4.webp') url('../../img/interior/interior-1.webp') url('../../img/interior/interior-2.webp') url('../../img/interior/interior-3.webp') url('../../img/interior/interior-4.webp');
+    display: none;
+} */
 
 .flex-jc-sp_beet-al-it_cent {
     display: flex;
@@ -535,7 +518,7 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
+/* 
 .preloader {
     position: fixed;
     top: 0;
@@ -572,6 +555,40 @@ button {
 
 .loaded .preloader {
     display: none
+} */
+
+#preloader {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.spinner {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #cccccc;
+    border-top-color: #1a1a1a;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }
 
 .menu-button {
@@ -784,7 +801,7 @@ button {
     cursor: pointer;
     font-family: "Overpass", "sans-serif";
     background: none;
-}`, "",{"version":3,"sources":["webpack://./src/style/base/main_page_global.css"],"names":[],"mappings":"AAAA;IACI,cAAc;IACd,eAAe;AACnB;;AAEA;;;;IAII,aAAa;AACjB;;AAEA;IACI,YAAY;IACZ,uBAAuB;IACvB,wBAAwB;AAC5B;;AAEA;IACI,kBAAkB;IAClB,SAAS;IACT,iBAAiB;IACjB,gBAAgB;IAChB,uBAAuB;IACvB,kBAAkB;IAClB,eAAe;IACf,mCAAmC;IACnC,gBAAgB;IAChB,yCAAyC;AAC7C;;AAEA;IACI;omBACknB;IAClnB,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,8BAA8B;IAC9B,mBAAmB;AACvB;;AAEA;IACI,wEAAwE;IACxE,0CAA0C;IAC1C,mBAAmB;AACvB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,cAAc;IACd,6BAA6B;IAC7B,qBAAqB;IACrB,cAAc;AAClB;;AAEA;;;;;IAKI,+CAA+C;IAC/C,SAAS;IACT,UAAU;IACV,kCAAkC;AACtC;;AAEA;IACI,4BAA4B;IAC5B,YAAY;AAChB;;AAEA;IACI,yDAAkD;IAClD,wBAAwB;IACxB,sBAAsB;IACtB,4BAA4B;AAChC;;AAEA;IACI,gBAAgB;IAChB,iBAAiB;IACjB,kBAAkB;AACtB;;AAEA;IACI,kCAAkC;IAClC,gBAAgB;IAChB,eAAe;IACf,0BAA0B;IAC1B,6BAA6B;AACjC;;AAEA;IACI,kBAAkB;IAClB,UAAU;IACV,WAAW;IACX,YAAY;IACZ,SAAS;IACT,UAAU;IACV,mBAAmB;IACnB,sBAAsB;IACtB,mBAAmB;IACnB,gBAAgB;AACpB;;AAEA;IACI,eAAe;IACf,MAAM;IACN,QAAQ;IACR,SAAS;IACT,OAAO;IACP,gBAAgB;IAChB,mBAAmB;IACnB,YAAY;AAChB;;AAEA;IACI,kBAAkB;IAClB,QAAQ;IACR,SAAS;IACT,WAAW;IACX,YAAY;IACZ,iBAAiB;IACjB,kBAAkB;IAClB,kBAAkB;IAClB;AACJ;;AAEA;IACI;QACI;IACJ;AACJ;;AAEA;IACI,uBAAuB;IACvB;AACJ;;AAEA;IACI;AACJ;;AAEA;IACI,kBAAkB;IAClB,yBAAyB;IACzB,kBAAkB;IAClB,8BAA8B;IAC9B,mCAAmC;IACnC,0CAA0C;AAC9C;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB,MAAM;IACN,OAAO;IACP,WAAW;IACX,YAAY;IACZ,UAAU;IACV,yCAAyC;IACzC,YAAY;IACZ,wBAAwB;IACxB,mCAAmC;AACvC;;AAEA;IACI,UAAU;IACV,0BAA0B;AAC9B;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB,MAAM;IACN,OAAO;IACP,WAAW;IACX,YAAY;IACZ,UAAU;IACV,UAAU;IACV,wBAAwB;IACxB,yCAAyC;IACzC,0BAA0B;IAC1B,mBAAmB;AACvB;;AAEA;IACI,UAAU;IACV,sBAAsB;AAC1B;;AAEA;IACI,0CAA0C;AAC9C;;AAEA;IACI,eAAe;IACf,aAAa;IACb,uBAAuB;IACvB,mBAAmB;;IAEnB,YAAY;IACZ,YAAY;IACZ,WAAW;AACf;;AAEA;IACI,WAAW;IACX,YAAY;AAChB;;AAEA;;IAEI,YAAY;IACZ,cAAc;IACd,kBAAkB;IAClB,WAAW;IACX,mCAAmC;IACnC,WAAW;IACX,YAAY;IACZ,UAAU;IACV,aAAa;IACb,kBAAkB;AACtB;;AAEA;;IAEI;AACJ;;;AAGA;;IAEI;QACI,qBAAqB;QACrB,UAAU;IACd;;IAEA;QACI,UAAU;IACd;;IAEA;QACI,qBAAqB;QACrB,UAAU;IACd;AACJ;;;AAGA;IACI,cAAc;AAClB;;AAEA;IACI,kBAAkB;IAClB,mCAAmC;IACnC,wBAAwB;AAC5B;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB,MAAM;IACN,OAAO;IACP,WAAW;IACX,YAAY;IACZ,UAAU;IACV,mCAAmC;IACnC,YAAY;IACZ,gBAAgB;IAChB,mCAAmC;AACvC;;AAEA;IACI,UAAU;IACV,0BAA0B;AAC9B;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB,MAAM;IACN,OAAO;IACP,WAAW;IACX,YAAY;IACZ,UAAU;IACV,UAAU;IACV,gBAAgB;IAChB,mCAAmC;IACnC,0BAA0B;IAC1B,mCAAmC;AACvC;;AAEA;IACI,mCAAmC;AACvC;;AAEA;IACI,UAAU;IACV,sBAAsB;AAC1B;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,iBAAiB;IACjB,aAAa;IACb,mBAAmB;IACnB,eAAe;IACf,qBAAqB;IACrB,uBAAuB;IACvB,kBAAkB;AACtB;;AAEA;IACI,wEAAwE;IACxE,0CAA0C;IAC1C,mBAAmB;AACvB;;AAEA;IACI,gBAAgB;AACpB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,sCAAsC;IACtC,SAAS;IACT,cAAc;AAClB;;AAEA;IACI,iBAAiB;IACjB,cAAc;AAClB;;AAEA;IACI,mDAA8C;IAC9C,sBAAsB;IACtB,aAAa;AACjB;;AAEA;IACI,YAAY;IACZ,eAAe;IACf,qCAAqC;IACrC,gBAAgB;AACpB","sourcesContent":["img {\r\n    display: block;\r\n    max-width: 100%;\r\n}\r\n\r\ninput,\r\ntextarea,\r\nselect,\r\nbutton {\r\n    font: inherit;\r\n}\r\n\r\nhtml {\r\n    height: 100%;\r\n    scroll-behavior: smooth;\r\n    scrollbar-gutter: stable;\r\n}\r\n\r\nbody {\r\n    position: relative;\r\n    margin: 0;\r\n    min-height: 100vh;\r\n    line-height: 1.5;\r\n    scroll-behavior: smooth;\r\n    touch-action: none;\r\n    font-size: 16px;\r\n    font-family: 'Overpass', sans-serif;\r\n    font-weight: 400;\r\n    background-color: var(--color-light-blue);\r\n}\r\n\r\nbody:after {\r\n    content:\r\n        url('../../img/main-bg/body.webp') url('../../img/main-bg/menu-bg.webp') url('../../img/main-bg/promo.webp') url('../../img/advantages/ecology_main.webp') url('../../img/advantages/infrastructure.webp') url('../../img/advantages/roads_main.webp') url('../../img/advantages/sport_main.webp') url('../../img/apartments/apart-1.webp') url('../../img/apartments/apart-2.webp') url('../../img/apartments/apart-3.webp') url('../../img/apartments/apart-4.webp') url('../../img/interior/interior-1.webp') url('../../img/interior/interior-2.webp') url('../../img/interior/interior-3.webp') url('../../img/interior/interior-4.webp');\r\n    display: none;\r\n}\r\n\r\n.flex-jc-sp_beet-al-it_cent {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n.container {\r\n    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);\r\n    padding-inline: var(--container-padding-x);\r\n    margin-inline: auto;\r\n}\r\n\r\n.no-scroll {\r\n    overflow: hidden;\r\n}\r\n\r\na {\r\n    display: block;\r\n    -webkit-text-decoration: none;\r\n    text-decoration: none;\r\n    color: inherit;\r\n}\r\n\r\na,\r\nbutton,\r\ninput,\r\ntextarea,\r\nsvg * {\r\n    transition-duration: var(--transition-duration);\r\n    margin: 0;\r\n    padding: 0;\r\n    background-color: rgba(0, 0, 0, 0);\r\n}\r\n\r\nbutton {\r\n    background: rgba(0, 0, 0, 0);\r\n    border: none;\r\n}\r\n\r\n.bg-image {\r\n    background-image: url(../../img/main-bg/body.webp);\r\n    background-position: top;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n.wrapper-content {\r\n    max-width: 747px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n\r\n.section-title {\r\n    font-family: var(--font-secondary);\r\n    font-weight: 600;\r\n    font-size: 32px;\r\n    text-transform: capitalize;\r\n    color: var(--color-dark-blue);\r\n}\r\n\r\n.visually-hidden {\r\n    position: absolute;\r\n    width: 1px;\r\n    height: 1px;\r\n    margin: -1px;\r\n    border: 0;\r\n    padding: 0;\r\n    white-space: nowrap;\r\n    clip-path: inset(100%);\r\n    clip: rect(0 0 0 0);\r\n    overflow: hidden;\r\n}\r\n\r\n.preloader {\r\n    position: fixed;\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    overflow: hidden;\r\n    background: #e0e0e0;\r\n    z-index: 100;\r\n}\r\n\r\n.preloader__image {\r\n    position: relative;\r\n    top: 50%;\r\n    left: 50%;\r\n    width: 70px;\r\n    height: 70px;\r\n    margin-top: -35px;\r\n    margin-left: -35px;\r\n    text-align: center;\r\n    animation: preloader-rotate 2s infinite linear\r\n}\r\n\r\n@keyframes preloader-rotate {\r\n    100% {\r\n        transform: rotate(360deg)\r\n    }\r\n}\r\n\r\n.loaded_hiding .preloader {\r\n    transition: .3s opacity;\r\n    opacity: 0\r\n}\r\n\r\n.loaded .preloader {\r\n    display: none\r\n}\r\n\r\n.menu-button {\r\n    position: relative;\r\n    text-transform: uppercase;\r\n    text-align: center;\r\n    color: var(--color-light-blue);\r\n    border-radius: var(--border-radius);\r\n    background-color: var(--color-light-green);\r\n}\r\n\r\n.menu-button::before {\r\n    content: '';\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    background-color: var(--color-light-blue);\r\n    opacity: 15%;\r\n    transition: all .6s ease;\r\n    border-radius: var(--border-radius);\r\n}\r\n\r\n.menu-button:hover::before {\r\n    opacity: 0;\r\n    transform: scale(0.6, 0.6);\r\n}\r\n\r\n.menu-button::after {\r\n    content: '';\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    opacity: 0;\r\n    transition: all .6s ease;\r\n    border: 1px solid var(--color-light-blue);\r\n    transform: scale(1.2, 1.2);\r\n    border-radius: 10px;\r\n}\r\n\r\n.menu-button:hover::after {\r\n    opacity: 1;\r\n    transform: scale(1, 1);\r\n}\r\n\r\n.menu-button:active {\r\n    background-color: var(--color-light-green);\r\n}\r\n\r\n.phone {\r\n    position: fixed;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    bottom: 50px;\r\n    right: 100px;\r\n    z-index: 11;\r\n}\r\n\r\n.phone svg {\r\n    width: 50px;\r\n    height: 50px;\r\n}\r\n\r\n.phone:before,\r\n.phone:after {\r\n    content: \" \";\r\n    display: block;\r\n    position: absolute;\r\n    border: 50%;\r\n    border: 1px solid var(--color-pink);\r\n    left: -20px;\r\n    right: -20px;\r\n    top: -20px;\r\n    bottom: -20px;\r\n    border-radius: 50%;\r\n}\r\n\r\n.phone:before,\r\n.phone:after {\r\n    animation: animate 1.5s linear infinite\r\n}\r\n\r\n\r\n@keyframes animate {\r\n\r\n    0% {\r\n        transform: scale(0.5);\r\n        opacity: 0;\r\n    }\r\n\r\n    50% {\r\n        opacity: 1;\r\n    }\r\n\r\n    100% {\r\n        transform: scale(1.2);\r\n        opacity: 0;\r\n    }\r\n}\r\n\r\n\r\n.popup_menu_overflow {\r\n    overflow: auto;\r\n}\r\n\r\n.btn-style {\r\n    position: relative;\r\n    border-radius: var(--border-radius);\r\n    color: var(--light-blue);\r\n}\r\n\r\n.btn-style::before {\r\n    content: '';\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    background-color: var(--light-blue);\r\n    opacity: 15%;\r\n    transition: 0.6s;\r\n    border-radius: var(--border-radius);\r\n}\r\n\r\n.btn-style:hover::before {\r\n    opacity: 0;\r\n    transform: scale(0.6, 0.6);\r\n}\r\n\r\n.btn-style::after {\r\n    content: '';\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    opacity: 0;\r\n    transition: 0.6s;\r\n    border: 1px solid var(--light-blue);\r\n    transform: scale(1.2, 1.2);\r\n    border-radius: var(--border-radius);\r\n}\r\n\r\n.btn-style:active {\r\n    background-color: var(--dark-green);\r\n}\r\n\r\n.btn-style:hover::after {\r\n    opacity: 1;\r\n    transform: scale(1, 1);\r\n}\r\n\r\n.btn-style:focus {\r\n    outline: none;\r\n}\r\n\r\n.card-mobile-parameters {\r\n    min-height: 320px;\r\n    display: flex;\r\n    align-items: center;\r\n    flex-wrap: wrap;\r\n    align-content: center;\r\n    justify-content: center;\r\n    text-align: center;\r\n}\r\n\r\n.container {\r\n    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);\r\n    padding-inline: var(--container-padding-x);\r\n    margin-inline: auto;\r\n}\r\n\r\n.no-scroll {\r\n    overflow: hidden;\r\n}\r\n\r\n.dp-fl {\r\n    display: flex;\r\n}\r\n\r\n.grid {\r\n    display: grid;\r\n    grid-template-columns: repeat(12, 1fr);\r\n    gap: 40px;\r\n    margin: 0 40px;\r\n}\r\n\r\n.section-parameters {\r\n    max-width: 1140px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.bg {\r\n    background: url(\"../../img/main-bg/body.webp\");\r\n    background-size: cover;\r\n    height: 100vh;\r\n}\r\n\r\n.btn-reset {\r\n    border: none;\r\n    cursor: pointer;\r\n    font-family: \"Overpass\", \"sans-serif\";\r\n    background: none;\r\n}"],"sourceRoot":""}]);
+}`, "",{"version":3,"sources":["webpack://./src/style/base/main_page_global.css"],"names":[],"mappings":"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","sourcesContent":["img {\r\n    display: block;\r\n    max-width: 100%;\r\n}\r\n\r\ninput,\r\ntextarea,\r\nselect,\r\nbutton {\r\n    font: inherit;\r\n}\r\n\r\nhtml {\r\n    height: 100%;\r\n    scroll-behavior: smooth;\r\n    scrollbar-gutter: stable;\r\n}\r\n\r\nbody {\r\n    position: relative;\r\n    margin: 0;\r\n    min-height: 100vh;\r\n    line-height: 1.5;\r\n    scroll-behavior: smooth;\r\n    touch-action: none;\r\n    font-size: 16px;\r\n    font-family: 'Overpass', sans-serif;\r\n    font-weight: 400;\r\n    background-color: var(--color-light-blue);\r\n    display: none;\r\n}\r\n\r\n/* body:after {\r\n    content:\r\n        url('../../img/main-bg/body.webp') url('../../img/main-bg/menu-bg.webp') url('../../img/main-bg/promo.webp') url('../../img/advantages/ecology_main.webp') url('../../img/advantages/infrastructure.webp') url('../../img/advantages/roads_main.webp') url('../../img/advantages/sport_main.webp') url('../../img/apartments/apart-1.webp') url('../../img/apartments/apart-2.webp') url('../../img/apartments/apart-3.webp') url('../../img/apartments/apart-4.webp') url('../../img/interior/interior-1.webp') url('../../img/interior/interior-2.webp') url('../../img/interior/interior-3.webp') url('../../img/interior/interior-4.webp');\r\n    display: none;\r\n} */\r\n\r\n.flex-jc-sp_beet-al-it_cent {\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n.container {\r\n    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);\r\n    padding-inline: var(--container-padding-x);\r\n    margin-inline: auto;\r\n}\r\n\r\n.no-scroll {\r\n    overflow: hidden;\r\n}\r\n\r\na {\r\n    display: block;\r\n    -webkit-text-decoration: none;\r\n    text-decoration: none;\r\n    color: inherit;\r\n}\r\n\r\na,\r\nbutton,\r\ninput,\r\ntextarea,\r\nsvg * {\r\n    transition-duration: var(--transition-duration);\r\n    margin: 0;\r\n    padding: 0;\r\n    background-color: rgba(0, 0, 0, 0);\r\n}\r\n\r\nbutton {\r\n    background: rgba(0, 0, 0, 0);\r\n    border: none;\r\n}\r\n\r\n.bg-image {\r\n    background-image: url(../../img/main-bg/body.webp);\r\n    background-position: top;\r\n    background-size: cover;\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n.wrapper-content {\r\n    max-width: 747px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n\r\n.section-title {\r\n    font-family: var(--font-secondary);\r\n    font-weight: 600;\r\n    font-size: 32px;\r\n    text-transform: capitalize;\r\n    color: var(--color-dark-blue);\r\n}\r\n\r\n.visually-hidden {\r\n    position: absolute;\r\n    width: 1px;\r\n    height: 1px;\r\n    margin: -1px;\r\n    border: 0;\r\n    padding: 0;\r\n    white-space: nowrap;\r\n    clip-path: inset(100%);\r\n    clip: rect(0 0 0 0);\r\n    overflow: hidden;\r\n}\r\n/* \r\n.preloader {\r\n    position: fixed;\r\n    top: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    overflow: hidden;\r\n    background: #e0e0e0;\r\n    z-index: 100;\r\n}\r\n\r\n.preloader__image {\r\n    position: relative;\r\n    top: 50%;\r\n    left: 50%;\r\n    width: 70px;\r\n    height: 70px;\r\n    margin-top: -35px;\r\n    margin-left: -35px;\r\n    text-align: center;\r\n    animation: preloader-rotate 2s infinite linear\r\n}\r\n\r\n@keyframes preloader-rotate {\r\n    100% {\r\n        transform: rotate(360deg)\r\n    }\r\n}\r\n\r\n.loaded_hiding .preloader {\r\n    transition: .3s opacity;\r\n    opacity: 0\r\n}\r\n\r\n.loaded .preloader {\r\n    display: none\r\n} */\r\n\r\n#preloader {\r\n    width: 100%;\r\n    height: 100%;\r\n    position: fixed;\r\n    top: 0;\r\n    left: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n    background-color: #ffffff;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    z-index: 9999;\r\n}\r\n\r\n.spinner {\r\n    width: 50px;\r\n    height: 50px;\r\n    border: 5px solid #cccccc;\r\n    border-top-color: #1a1a1a;\r\n    border-radius: 50%;\r\n    animation: spin 1s linear infinite;\r\n}\r\n\r\n@keyframes spin {\r\n    0% {\r\n        transform: rotate(0deg);\r\n    }\r\n\r\n    100% {\r\n        transform: rotate(360deg);\r\n    }\r\n}\r\n\r\n.menu-button {\r\n    position: relative;\r\n    text-transform: uppercase;\r\n    text-align: center;\r\n    color: var(--color-light-blue);\r\n    border-radius: var(--border-radius);\r\n    background-color: var(--color-light-green);\r\n}\r\n\r\n.menu-button::before {\r\n    content: '';\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    background-color: var(--color-light-blue);\r\n    opacity: 15%;\r\n    transition: all .6s ease;\r\n    border-radius: var(--border-radius);\r\n}\r\n\r\n.menu-button:hover::before {\r\n    opacity: 0;\r\n    transform: scale(0.6, 0.6);\r\n}\r\n\r\n.menu-button::after {\r\n    content: '';\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    opacity: 0;\r\n    transition: all .6s ease;\r\n    border: 1px solid var(--color-light-blue);\r\n    transform: scale(1.2, 1.2);\r\n    border-radius: 10px;\r\n}\r\n\r\n.menu-button:hover::after {\r\n    opacity: 1;\r\n    transform: scale(1, 1);\r\n}\r\n\r\n.menu-button:active {\r\n    background-color: var(--color-light-green);\r\n}\r\n\r\n.phone {\r\n    position: fixed;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n    bottom: 50px;\r\n    right: 100px;\r\n    z-index: 11;\r\n}\r\n\r\n.phone svg {\r\n    width: 50px;\r\n    height: 50px;\r\n}\r\n\r\n.phone:before,\r\n.phone:after {\r\n    content: \" \";\r\n    display: block;\r\n    position: absolute;\r\n    border: 50%;\r\n    border: 1px solid var(--color-pink);\r\n    left: -20px;\r\n    right: -20px;\r\n    top: -20px;\r\n    bottom: -20px;\r\n    border-radius: 50%;\r\n}\r\n\r\n.phone:before,\r\n.phone:after {\r\n    animation: animate 1.5s linear infinite\r\n}\r\n\r\n\r\n@keyframes animate {\r\n\r\n    0% {\r\n        transform: scale(0.5);\r\n        opacity: 0;\r\n    }\r\n\r\n    50% {\r\n        opacity: 1;\r\n    }\r\n\r\n    100% {\r\n        transform: scale(1.2);\r\n        opacity: 0;\r\n    }\r\n}\r\n\r\n\r\n.popup_menu_overflow {\r\n    overflow: auto;\r\n}\r\n\r\n.btn-style {\r\n    position: relative;\r\n    border-radius: var(--border-radius);\r\n    color: var(--light-blue);\r\n}\r\n\r\n.btn-style::before {\r\n    content: '';\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    background-color: var(--light-blue);\r\n    opacity: 15%;\r\n    transition: 0.6s;\r\n    border-radius: var(--border-radius);\r\n}\r\n\r\n.btn-style:hover::before {\r\n    opacity: 0;\r\n    transform: scale(0.6, 0.6);\r\n}\r\n\r\n.btn-style::after {\r\n    content: '';\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 1;\r\n    opacity: 0;\r\n    transition: 0.6s;\r\n    border: 1px solid var(--light-blue);\r\n    transform: scale(1.2, 1.2);\r\n    border-radius: var(--border-radius);\r\n}\r\n\r\n.btn-style:active {\r\n    background-color: var(--dark-green);\r\n}\r\n\r\n.btn-style:hover::after {\r\n    opacity: 1;\r\n    transform: scale(1, 1);\r\n}\r\n\r\n.btn-style:focus {\r\n    outline: none;\r\n}\r\n\r\n.card-mobile-parameters {\r\n    min-height: 320px;\r\n    display: flex;\r\n    align-items: center;\r\n    flex-wrap: wrap;\r\n    align-content: center;\r\n    justify-content: center;\r\n    text-align: center;\r\n}\r\n\r\n.container {\r\n    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);\r\n    padding-inline: var(--container-padding-x);\r\n    margin-inline: auto;\r\n}\r\n\r\n.no-scroll {\r\n    overflow: hidden;\r\n}\r\n\r\n.dp-fl {\r\n    display: flex;\r\n}\r\n\r\n.grid {\r\n    display: grid;\r\n    grid-template-columns: repeat(12, 1fr);\r\n    gap: 40px;\r\n    margin: 0 40px;\r\n}\r\n\r\n.section-parameters {\r\n    max-width: 1140px;\r\n    margin: 0 auto;\r\n}\r\n\r\n.bg {\r\n    background: url(\"../../img/main-bg/body.webp\");\r\n    background-size: cover;\r\n    height: 100vh;\r\n}\r\n\r\n.btn-reset {\r\n    border: none;\r\n    cursor: pointer;\r\n    font-family: \"Overpass\", \"sans-serif\";\r\n    background: none;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -1831,126 +1848,6 @@ module.exports = __webpack_require__.p + "assets/Saira-SemiBold.woff2";
 
 /***/ }),
 
-/***/ "./src/img/advantages/ecology_main.webp":
-/*!**********************************************!*\
-  !*** ./src/img/advantages/ecology_main.webp ***!
-  \**********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/ecology_main.webp";
-
-/***/ }),
-
-/***/ "./src/img/advantages/infrastructure.webp":
-/*!************************************************!*\
-  !*** ./src/img/advantages/infrastructure.webp ***!
-  \************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/infrastructure.webp";
-
-/***/ }),
-
-/***/ "./src/img/advantages/roads_main.webp":
-/*!********************************************!*\
-  !*** ./src/img/advantages/roads_main.webp ***!
-  \********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/roads_main.webp";
-
-/***/ }),
-
-/***/ "./src/img/advantages/sport_main.webp":
-/*!********************************************!*\
-  !*** ./src/img/advantages/sport_main.webp ***!
-  \********************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/sport_main.webp";
-
-/***/ }),
-
-/***/ "./src/img/apartments/apart-1.webp":
-/*!*****************************************!*\
-  !*** ./src/img/apartments/apart-1.webp ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/apart-1.webp";
-
-/***/ }),
-
-/***/ "./src/img/apartments/apart-2.webp":
-/*!*****************************************!*\
-  !*** ./src/img/apartments/apart-2.webp ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/apart-2.webp";
-
-/***/ }),
-
-/***/ "./src/img/apartments/apart-3.webp":
-/*!*****************************************!*\
-  !*** ./src/img/apartments/apart-3.webp ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/apart-3.webp";
-
-/***/ }),
-
-/***/ "./src/img/apartments/apart-4.webp":
-/*!*****************************************!*\
-  !*** ./src/img/apartments/apart-4.webp ***!
-  \*****************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/apart-4.webp";
-
-/***/ }),
-
-/***/ "./src/img/interior/interior-1.webp":
-/*!******************************************!*\
-  !*** ./src/img/interior/interior-1.webp ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/interior-1.webp";
-
-/***/ }),
-
-/***/ "./src/img/interior/interior-2.webp":
-/*!******************************************!*\
-  !*** ./src/img/interior/interior-2.webp ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/interior-2.webp";
-
-/***/ }),
-
-/***/ "./src/img/interior/interior-3.webp":
-/*!******************************************!*\
-  !*** ./src/img/interior/interior-3.webp ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/interior-3.webp";
-
-/***/ }),
-
-/***/ "./src/img/interior/interior-4.webp":
-/*!******************************************!*\
-  !*** ./src/img/interior/interior-4.webp ***!
-  \******************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/interior-4.webp";
-
-/***/ }),
-
 /***/ "./src/img/main-bg/body.webp":
 /*!***********************************!*\
   !*** ./src/img/main-bg/body.webp ***!
@@ -1958,26 +1855,6 @@ module.exports = __webpack_require__.p + "assets/interior-4.webp";
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 module.exports = __webpack_require__.p + "assets/body.webp";
-
-/***/ }),
-
-/***/ "./src/img/main-bg/menu-bg.webp":
-/*!**************************************!*\
-  !*** ./src/img/main-bg/menu-bg.webp ***!
-  \**************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/menu-bg.webp";
-
-/***/ }),
-
-/***/ "./src/img/main-bg/promo.webp":
-/*!************************************!*\
-  !*** ./src/img/main-bg/promo.webp ***!
-  \************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-module.exports = __webpack_require__.p + "assets/promo.webp";
 
 /***/ })
 

@@ -12,4 +12,4 @@ import { Boxlayout } from '../js/infrastructure_page_main.js'
 fallMenu()
 preloader()
 feedback()
-Boxlayout ()
+Boxlayout()
