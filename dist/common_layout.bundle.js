@@ -2,31 +2,6 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/js/main_page_swiperSettings.js":
-/*!********************************************!*\
-  !*** ./src/js/main_page_swiperSettings.js ***!
-  \********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   swiper: () => (/* binding */ swiper)
-/* harmony export */ });
-var swiper = new Swiper('.swiper', {
-  direction: 'horizontal',
-  loop: true,
-  pagination: {
-    el: '.swiper-pagination',
-    dynamicBullets: true
-  },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev'
-  }
-});
-
-/***/ }),
-
 /***/ "./src/layout_pages_js/layout_pages.js":
 /*!*********************************************!*\
   !*** ./src/layout_pages_js/layout_pages.js ***!
@@ -740,7 +715,7 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_getU-ff8cde","src_js_main_page_fallMenu_js-src_js_main_page_feedback_js-src_js_main_page_preloader_js-node_-c82f4d","node_modules_css-loader_dist_cjs_js_src_style_base_swiper-bundle_min_css-node_modules_css-loa-16691f"], () => (__webpack_require__("./src/layout_pages_js/layout_pages.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_getU-ff8cde","vendors-node_modules_swiper_swiper_mjs","src_js_main_page_fallMenu_js-src_js_main_page_feedback_js-src_js_main_page_preloader_js-node_-e0c96c","node_modules_css-loader_dist_cjs_js_src_style_base_main_page_fonts_css-node_modules_css-loade-e553bb","node_modules_css-loader_dist_cjs_js_src_style_blocks_main_page_media_css","src_js_main_page_swiperSettings_js-node_modules_css-loader_dist_cjs_js_src_style_base_swiper--067ccb"], () => (__webpack_require__("./src/layout_pages_js/layout_pages.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

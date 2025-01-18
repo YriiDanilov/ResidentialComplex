@@ -1,18 +1,25 @@
 
 
 @import url(../style/normolaiz.css);
+@import url(./base/main_page_normalize.css);
 @import url(../style/globol.css);
+@import url(./base/main_page_global.css);
 @import url(../style/fonts.css);
 @import url(../style/vars.css);
+@import url(./base/main_page_vars.css);
 @import url(../style/header.css);
-@import url(../style/btns.css);
+@import url(./blocks/main_page_header.css);
+/* @import url(../style/btns.css); */
 @import url(../style/sektion-map.css);
 @import url(../style/form.css);
 @import url(../style/footer.css);
+@import url(./blocks/main_page_footer.css);
 @import url(../style/media/media-header.css);
 @import url(../style/media/media-sektion-map.css);
 @import url(../style/media/media-footer.css);
 @import url(../style/media/media-form.css);
+@import url(./blocks/main_page_media.css);
+
 
 
 /* @import "./base/fonts.css";

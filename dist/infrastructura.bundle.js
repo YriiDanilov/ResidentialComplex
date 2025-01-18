@@ -807,7 +807,7 @@ module.exports = __webpack_require__.p + "assets/sport.webp";
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_getU-ff8cde","src_js_main_page_fallMenu_js-src_js_main_page_feedback_js-src_js_main_page_preloader_js-node_-c82f4d","node_modules_css-loader_dist_cjs_js_src_style_blocks_page_hero_css-src_style_blocks_main_page-4c0ca3"], () => (__webpack_require__("./src/infrastructure_page.js/infrastructure_page_index.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_getU-ff8cde","src_js_main_page_fallMenu_js-src_js_main_page_feedback_js-src_js_main_page_preloader_js-node_-e0c96c","node_modules_css-loader_dist_cjs_js_src_style_base_main_page_fonts_css-node_modules_css-loade-e553bb","node_modules_css-loader_dist_cjs_js_src_style_blocks_page_hero_css-src_style_blocks_main_page-4c0ca3"], () => (__webpack_require__("./src/infrastructure_page.js/infrastructure_page_index.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
